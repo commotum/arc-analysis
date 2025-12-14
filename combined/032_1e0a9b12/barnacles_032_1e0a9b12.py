@@ -1,0 +1,9 @@
+"""
+# [033] 1e32b0e9.json
+* detect_grid
+* separate_images
+* image_repetition
+* pattern_completion
+"""
+
+p=lambda j:list(map(list,zip(*[[0]*c.count(0)+[x for x in c if x]for c in zip(*j)])))

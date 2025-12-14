@@ -1,0 +1,10 @@
+"""
+# [319] ce602527.json
+* crop
+* size_guessing
+* shape_guessing
+* find_the_intruder
+* remove_intruder
+"""
+
+def p(j):return[[3 if j[r][c]or j[r+5][c]else 0 for c in range(4)]for r in range(4)]
