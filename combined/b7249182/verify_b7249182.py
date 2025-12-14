@@ -1,0 +1,50 @@
+import sys
+from pathlib import Path
+
+# Ensure parent dir (re-arc) is on sys.path so dsl resolves when run directly
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
+from dsl import *
+
+def verify_b7249182(I: Grid) -> Grid:
+    x0 = objects(I, T, F, T)
+    x1 = merge(x0)
+    x2 = portrait(x1)
+    x3 = branch(x2, identity, dmirror)
+    x4 = x3(I)
+    x5 = objects(x4, T, F, T)
+    x6 = order(x5, uppermost)
+    x7 = first(x6)
+    x8 = last(x6)
+    x9 = color(x7)
+    x10 = color(x8)
+    x11 = compose(first, toindices)
+    x12 = x11(x7)
+    x13 = x11(x8)
+    x14 = connect(x12, x13)
+    x15 = centerofmass(x14)
+    x16 = connect(x12, x15)
+    x17 = fill(x4, x10, x14)
+    x18 = fill(x17, x9, x16)
+    x19 = add(x15, DOWN)
+    x20 = initset(x15)
+    x21 = insert(x19, x20)
+    x22 = toobject(x21, x18)
+    x23 = astuple(ZERO, NEG_TWO)
+    x24 = shift(x22, ZERO_BY_TWO)
+    x25 = shift(x22, x23)
+    x26 = combine(x24, x25)
+    x27 = ulcorner(x26)
+    x28 = urcorner(x26)
+    x29 = connect(x27, x28)
+    x30 = shift(x29, UP)
+    x31 = llcorner(x26)
+    x32 = lrcorner(x26)
+    x33 = connect(x31, x32)
+    x34 = shift(x33, DOWN)
+    x35 = paint(x18, x26)
+    x36 = fill(x35, x9, x30)
+    x37 = fill(x36, x10, x34)
+    x38 = cover(x37, x21)
+    x39 = x3(x38)
+    return x39

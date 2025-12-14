@@ -1,0 +1,51 @@
+import sys
+from pathlib import Path
+
+# Ensure parent dir (re-arc) is on sys.path so dsl resolves when run directly
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
+from dsl import *
+
+def verify_3618c87e(I: Grid) -> Grid:
+    x0 = mostcolor(I)
+    x1 = objects(I, T, F, F)
+    x2 = sizefilter(x1, ONE)
+    x3 = totuple(x2)
+    x4 = apply(color, x3)
+    x5 = mostcommon(x4)
+    x6 = palette(I)
+    x7 = remove(x5, x6)
+    x8 = other(x7, x0)
+    x9 = replace(I, x5, x0)
+    x10 = ofcolor(I, x5)
+    x11 = repeat(x8, ONE)
+    x12 = rbind(equality, x11)
+    x13 = first(I)
+    x14 = dedupe(x13)
+    x15 = x12(x14)
+    x16 = last(I)
+    x17 = dedupe(x16)
+    x18 = x12(x17)
+    x19 = dmirror(I)
+    x20 = first(x19)
+    x21 = dedupe(x20)
+    x22 = x12(x21)
+    x23 = dmirror(I)
+    x24 = last(x23)
+    x25 = dedupe(x24)
+    x26 = x12(x25)
+    x27 = apply(last, x10)
+    x28 = apply(first, x10)
+    x29 = either(x15, x18)
+    x30 = branch(x29, x27, x28)
+    x31 = branch(x29, lbind, rbind)
+    x32 = lbind(x31, astuple)
+    x33 = branch(x29, height, width)
+    x34 = x33(I)
+    x35 = decrement(x34)
+    x36 = either(x15, x22)
+    x37 = branch(x36, ZERO, x35)
+    x38 = x32(x37)
+    x39 = apply(x38, x30)
+    x40 = fill(x9, x5, x39)
+    return x40

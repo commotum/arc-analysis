@@ -1,0 +1,50 @@
+import sys
+from pathlib import Path
+
+# Ensure parent dir (re-arc) is on sys.path so dsl resolves when run directly
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
+from dsl import *
+
+def verify_539a4f51(I: Grid) -> Grid:
+    x0 = astuple(identity, cmirror)
+    x1 = astuple(hmirror, vmirror)
+    x2 = combine(x0, x1)
+    x3 = fork(multiply, height, width)
+    x4 = rbind(objects, F)
+    x5 = rbind(x4, F)
+    x6 = rbind(x5, T)
+    x7 = rbind(argmin, x3)
+    x8 = lbind(contained, ORIGIN)
+    x9 = chain(x8, toindices, x7)
+    x10 = compose(x9, x6)
+    x11 = lbind(compose, x10)
+    x12 = rbind(rapply, I)
+    x13 = compose(initset, x11)
+    x14 = chain(first, x12, x13)
+    x15 = extract(x2, x14)
+    x16 = x15(I)
+    x17 = height(I)
+    x18 = first(x16)
+    x19 = matcher(identity, ZERO)
+    x20 = compose(flip, x19)
+    x21 = sfilter(x18, x20)
+    x22 = size(x21)
+    x23 = divide(x17, x22)
+    x24 = increment(x23)
+    x25 = double(x24)
+    x26 = repeat(x21, x25)
+    x27 = merge(x26)
+    x28 = double(x17)
+    x29 = repeat(x27, x28)
+    x30 = asobject(x29)
+    x31 = chain(increment, last, last)
+    x32 = compose(first, last)
+    x33 = fork(greater, x31, x32)
+    x34 = sfilter(x30, x33)
+    x35 = upscale(x16, TWO)
+    x36 = dmirror(x34)
+    x37 = combine(x34, x36)
+    x38 = paint(x35, x37)
+    x39 = x15(x38)
+    return x39

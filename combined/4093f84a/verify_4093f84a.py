@@ -1,0 +1,50 @@
+import sys
+from pathlib import Path
+
+# Ensure parent dir (re-arc) is on sys.path so dsl resolves when run directly
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
+from dsl import *
+
+def verify_4093f84a(I: Grid) -> Grid:
+    x0 = frontiers(I)
+    x1 = merge(x0)
+    x2 = palette(x1)
+    x3 = fork(multiply, height, width)
+    x4 = lbind(ofcolor, I)
+    x5 = compose(x3, x4)
+    x6 = argmin(x2, x5)
+    x7 = palette(I)
+    x8 = remove(x6, x7)
+    x9 = lbind(colorcount, I)
+    x10 = argmin(x8, x9)
+    x11 = ofcolor(I, x6)
+    x12 = leftmost(x11)
+    x13 = positive(x12)
+    x14 = branch(x13, identity, dmirror)
+    x15 = x14(I)
+    x16 = ofcolor(x15, x6)
+    x17 = subgrid(x16, x15)
+    x18 = leftmost(x16)
+    x19 = rightmost(x16)
+    x20 = lbind(greater, x18)
+    x21 = compose(x20, last)
+    x22 = rbind(greater, x19)
+    x23 = compose(x22, last)
+    x24 = asindices(x15)
+    x25 = sfilter(x24, x21)
+    x26 = subgrid(x25, x15)
+    x27 = asindices(x15)
+    x28 = sfilter(x27, x23)
+    x29 = subgrid(x28, x15)
+    x30 = rbind(equality, x10)
+    x31 = rbind(order, x30)
+    x32 = apply(x31, x26)
+    x33 = vmirror(x29)
+    x34 = apply(x31, x33)
+    x35 = vmirror(x34)
+    x36 = hconcat(x32, x17)
+    x37 = hconcat(x36, x35)
+    x38 = x14(x37)
+    x39 = replace(x38, x10, x6)
+    return x39

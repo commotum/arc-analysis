@@ -1,0 +1,51 @@
+import sys
+from pathlib import Path
+
+# Ensure parent dir (re-arc) is on sys.path so dsl resolves when run directly
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
+from dsl import *
+
+def verify_c3f564a4(I: Grid) -> Grid:
+    x0 = height(I)
+    x1 = vsplit(I, x0)
+    x2 = apply(asobject, x1)
+    x3 = apply(hperiod, x2)
+    x4 = minimum(x3)
+    x5 = width(I)
+    x6 = hsplit(I, x5)
+    x7 = apply(asobject, x6)
+    x8 = apply(vperiod, x7)
+    x9 = minimum(x8)
+    x10 = matcher(hperiod, x4)
+    x11 = sfilter(x2, x10)
+    x12 = mapply(palette, x11)
+    x13 = matcher(vperiod, x9)
+    x14 = sfilter(x7, x13)
+    x15 = mapply(palette, x14)
+    x16 = palette(I)
+    x17 = combine(x12, x15)
+    x18 = rbind(contained, x17)
+    x19 = argmin(x16, x18)
+    x20 = asobject(I)
+    x21 = matcher(first, x19)
+    x22 = compose(flip, x21)
+    x23 = sfilter(x20, x22)
+    x24 = height(I)
+    x25 = divide(x24, x9)
+    x26 = increment(x25)
+    x27 = width(I)
+    x28 = divide(x27, x4)
+    x29 = increment(x28)
+    x30 = invert(x26)
+    x31 = interval(x30, x26, ONE)
+    x32 = invert(x29)
+    x33 = interval(x32, x29, ONE)
+    x34 = product(x31, x33)
+    x35 = astuple(x9, x4)
+    x36 = lbind(multiply, x35)
+    x37 = apply(x36, x34)
+    x38 = lbind(shift, x23)
+    x39 = mapply(x38, x37)
+    x40 = paint(I, x39)
+    return x40

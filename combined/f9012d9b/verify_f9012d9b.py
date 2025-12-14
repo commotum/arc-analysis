@@ -1,0 +1,52 @@
+import sys
+from pathlib import Path
+
+# Ensure parent dir (re-arc) is on sys.path so dsl resolves when run directly
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
+from dsl import *
+
+def verify_f9012d9b(I: Grid) -> Grid:
+    x0 = lbind(contained, ZERO)
+    x1 = compose(flip, x0)
+    x2 = sfilter(I, x1)
+    x3 = dmirror(I)
+    x4 = lbind(contained, ZERO)
+    x5 = compose(flip, x4)
+    x6 = sfilter(x3, x5)
+    x7 = compose(hperiod, asobject)
+    x8 = height(x2)
+    x9 = vsplit(x2, x8)
+    x10 = apply(x7, x9)
+    x11 = maximum(x10)
+    x12 = compose(hperiod, asobject)
+    x13 = height(x6)
+    x14 = vsplit(x6, x13)
+    x15 = apply(x12, x14)
+    x16 = maximum(x15)
+    x17 = ofcolor(I, ZERO)
+    x18 = asobject(I)
+    x19 = matcher(first, ZERO)
+    x20 = compose(flip, x19)
+    x21 = sfilter(x18, x20)
+    x22 = lbind(shift, x21)
+    x23 = height(I)
+    x24 = divide(x23, x16)
+    x25 = increment(x24)
+    x26 = width(I)
+    x27 = divide(x26, x11)
+    x28 = increment(x27)
+    x29 = invert(x25)
+    x30 = increment(x25)
+    x31 = interval(x29, x30, ONE)
+    x32 = invert(x28)
+    x33 = increment(x28)
+    x34 = interval(x32, x33, ONE)
+    x35 = product(x31, x34)
+    x36 = astuple(x16, x11)
+    x37 = lbind(multiply, x36)
+    x38 = apply(x37, x35)
+    x39 = mapply(x22, x38)
+    x40 = paint(I, x39)
+    x41 = subgrid(x17, x40)
+    return x41

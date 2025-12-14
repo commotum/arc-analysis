@@ -1,0 +1,50 @@
+import sys
+from pathlib import Path
+
+# Ensure parent dir (re-arc) is on sys.path so dsl resolves when run directly
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
+from dsl import *
+
+def verify_f8a8fe49(I: Grid) -> Grid:
+    x0 = partition(I)
+    x1 = fork(multiply, height, width)
+    x2 = argmin(x0, x1)
+    x3 = argmax(x0, x1)
+    x4 = remove(x2, x0)
+    x5 = other(x4, x3)
+    x6 = subgrid(x5, I)
+    x7 = frontiers(x6)
+    x8 = sfilter(x7, hline)
+    x9 = size(x8)
+    x10 = positive(x9)
+    x11 = branch(x10, dmirror, identity)
+    x12 = x11(I)
+    x13 = color(x5)
+    x14 = ofcolor(x12, x13)
+    x15 = subgrid(x14, x12)
+    x16 = trim(x15)
+    x17 = lefthalf(x16)
+    x18 = vmirror(x17)
+    x19 = asobject(x18)
+    x20 = righthalf(x16)
+    x21 = vmirror(x20)
+    x22 = asobject(x21)
+    x23 = color(x3)
+    x24 = inbox(x14)
+    x25 = backdrop(x24)
+    x26 = fill(x12, x23, x25)
+    x27 = urcorner(x14)
+    x28 = add(x27, UNITY)
+    x29 = shift(x22, x28)
+    x30 = ulcorner(x14)
+    x31 = width(x19)
+    x32 = invert(x31)
+    x33 = tojvec(x32)
+    x34 = add(DOWN, x33)
+    x35 = add(x30, x34)
+    x36 = shift(x19, x35)
+    x37 = combine(x29, x36)
+    x38 = paint(x26, x37)
+    x39 = x11(x38)
+    return x39

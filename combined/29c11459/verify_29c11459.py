@@ -1,0 +1,50 @@
+import sys
+from pathlib import Path
+
+# Ensure parent dir (re-arc) is on sys.path so dsl resolves when run directly
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
+from dsl import *
+
+def verify_29c11459(I: Grid) -> Grid:
+    x0 = objects(I, T, F, T)
+    x1 = product(x0, x0)
+    x2 = fork(hmatching, first, last)
+    x3 = fork(vmatching, first, last)
+    x4 = fork(either, x2, x3)
+    x5 = sfilter(x1, x4)
+    x6 = mostcolor(I)
+    x7 = rbind(toobject, I)
+    x8 = compose(delta, merge)
+    x9 = chain(palette, x7, x8)
+    x10 = initset(x6)
+    x11 = matcher(x9, x10)
+    x12 = sfilter(x5, x11)
+    x13 = shape(I)
+    x14 = subtract(x13, TWO_BY_ZERO)
+    x15 = crop(I, DOWN, x14)
+    x16 = numcolors(x15)
+    x17 = equality(ONE, x16)
+    x18 = branch(x17, vline, hline)
+    x19 = compose(center, first)
+    x20 = compose(center, last)
+    x21 = fork(add, x19, x20)
+    x22 = compose(halve, x21)
+    x23 = compose(color, first)
+    x24 = compose(color, last)
+    x25 = fork(connect, x19, x22)
+    x26 = fork(remove, x22, x25)
+    x27 = fork(recolor, x23, x26)
+    x28 = fork(connect, x20, x22)
+    x29 = fork(remove, x22, x28)
+    x30 = fork(recolor, x24, x29)
+    x31 = lbind(recolor, FIVE)
+    x32 = chain(x31, initset, x22)
+    x33 = fork(combine, x27, x30)
+    x34 = fork(combine, x33, x32)
+    x35 = apply(x34, x12)
+    x36 = mfilter(x35, x18)
+    x37 = paint(I, x36)
+    x38 = merge(x0)
+    x39 = paint(x37, x38)
+    return x39

@@ -1,0 +1,53 @@
+import sys
+from pathlib import Path
+
+# Ensure parent dir (re-arc) is on sys.path so dsl resolves when run directly
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
+from dsl import *
+
+def verify_a65b410d(I: Grid) -> Grid:
+    x0 = astuple(identity, rot90)
+    x1 = astuple(rot180, rot270)
+    x2 = combine(x0, x1)
+    x3 = astuple(identity, rot270)
+    x4 = astuple(rot180, rot90)
+    x5 = combine(x3, x4)
+    x6 = pair(x2, x5)
+    x7 = leastcolor(I)
+    x8 = rbind(ofcolor, x7)
+    x9 = rbind(rapply, I)
+    x10 = chain(first, x9, initset)
+    x11 = chain(hline, x8, x10)
+    x12 = rbind(ofcolor, x7)
+    x13 = rbind(rapply, I)
+    x14 = chain(first, x13, initset)
+    x15 = chain(leftmost, x12, x14)
+    x16 = matcher(x15, ZERO)
+    x17 = fork(both, x11, x16)
+    x18 = compose(x17, first)
+    x19 = extract(x6, x18)
+    x20 = first(x19)
+    x21 = last(x19)
+    x22 = x20(I)
+    x23 = ofcolor(x22, x7)
+    x24 = argmax(x23, last)
+    x25 = add(x24, UP_RIGHT)
+    x26 = shoot(x25, UP_RIGHT)
+    x27 = add(x24, DOWN_LEFT)
+    x28 = shoot(x27, DOWN_LEFT)
+    x29 = rbind(shoot, LEFT)
+    x30 = mapply(x29, x26)
+    x31 = rbind(shoot, LEFT)
+    x32 = mapply(x31, x28)
+    x33 = width(x22)
+    x34 = invert(x33)
+    x35 = tojvec(x34)
+    x36 = shift(x30, x35)
+    x37 = combine(x30, x36)
+    x38 = fill(x22, THREE, x37)
+    x39 = shift(x32, x35)
+    x40 = combine(x32, x39)
+    x41 = fill(x38, ONE, x40)
+    x42 = x21(x41)
+    return x42

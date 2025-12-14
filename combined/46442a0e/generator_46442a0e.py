@@ -1,0 +1,28 @@
+import sys
+from pathlib import Path
+
+# Ensure parent dir (re-arc) is on sys.path so dsl/utils resolve when run directly
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
+from dsl import *
+from utils import *
+
+def generate_46442a0e(diff_lb: float, diff_ub: float) -> dict:
+    cols = interval(0, 10, 1)
+    h = unifint(diff_lb, diff_ub, (1, 15))
+    w = h
+    bgc = choice(cols)
+    gi = canvas(bgc, (h, w))
+    remcols = remove(bgc, cols)
+    numc = unifint(diff_lb, diff_ub, (0, min(9, h * w)))
+    colsch = sample(remcols, numc)
+    inds = totuple(asindices(gi))
+    for col in colsch:
+        num = unifint(diff_lb, diff_ub, (1, max(1, len(inds) // numc)))
+        chos = sample(inds, num)
+        gi = fill(gi, col, chos)
+        inds = difference(inds, chos)
+    go1 = hconcat(gi, rot90(gi))
+    go2 = hconcat(rot270(gi), rot180(gi))
+    go = vconcat(go1, go2)
+    return {'input': gi, 'output': go}

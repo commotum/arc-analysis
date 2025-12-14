@@ -1,0 +1,51 @@
+import sys
+from pathlib import Path
+
+# Ensure parent dir (re-arc) is on sys.path so dsl resolves when run directly
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
+from dsl import *
+
+def verify_1bfc4729(I: Grid) -> Grid:
+    x0 = tophalf(I)
+    x1 = bottomhalf(I)
+    x2 = leastcolor(x0)
+    x3 = leastcolor(x1)
+    x4 = ofcolor(I, x2)
+    x5 = center(x4)
+    x6 = ofcolor(I, x3)
+    x7 = center(x6)
+    x8 = height(I)
+    x9 = width(I)
+    x10 = hfrontier(x5)
+    x11 = fill(I, x2, x10)
+    x12 = hfrontier(x7)
+    x13 = fill(x11, x3, x12)
+    x14 = decrement(x9)
+    x15 = decrement(x8)
+    x16 = halve(x8)
+    x17 = tojvec(x14)
+    x18 = connect(ORIGIN, x17)
+    x19 = fill(x13, x2, x18)
+    x20 = toivec(x15)
+    x21 = astuple(x15, x14)
+    x22 = connect(x20, x21)
+    x23 = fill(x19, x3, x22)
+    x24 = decrement(x16)
+    x25 = toivec(x24)
+    x26 = connect(ORIGIN, x25)
+    x27 = fill(x23, x2, x26)
+    x28 = tojvec(x14)
+    x29 = decrement(x16)
+    x30 = astuple(x29, x14)
+    x31 = connect(x28, x30)
+    x32 = fill(x27, x2, x31)
+    x33 = toivec(x16)
+    x34 = toivec(x15)
+    x35 = connect(x33, x34)
+    x36 = fill(x32, x3, x35)
+    x37 = astuple(x16, x14)
+    x38 = astuple(x15, x14)
+    x39 = connect(x37, x38)
+    x40 = fill(x36, x3, x39)
+    return x40
