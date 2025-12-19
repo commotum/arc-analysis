@@ -1,4 +1,4 @@
-# The On-Line Encyclopedia of Bongard Problems
+# 9 — Augmentations
 
 | [login](https://oebp.org/login.php?r=1658573150&redirect=transformations.php?) |
 
@@ -145,6 +145,9 @@ For Meta-Bongard Problems that can contain other Meta-Bongard Problems, especial
 ---
 
 ## Navigation
+
+### Local
+- [Table of Contents](0-TOC.md)
 
 ### Main
 - [Welcome](https://oebp.org/welcome.php)

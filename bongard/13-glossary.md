@@ -1,4 +1,4 @@
-# The On-Line Encyclopedia of Bongard Problems
+# 13 — Glossary
 
 | [login](https://oebp.org/login.php?r=1961876821&redirect=glossary.php?) |
 
@@ -28,6 +28,9 @@ This glossary defines commonly used terms on **The On-Line Encyclopedia of Bonga
 ---
 
 ## Navigation
+
+### Local
+- [Table of Contents](0-TOC.md)
 
 ### Main
 - [Welcome](https://oebp.org/welcome.php)

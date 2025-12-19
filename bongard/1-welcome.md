@@ -1,4 +1,4 @@
-# Welcome to The On-Line Encyclopedia of Bongard Problems
+# 1 — Welcome
 
 | [login](https://oebp.org/login.php?r=240576482&redirect=welcome.php?) |
 
@@ -159,6 +159,9 @@ At heart, a page in this encyclopedia documents a property (or two) that things 
 ---
 
 ## Navigation
+
+### Local
+- [Table of Contents](0-TOC.md)
 
 ### Main
 - [Welcome](https://oebp.org/welcome.php)

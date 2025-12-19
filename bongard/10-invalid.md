@@ -1,4 +1,4 @@
-# The On-Line Encyclopedia of Bongard Problems
+# 10 — Invalid
 
 | [login](https://oebp.org/login.php?r=1110343426&redirect=invalid.php?) |
 
@@ -86,6 +86,9 @@ White triangle or large white circle or black shape with concavity on the down-l
 ---
 
 ## Navigation
+
+### Local
+- [Table of Contents](0-TOC.md)
 
 ### Main
 - [Welcome](https://oebp.org/welcome.php)

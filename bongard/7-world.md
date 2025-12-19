@@ -1,4 +1,4 @@
-# The On-Line Encyclopedia of Bongard Problems
+# 7 — Worlds
 
 | [login](https://oebp.org/login.php?r=1879250296&redirect=world.php?) |
 
@@ -277,6 +277,9 @@ Worlds are [narrow](https://oebp.org/glossary.php) rules.
 ---
 
 ## Navigation
+
+### Local
+- [Table of Contents](0-TOC.md)
 
 ### Main
 - [Welcome](https://oebp.org/welcome.php)

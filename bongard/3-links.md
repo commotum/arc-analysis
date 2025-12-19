@@ -1,4 +1,4 @@
-# The On-Line Encyclopedia of Bongard Problems
+# 3 — Links
 
 | [login](https://oebp.org/login.php?r=2024667326&redirect=links.php?) |
 
@@ -41,6 +41,9 @@ https://en.wikipedia.org/wiki/Bongard_problem
 ---
 
 ## Navigation
+
+### Local
+- [Table of Contents](0-TOC.md)
 
 ### Main
 - [Welcome](https://oebp.org/welcome.php)

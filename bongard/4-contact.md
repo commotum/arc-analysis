@@ -1,4 +1,4 @@
-# The On-Line Encyclopedia of Bongard Problems
+# 4 — Contact
 
 ## Contact
 
@@ -37,6 +37,9 @@ For information about planned features and long-term direction, see:
 ---
 
 ## Navigation
+
+### Local
+- [Table of Contents](0-TOC.md)
 
 ### Main Sections
 - [Welcome](https://www.bongardproblems.com/welcome.php)

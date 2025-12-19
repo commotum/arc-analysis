@@ -1,4 +1,4 @@
-# The On-Line Encyclopedia of Bongard Problems
+# 8 — Ambiguity
 
 | [login](https://oebp.org/login.php?r=643145215&redirect=ambiguity.php?) |
 
@@ -275,6 +275,9 @@ Lastly, here are some real thinkers.
 ---
 
 ## Navigation
+
+### Local
+- [Table of Contents](0-TOC.md)
 
 ### Main
 - [Welcome](https://oebp.org/welcome.php)

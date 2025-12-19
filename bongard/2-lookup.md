@@ -1,4 +1,4 @@
-# The On-Line Encyclopedia of Bongard Problems (OEBP)
+# 2 — Lookup
 
 | [login](https://oebp.org/login.php?r=1471401588&redirect=index.php?) |
 
@@ -25,6 +25,9 @@ For more information about the Encyclopedia, see the
 ---
 
 ## Navigation
+
+### Local
+- [Table of Contents](0-TOC.md)
 
 ### Main
 - [Welcome](https://oebp.org/welcome.php)

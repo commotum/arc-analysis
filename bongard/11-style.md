@@ -1,4 +1,4 @@
-# The On-Line Encyclopedia of Bongard Problems
+# 11 — Style
 
 | [login](https://oebp.org/login.php?r=139253744&redirect=style.php?) |
 
@@ -93,6 +93,9 @@ Here are some more templates for Bongard Problems within Bongard Problems within
 ---
 
 ## Navigation
+
+### Local
+- [Table of Contents](0-TOC.md)
 
 ### Main
 - [Welcome](https://oebp.org/welcome.php)

@@ -1,4 +1,4 @@
-# The On-Line Encyclopedia of Bongard Problems
+# 5 — Keywords
 
 | [login](https://oebp.org/login.php?r=2001234545&redirect=keywords.php?) |
 
@@ -159,6 +159,9 @@ There is also a "KEYWORDS" section in the Bongard Problem submission form, in wh
 ---
 
 ## Navigation
+
+### Local
+- [Table of Contents](0-TOC.md)
 
 ### Main
 - [Welcome](https://oebp.org/welcome.php)

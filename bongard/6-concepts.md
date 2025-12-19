@@ -1,4 +1,4 @@
-# The On-Line Encyclopedia of Bongard Problems
+# 6 — Concepts
 
 | [login](https://oebp.org/login.php?r=39602013&redirect=concepts.php?) |
 
@@ -274,6 +274,9 @@ Here is a list of concepts appearing in Bongard Problems. For bigger-picture cat
 ---
 
 ## Navigation
+
+### Local
+- [Table of Contents](0-TOC.md)
 
 ### Main
 - [Welcome](https://oebp.org/welcome.php)

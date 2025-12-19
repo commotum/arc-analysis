@@ -1,4 +1,4 @@
-# The On-Line Encyclopedia of Bongard Problems
+# 12 — Goals
 
 | [login](https://oebp.org/login.php?r=1433237965&redirect=goals.php?) |
 
@@ -39,6 +39,9 @@ Here are some guiding principles with which we would like to shape the future of
 ---
 
 ## Navigation
+
+### Local
+- [Table of Contents](0-TOC.md)
 
 ### Main
 - [Welcome](https://oebp.org/welcome.php)
