@@ -1,0 +1,890 @@
+[2025-12-18 21:59:42] [INFO] Starting Bongard download: BP1..BP3 -> /home/jake/Developer/arc-analysis/BONGARD/BPs
+[2025-12-18 21:59:42] [INFO] User-Agent: arc-analysis-bongard-downloader/1.0 (script: download_bongard.sh; purpose: research archival; url: https://oebp.org)
+[2025-12-18 22:00:24] [INFO] Starting Bongard download: BP1..BP3 -> /home/jake/Developer/arc-analysis/BONGARD/BPs
+[2025-12-18 22:00:24] [INFO] User-Agent: arc-analysis-bongard-downloader/1.0 (script: download_bongard.sh; purpose: research archival; url: https://oebp.org)
+[2025-12-18 22:00:35] [INFO] Starting Bongard download: BP1..BP3 -> /home/jake/Developer/arc-analysis/BONGARD/BPs
+[2025-12-18 22:00:35] [INFO] User-Agent: arc-analysis-bongard-downloader/1.0 (script: download_bongard.sh; purpose: research archival; url: https://oebp.org)
+[2025-12-18 22:00:55] [INFO] Starting Bongard download: BP1..BP3 -> /home/jake/Developer/arc-analysis/BONGARD/BPs
+[2025-12-18 22:00:55] [INFO] User-Agent: arc-analysis-bongard-downloader/1.0 (script: download_bongard.sh; purpose: research archival; url: https://oebp.org)
+[2025-12-18 22:00:55] [INFO] GET https://oebp.org/BP1 (attempt 1/3)
+[2025-12-18 22:00:56] [INFO] Saved BP1 -> BP001.html [HTTP 200]
+[2025-12-18 22:00:56] [INFO] Sleeping 1.846s before next request
+[2025-12-18 22:00:58] [INFO] GET https://oebp.org/BP2 (attempt 1/3)
+[2025-12-18 22:00:58] [INFO] Saved BP2 -> BP002.html [HTTP 200]
+[2025-12-18 22:00:58] [INFO] Sleeping 1.683s before next request
+[2025-12-18 22:01:00] [INFO] GET https://oebp.org/BP3 (attempt 1/3)
+[2025-12-18 22:01:00] [INFO] Saved BP3 -> BP003.html [HTTP 200]
+[2025-12-18 22:01:00] [INFO] Sleeping 1.841s before next request
+[2025-12-18 22:01:02] [INFO] Done. Success: 3, Skipped(existing): 0, Failed: 0
+[2025-12-18 22:03:15] [INFO] Starting Bongard download: BP1..BP1290 -> /home/jake/Developer/arc-analysis/BONGARD/BPs
+[2025-12-18 22:03:15] [INFO] User-Agent: arc-analysis-bongard-downloader/1.0 (script: download_bongard.sh; purpose: research archival; url: https://oebp.org)
+[2025-12-18 22:03:15] [INFO] Exists, skipping: BP1 -> BP001.html
+[2025-12-18 22:03:15] [INFO] Exists, skipping: BP2 -> BP002.html
+[2025-12-18 22:03:15] [INFO] Exists, skipping: BP3 -> BP003.html
+[2025-12-18 22:03:15] [INFO] GET https://oebp.org/BP4 (attempt 1/3)
+[2025-12-18 22:03:16] [INFO] Saved BP4 -> BP004.html [HTTP 200]
+[2025-12-18 22:03:16] [INFO] Sleeping 3.110s before next request
+[2025-12-18 22:03:19] [INFO] GET https://oebp.org/BP5 (attempt 1/3)
+[2025-12-18 22:03:20] [INFO] Saved BP5 -> BP005.html [HTTP 200]
+[2025-12-18 22:03:20] [INFO] Sleeping 5.815s before next request
+[2025-12-18 22:03:26] [INFO] GET https://oebp.org/BP6 (attempt 1/3)
+[2025-12-18 22:03:26] [INFO] Saved BP6 -> BP006.html [HTTP 200]
+[2025-12-18 22:03:26] [INFO] Sleeping 3.899s before next request
+[2025-12-18 22:03:30] [INFO] GET https://oebp.org/BP7 (attempt 1/3)
+[2025-12-18 22:03:30] [INFO] Saved BP7 -> BP007.html [HTTP 200]
+[2025-12-18 22:03:30] [INFO] Sleeping 5.211s before next request
+[2025-12-18 22:03:35] [INFO] GET https://oebp.org/BP8 (attempt 1/3)
+[2025-12-18 22:03:35] [INFO] Saved BP8 -> BP008.html [HTTP 200]
+[2025-12-18 22:03:35] [INFO] Sleeping 2.635s before next request
+[2025-12-18 22:03:38] [INFO] GET https://oebp.org/BP9 (attempt 1/3)
+[2025-12-18 22:03:38] [INFO] Saved BP9 -> BP009.html [HTTP 200]
+[2025-12-18 22:03:38] [INFO] Sleeping 4.500s before next request
+[2025-12-18 22:03:43] [INFO] GET https://oebp.org/BP10 (attempt 1/3)
+[2025-12-18 22:03:43] [INFO] Saved BP10 -> BP010.html [HTTP 200]
+[2025-12-18 22:03:43] [INFO] Sleeping 3.491s before next request
+[2025-12-18 22:03:47] [INFO] GET https://oebp.org/BP11 (attempt 1/3)
+[2025-12-18 22:03:47] [INFO] Saved BP11 -> BP011.html [HTTP 200]
+[2025-12-18 22:03:47] [INFO] Sleeping 2.757s before next request
+[2025-12-18 22:03:50] [INFO] GET https://oebp.org/BP12 (attempt 1/3)
+[2025-12-18 22:03:50] [INFO] Saved BP12 -> BP012.html [HTTP 200]
+[2025-12-18 22:03:50] [INFO] Sleeping 3.889s before next request
+[2025-12-18 22:03:54] [INFO] GET https://oebp.org/BP13 (attempt 1/3)
+[2025-12-18 22:03:54] [INFO] Saved BP13 -> BP013.html [HTTP 200]
+[2025-12-18 22:03:54] [INFO] Sleeping 2.164s before next request
+[2025-12-18 22:03:56] [INFO] GET https://oebp.org/BP14 (attempt 1/3)
+[2025-12-18 22:03:57] [INFO] Saved BP14 -> BP014.html [HTTP 200]
+[2025-12-18 22:03:57] [INFO] Sleeping 2.112s before next request
+[2025-12-18 22:03:59] [INFO] GET https://oebp.org/BP15 (attempt 1/3)
+[2025-12-18 22:03:59] [INFO] Saved BP15 -> BP015.html [HTTP 200]
+[2025-12-18 22:03:59] [INFO] Sleeping 2.141s before next request
+[2025-12-18 22:04:01] [INFO] GET https://oebp.org/BP16 (attempt 1/3)
+[2025-12-18 22:04:01] [INFO] Saved BP16 -> BP016.html [HTTP 200]
+[2025-12-18 22:04:01] [INFO] Sleeping 4.366s before next request
+[2025-12-18 22:04:06] [INFO] GET https://oebp.org/BP17 (attempt 1/3)
+[2025-12-18 22:04:06] [INFO] Saved BP17 -> BP017.html [HTTP 200]
+[2025-12-18 22:04:06] [INFO] Sleeping 2.883s before next request
+[2025-12-18 22:04:09] [INFO] GET https://oebp.org/BP18 (attempt 1/3)
+[2025-12-18 22:04:09] [INFO] Saved BP18 -> BP018.html [HTTP 200]
+[2025-12-18 22:04:09] [INFO] Sleeping 2.271s before next request
+[2025-12-18 22:04:12] [INFO] GET https://oebp.org/BP19 (attempt 1/3)
+[2025-12-18 22:04:12] [INFO] Saved BP19 -> BP019.html [HTTP 200]
+[2025-12-18 22:04:12] [INFO] Sleeping 5.489s before next request
+[2025-12-18 22:04:17] [INFO] GET https://oebp.org/BP20 (attempt 1/3)
+[2025-12-18 22:04:18] [INFO] Saved BP20 -> BP020.html [HTTP 200]
+[2025-12-18 22:04:18] [INFO] Sleeping 3.760s before next request
+[2025-12-18 22:04:21] [INFO] GET https://oebp.org/BP21 (attempt 1/3)
+[2025-12-18 22:04:22] [INFO] Saved BP21 -> BP021.html [HTTP 200]
+[2025-12-18 22:04:22] [INFO] Sleeping 2.097s before next request
+[2025-12-18 22:04:24] [INFO] GET https://oebp.org/BP22 (attempt 1/3)
+[2025-12-18 22:04:24] [INFO] Saved BP22 -> BP022.html [HTTP 200]
+[2025-12-18 22:04:24] [INFO] Sleeping 2.609s before next request
+[2025-12-18 22:04:27] [INFO] GET https://oebp.org/BP23 (attempt 1/3)
+[2025-12-18 22:04:27] [INFO] Saved BP23 -> BP023.html [HTTP 200]
+[2025-12-18 22:04:27] [INFO] Sleeping 2.087s before next request
+[2025-12-18 22:04:29] [INFO] GET https://oebp.org/BP24 (attempt 1/3)
+[2025-12-18 22:04:29] [INFO] Saved BP24 -> BP024.html [HTTP 200]
+[2025-12-18 22:04:29] [INFO] Sleeping 4.187s before next request
+[2025-12-18 22:04:34] [INFO] GET https://oebp.org/BP25 (attempt 1/3)
+[2025-12-18 22:04:34] [INFO] Saved BP25 -> BP025.html [HTTP 200]
+[2025-12-18 22:04:34] [INFO] Sleeping 5.534s before next request
+[2025-12-18 22:04:39] [INFO] GET https://oebp.org/BP26 (attempt 1/3)
+[2025-12-18 22:04:40] [INFO] Saved BP26 -> BP026.html [HTTP 200]
+[2025-12-18 22:04:40] [INFO] Sleeping 3.539s before next request
+[2025-12-18 22:04:43] [INFO] GET https://oebp.org/BP27 (attempt 1/3)
+[2025-12-18 22:04:43] [INFO] Saved BP27 -> BP027.html [HTTP 200]
+[2025-12-18 22:04:43] [INFO] Sleeping 5.713s before next request
+[2025-12-18 22:04:49] [INFO] GET https://oebp.org/BP28 (attempt 1/3)
+[2025-12-18 22:04:49] [INFO] Saved BP28 -> BP028.html [HTTP 200]
+[2025-12-18 22:04:49] [INFO] Sleeping 4.133s before next request
+[2025-12-18 22:04:54] [INFO] GET https://oebp.org/BP29 (attempt 1/3)
+[2025-12-18 22:04:54] [INFO] Saved BP29 -> BP029.html [HTTP 200]
+[2025-12-18 22:04:54] [INFO] Sleeping 3.951s before next request
+[2025-12-18 22:04:58] [INFO] GET https://oebp.org/BP30 (attempt 1/3)
+[2025-12-18 22:04:58] [INFO] Saved BP30 -> BP030.html [HTTP 200]
+[2025-12-18 22:04:58] [INFO] Sleeping 2.630s before next request
+[2025-12-18 22:05:01] [INFO] GET https://oebp.org/BP31 (attempt 1/3)
+[2025-12-18 22:05:01] [INFO] Saved BP31 -> BP031.html [HTTP 200]
+[2025-12-18 22:05:01] [INFO] Sleeping 4.725s before next request
+[2025-12-18 22:05:06] [INFO] GET https://oebp.org/BP32 (attempt 1/3)
+[2025-12-18 22:05:06] [INFO] Saved BP32 -> BP032.html [HTTP 200]
+[2025-12-18 22:05:06] [INFO] Sleeping 3.648s before next request
+[2025-12-18 22:05:10] [INFO] GET https://oebp.org/BP33 (attempt 1/3)
+[2025-12-18 22:05:10] [INFO] Saved BP33 -> BP033.html [HTTP 200]
+[2025-12-18 22:05:10] [INFO] Sleeping 3.076s before next request
+[2025-12-18 22:05:13] [INFO] GET https://oebp.org/BP34 (attempt 1/3)
+[2025-12-18 22:05:13] [INFO] Saved BP34 -> BP034.html [HTTP 200]
+[2025-12-18 22:05:13] [INFO] Sleeping 5.518s before next request
+[2025-12-18 22:05:19] [INFO] GET https://oebp.org/BP35 (attempt 1/3)
+[2025-12-18 22:05:19] [INFO] Saved BP35 -> BP035.html [HTTP 200]
+[2025-12-18 22:05:19] [INFO] Sleeping 5.365s before next request
+[2025-12-18 22:05:25] [INFO] GET https://oebp.org/BP36 (attempt 1/3)
+[2025-12-18 22:05:25] [INFO] Saved BP36 -> BP036.html [HTTP 200]
+[2025-12-18 22:05:25] [INFO] Sleeping 5.455s before next request
+[2025-12-18 22:05:30] [INFO] GET https://oebp.org/BP37 (attempt 1/3)
+[2025-12-18 22:05:30] [INFO] Saved BP37 -> BP037.html [HTTP 200]
+[2025-12-18 22:05:30] [INFO] Sleeping 4.224s before next request
+[2025-12-18 22:05:35] [INFO] GET https://oebp.org/BP38 (attempt 1/3)
+[2025-12-18 22:05:35] [INFO] Saved BP38 -> BP038.html [HTTP 200]
+[2025-12-18 22:05:35] [INFO] Sleeping 2.572s before next request
+[2025-12-18 22:05:38] [INFO] GET https://oebp.org/BP39 (attempt 1/3)
+[2025-12-18 22:05:38] [INFO] Saved BP39 -> BP039.html [HTTP 200]
+[2025-12-18 22:05:38] [INFO] Sleeping 3.779s before next request
+[2025-12-18 22:05:42] [INFO] GET https://oebp.org/BP40 (attempt 1/3)
+[2025-12-18 22:05:42] [INFO] Saved BP40 -> BP040.html [HTTP 200]
+[2025-12-18 22:05:42] [INFO] Sleeping 3.646s before next request
+[2025-12-18 22:05:46] [INFO] GET https://oebp.org/BP41 (attempt 1/3)
+[2025-12-18 22:05:46] [INFO] Saved BP41 -> BP041.html [HTTP 200]
+[2025-12-18 22:05:46] [INFO] Sleeping 5.776s before next request
+[2025-12-18 22:05:52] [INFO] GET https://oebp.org/BP42 (attempt 1/3)
+[2025-12-18 22:05:52] [INFO] Saved BP42 -> BP042.html [HTTP 200]
+[2025-12-18 22:05:52] [INFO] Sleeping 2.331s before next request
+[2025-12-18 22:05:54] [INFO] GET https://oebp.org/BP43 (attempt 1/3)
+[2025-12-18 22:05:54] [INFO] Saved BP43 -> BP043.html [HTTP 200]
+[2025-12-18 22:05:54] [INFO] Sleeping 3.222s before next request
+[2025-12-18 22:05:58] [INFO] GET https://oebp.org/BP44 (attempt 1/3)
+[2025-12-18 22:05:58] [INFO] Saved BP44 -> BP044.html [HTTP 200]
+[2025-12-18 22:05:58] [INFO] Sleeping 3.532s before next request
+[2025-12-18 22:06:01] [INFO] GET https://oebp.org/BP45 (attempt 1/3)
+[2025-12-18 22:06:02] [INFO] Saved BP45 -> BP045.html [HTTP 200]
+[2025-12-18 22:06:02] [INFO] Sleeping 5.843s before next request
+[2025-12-18 22:06:08] [INFO] GET https://oebp.org/BP46 (attempt 1/3)
+[2025-12-18 22:06:08] [INFO] Saved BP46 -> BP046.html [HTTP 200]
+[2025-12-18 22:06:08] [INFO] Sleeping 5.112s before next request
+[2025-12-18 22:06:13] [INFO] GET https://oebp.org/BP47 (attempt 1/3)
+[2025-12-18 22:06:13] [INFO] Saved BP47 -> BP047.html [HTTP 200]
+[2025-12-18 22:06:13] [INFO] Sleeping 5.981s before next request
+[2025-12-18 22:06:19] [INFO] GET https://oebp.org/BP48 (attempt 1/3)
+[2025-12-18 22:06:19] [INFO] Saved BP48 -> BP048.html [HTTP 200]
+[2025-12-18 22:06:19] [INFO] Sleeping 4.389s before next request
+[2025-12-18 22:06:24] [INFO] GET https://oebp.org/BP49 (attempt 1/3)
+[2025-12-18 22:06:24] [INFO] Saved BP49 -> BP049.html [HTTP 200]
+[2025-12-18 22:06:24] [INFO] Sleeping 2.392s before next request
+[2025-12-18 22:06:27] [INFO] GET https://oebp.org/BP50 (attempt 1/3)
+[2025-12-18 22:06:27] [INFO] Saved BP50 -> BP050.html [HTTP 200]
+[2025-12-18 22:06:27] [INFO] Sleeping 2.261s before next request
+[2025-12-18 22:06:29] [INFO] GET https://oebp.org/BP51 (attempt 1/3)
+[2025-12-18 22:06:29] [INFO] Saved BP51 -> BP051.html [HTTP 200]
+[2025-12-18 22:06:29] [INFO] Sleeping 4.506s before next request
+[2025-12-18 22:06:34] [INFO] GET https://oebp.org/BP52 (attempt 1/3)
+[2025-12-18 22:06:34] [INFO] Saved BP52 -> BP052.html [HTTP 200]
+[2025-12-18 22:06:34] [INFO] Sleeping 5.036s before next request
+[2025-12-18 22:06:39] [INFO] GET https://oebp.org/BP53 (attempt 1/3)
+[2025-12-18 22:06:39] [INFO] Saved BP53 -> BP053.html [HTTP 200]
+[2025-12-18 22:06:39] [INFO] Sleeping 4.295s before next request
+[2025-12-18 22:06:44] [INFO] GET https://oebp.org/BP54 (attempt 1/3)
+[2025-12-18 22:06:44] [INFO] Saved BP54 -> BP054.html [HTTP 200]
+[2025-12-18 22:06:44] [INFO] Sleeping 2.116s before next request
+[2025-12-18 22:06:46] [INFO] GET https://oebp.org/BP55 (attempt 1/3)
+[2025-12-18 22:06:46] [INFO] Saved BP55 -> BP055.html [HTTP 200]
+[2025-12-18 22:06:46] [INFO] Sleeping 5.237s before next request
+[2025-12-18 22:06:52] [INFO] GET https://oebp.org/BP56 (attempt 1/3)
+[2025-12-18 22:06:52] [INFO] Saved BP56 -> BP056.html [HTTP 200]
+[2025-12-18 22:06:52] [INFO] Sleeping 2.560s before next request
+[2025-12-18 22:06:54] [INFO] GET https://oebp.org/BP57 (attempt 1/3)
+[2025-12-18 22:06:55] [INFO] Saved BP57 -> BP057.html [HTTP 200]
+[2025-12-18 22:06:55] [INFO] Sleeping 5.393s before next request
+[2025-12-18 22:07:00] [INFO] GET https://oebp.org/BP58 (attempt 1/3)
+[2025-12-18 22:07:00] [INFO] Saved BP58 -> BP058.html [HTTP 200]
+[2025-12-18 22:07:00] [INFO] Sleeping 3.036s before next request
+[2025-12-18 22:07:03] [INFO] GET https://oebp.org/BP59 (attempt 1/3)
+[2025-12-18 22:07:04] [INFO] Saved BP59 -> BP059.html [HTTP 200]
+[2025-12-18 22:07:04] [INFO] Sleeping 4.185s before next request
+[2025-12-18 22:07:08] [INFO] GET https://oebp.org/BP60 (attempt 1/3)
+[2025-12-18 22:07:08] [INFO] Saved BP60 -> BP060.html [HTTP 200]
+[2025-12-18 22:07:08] [INFO] Sleeping 2.775s before next request
+[2025-12-18 22:07:11] [INFO] GET https://oebp.org/BP61 (attempt 1/3)
+[2025-12-18 22:07:11] [INFO] Saved BP61 -> BP061.html [HTTP 200]
+[2025-12-18 22:07:11] [INFO] Sleeping 2.655s before next request
+[2025-12-18 22:07:14] [INFO] GET https://oebp.org/BP62 (attempt 1/3)
+[2025-12-18 22:07:14] [INFO] Saved BP62 -> BP062.html [HTTP 200]
+[2025-12-18 22:07:14] [INFO] Sleeping 2.461s before next request
+[2025-12-18 22:07:17] [INFO] GET https://oebp.org/BP63 (attempt 1/3)
+[2025-12-18 22:07:17] [INFO] Saved BP63 -> BP063.html [HTTP 200]
+[2025-12-18 22:07:17] [INFO] Sleeping 2.525s before next request
+[2025-12-18 22:07:19] [INFO] GET https://oebp.org/BP64 (attempt 1/3)
+[2025-12-18 22:07:20] [INFO] Saved BP64 -> BP064.html [HTTP 200]
+[2025-12-18 22:07:20] [INFO] Sleeping 2.155s before next request
+[2025-12-18 22:07:22] [INFO] GET https://oebp.org/BP65 (attempt 1/3)
+[2025-12-18 22:07:22] [INFO] Saved BP65 -> BP065.html [HTTP 200]
+[2025-12-18 22:07:22] [INFO] Sleeping 2.947s before next request
+[2025-12-18 22:07:25] [INFO] GET https://oebp.org/BP66 (attempt 1/3)
+[2025-12-18 22:07:25] [INFO] Saved BP66 -> BP066.html [HTTP 200]
+[2025-12-18 22:07:25] [INFO] Sleeping 2.862s before next request
+[2025-12-18 22:07:28] [INFO] GET https://oebp.org/BP67 (attempt 1/3)
+[2025-12-18 22:07:28] [INFO] Saved BP67 -> BP067.html [HTTP 200]
+[2025-12-18 22:07:28] [INFO] Sleeping 2.692s before next request
+[2025-12-18 22:07:31] [INFO] GET https://oebp.org/BP68 (attempt 1/3)
+[2025-12-18 22:07:31] [INFO] Saved BP68 -> BP068.html [HTTP 200]
+[2025-12-18 22:07:31] [INFO] Sleeping 5.776s before next request
+[2025-12-18 22:07:37] [INFO] GET https://oebp.org/BP69 (attempt 1/3)
+[2025-12-18 22:07:37] [INFO] Saved BP69 -> BP069.html [HTTP 200]
+[2025-12-18 22:07:37] [INFO] Sleeping 2.352s before next request
+[2025-12-18 22:07:40] [INFO] GET https://oebp.org/BP70 (attempt 1/3)
+[2025-12-18 22:07:40] [INFO] Saved BP70 -> BP070.html [HTTP 200]
+[2025-12-18 22:07:40] [INFO] Sleeping 4.735s before next request
+[2025-12-18 22:07:45] [INFO] GET https://oebp.org/BP71 (attempt 1/3)
+[2025-12-18 22:07:45] [INFO] Saved BP71 -> BP071.html [HTTP 200]
+[2025-12-18 22:07:45] [INFO] Sleeping 5.007s before next request
+[2025-12-18 22:07:50] [INFO] GET https://oebp.org/BP72 (attempt 1/3)
+[2025-12-18 22:07:50] [INFO] Saved BP72 -> BP072.html [HTTP 200]
+[2025-12-18 22:07:50] [INFO] Sleeping 5.502s before next request
+[2025-12-18 22:07:56] [INFO] GET https://oebp.org/BP73 (attempt 1/3)
+[2025-12-18 22:07:56] [INFO] Saved BP73 -> BP073.html [HTTP 200]
+[2025-12-18 22:07:56] [INFO] Sleeping 5.693s before next request
+[2025-12-18 22:08:01] [INFO] GET https://oebp.org/BP74 (attempt 1/3)
+[2025-12-18 22:08:02] [INFO] Saved BP74 -> BP074.html [HTTP 200]
+[2025-12-18 22:08:02] [INFO] Sleeping 2.693s before next request
+[2025-12-18 22:08:04] [INFO] GET https://oebp.org/BP75 (attempt 1/3)
+[2025-12-18 22:08:05] [INFO] Saved BP75 -> BP075.html [HTTP 200]
+[2025-12-18 22:08:05] [INFO] Sleeping 4.699s before next request
+[2025-12-18 22:08:09] [INFO] GET https://oebp.org/BP76 (attempt 1/3)
+[2025-12-18 22:08:10] [INFO] Saved BP76 -> BP076.html [HTTP 200]
+[2025-12-18 22:08:10] [INFO] Sleeping 4.738s before next request
+[2025-12-18 22:08:14] [INFO] GET https://oebp.org/BP77 (attempt 1/3)
+[2025-12-18 22:08:15] [INFO] Saved BP77 -> BP077.html [HTTP 200]
+[2025-12-18 22:08:15] [INFO] Sleeping 4.302s before next request
+[2025-12-18 22:08:19] [INFO] GET https://oebp.org/BP78 (attempt 1/3)
+[2025-12-18 22:08:19] [INFO] Saved BP78 -> BP078.html [HTTP 200]
+[2025-12-18 22:08:19] [INFO] Sleeping 4.016s before next request
+[2025-12-18 22:08:23] [INFO] GET https://oebp.org/BP79 (attempt 1/3)
+[2025-12-18 22:08:23] [INFO] Saved BP79 -> BP079.html [HTTP 200]
+[2025-12-18 22:08:23] [INFO] Sleeping 3.855s before next request
+[2025-12-18 22:08:27] [INFO] GET https://oebp.org/BP80 (attempt 1/3)
+[2025-12-18 22:08:27] [INFO] Saved BP80 -> BP080.html [HTTP 200]
+[2025-12-18 22:08:28] [INFO] Sleeping 4.849s before next request
+[2025-12-18 22:08:32] [INFO] GET https://oebp.org/BP81 (attempt 1/3)
+[2025-12-18 22:08:33] [INFO] Saved BP81 -> BP081.html [HTTP 200]
+[2025-12-18 22:08:33] [INFO] Sleeping 5.761s before next request
+[2025-12-18 22:08:38] [INFO] GET https://oebp.org/BP82 (attempt 1/3)
+[2025-12-18 22:08:39] [INFO] Saved BP82 -> BP082.html [HTTP 200]
+[2025-12-18 22:08:39] [INFO] Sleeping 3.138s before next request
+[2025-12-18 22:08:42] [INFO] GET https://oebp.org/BP83 (attempt 1/3)
+[2025-12-18 22:08:42] [INFO] Saved BP83 -> BP083.html [HTTP 200]
+[2025-12-18 22:08:42] [INFO] Sleeping 3.162s before next request
+[2025-12-18 22:08:45] [INFO] GET https://oebp.org/BP84 (attempt 1/3)
+[2025-12-18 22:08:45] [INFO] Saved BP84 -> BP084.html [HTTP 200]
+[2025-12-18 22:08:45] [INFO] Sleeping 3.000s before next request
+[2025-12-18 22:08:48] [INFO] GET https://oebp.org/BP85 (attempt 1/3)
+[2025-12-18 22:08:49] [INFO] Saved BP85 -> BP085.html [HTTP 200]
+[2025-12-18 22:08:49] [INFO] Sleeping 5.570s before next request
+[2025-12-18 22:08:54] [INFO] GET https://oebp.org/BP86 (attempt 1/3)
+[2025-12-18 22:08:55] [INFO] Saved BP86 -> BP086.html [HTTP 200]
+[2025-12-18 22:08:55] [INFO] Sleeping 2.740s before next request
+[2025-12-18 22:08:57] [INFO] GET https://oebp.org/BP87 (attempt 1/3)
+[2025-12-18 22:08:58] [INFO] Saved BP87 -> BP087.html [HTTP 200]
+[2025-12-18 22:08:58] [INFO] Sleeping 2.023s before next request
+[2025-12-18 22:09:00] [INFO] GET https://oebp.org/BP88 (attempt 1/3)
+[2025-12-18 22:09:00] [INFO] Saved BP88 -> BP088.html [HTTP 200]
+[2025-12-18 22:09:00] [INFO] Sleeping 5.357s before next request
+[2025-12-18 22:09:05] [INFO] GET https://oebp.org/BP89 (attempt 1/3)
+[2025-12-18 22:09:06] [INFO] Saved BP89 -> BP089.html [HTTP 200]
+[2025-12-18 22:09:06] [INFO] Sleeping 4.747s before next request
+[2025-12-18 22:09:10] [INFO] GET https://oebp.org/BP90 (attempt 1/3)
+[2025-12-18 22:09:10] [INFO] Saved BP90 -> BP090.html [HTTP 200]
+[2025-12-18 22:09:10] [INFO] Sleeping 5.537s before next request
+[2025-12-18 22:09:16] [INFO] GET https://oebp.org/BP91 (attempt 1/3)
+[2025-12-18 22:09:16] [INFO] Saved BP91 -> BP091.html [HTTP 200]
+[2025-12-18 22:09:16] [INFO] Sleeping 4.052s before next request
+[2025-12-18 22:09:20] [INFO] GET https://oebp.org/BP92 (attempt 1/3)
+[2025-12-18 22:09:21] [INFO] Saved BP92 -> BP092.html [HTTP 200]
+[2025-12-18 22:09:21] [INFO] Sleeping 2.056s before next request
+[2025-12-18 22:09:23] [INFO] GET https://oebp.org/BP93 (attempt 1/3)
+[2025-12-18 22:09:23] [INFO] Saved BP93 -> BP093.html [HTTP 200]
+[2025-12-18 22:09:23] [INFO] Sleeping 3.391s before next request
+[2025-12-18 22:09:26] [INFO] GET https://oebp.org/BP94 (attempt 1/3)
+[2025-12-18 22:09:27] [INFO] Saved BP94 -> BP094.html [HTTP 200]
+[2025-12-18 22:09:27] [INFO] Sleeping 4.757s before next request
+[2025-12-18 22:09:31] [INFO] GET https://oebp.org/BP95 (attempt 1/3)
+[2025-12-18 22:09:32] [INFO] Saved BP95 -> BP095.html [HTTP 200]
+[2025-12-18 22:09:32] [INFO] Sleeping 5.011s before next request
+[2025-12-18 22:09:37] [INFO] GET https://oebp.org/BP96 (attempt 1/3)
+[2025-12-18 22:09:37] [INFO] Saved BP96 -> BP096.html [HTTP 200]
+[2025-12-18 22:09:37] [INFO] Sleeping 5.307s before next request
+[2025-12-18 22:09:42] [INFO] GET https://oebp.org/BP97 (attempt 1/3)
+[2025-12-18 22:09:42] [INFO] Saved BP97 -> BP097.html [HTTP 200]
+[2025-12-18 22:09:42] [INFO] Sleeping 3.183s before next request
+[2025-12-18 22:09:46] [INFO] GET https://oebp.org/BP98 (attempt 1/3)
+[2025-12-18 22:09:46] [INFO] Saved BP98 -> BP098.html [HTTP 200]
+[2025-12-18 22:09:46] [INFO] Sleeping 3.794s before next request
+[2025-12-18 22:09:50] [INFO] GET https://oebp.org/BP99 (attempt 1/3)
+[2025-12-18 22:09:50] [INFO] Saved BP99 -> BP099.html [HTTP 200]
+[2025-12-18 22:09:50] [INFO] Sleeping 3.623s before next request
+[2025-12-18 22:09:54] [INFO] GET https://oebp.org/BP100 (attempt 1/3)
+[2025-12-18 22:09:54] [INFO] Saved BP100 -> BP100.html [HTTP 200]
+[2025-12-18 22:09:54] [INFO] Sleeping 2.187s before next request
+[2025-12-18 22:09:56] [INFO] GET https://oebp.org/BP101 (attempt 1/3)
+[2025-12-18 22:09:56] [INFO] Saved BP101 -> BP101.html [HTTP 200]
+[2025-12-18 22:09:56] [INFO] Sleeping 3.574s before next request
+[2025-12-18 22:10:00] [INFO] GET https://oebp.org/BP102 (attempt 1/3)
+[2025-12-18 22:10:00] [INFO] Saved BP102 -> BP102.html [HTTP 200]
+[2025-12-18 22:10:00] [INFO] Sleeping 2.670s before next request
+[2025-12-18 22:10:03] [INFO] GET https://oebp.org/BP103 (attempt 1/3)
+[2025-12-18 22:10:03] [INFO] Saved BP103 -> BP103.html [HTTP 200]
+[2025-12-18 22:10:03] [INFO] Sleeping 4.075s before next request
+[2025-12-18 22:10:07] [INFO] GET https://oebp.org/BP104 (attempt 1/3)
+[2025-12-18 22:10:07] [INFO] Saved BP104 -> BP104.html [HTTP 200]
+[2025-12-18 22:10:07] [INFO] Sleeping 4.230s before next request
+[2025-12-18 22:10:12] [INFO] GET https://oebp.org/BP105 (attempt 1/3)
+[2025-12-18 22:10:12] [INFO] Saved BP105 -> BP105.html [HTTP 200]
+[2025-12-18 22:10:12] [INFO] Sleeping 4.304s before next request
+[2025-12-18 22:10:16] [INFO] GET https://oebp.org/BP106 (attempt 1/3)
+[2025-12-18 22:10:16] [INFO] Saved BP106 -> BP106.html [HTTP 200]
+[2025-12-18 22:10:16] [INFO] Sleeping 5.237s before next request
+[2025-12-18 22:10:22] [INFO] GET https://oebp.org/BP107 (attempt 1/3)
+[2025-12-18 22:10:22] [INFO] Saved BP107 -> BP107.html [HTTP 200]
+[2025-12-18 22:10:22] [INFO] Sleeping 4.056s before next request
+[2025-12-18 22:10:26] [INFO] GET https://oebp.org/BP108 (attempt 1/3)
+[2025-12-18 22:10:26] [INFO] Saved BP108 -> BP108.html [HTTP 200]
+[2025-12-18 22:10:26] [INFO] Sleeping 4.638s before next request
+[2025-12-18 22:10:31] [INFO] GET https://oebp.org/BP109 (attempt 1/3)
+[2025-12-18 22:10:31] [INFO] Saved BP109 -> BP109.html [HTTP 200]
+[2025-12-18 22:10:31] [INFO] Sleeping 3.069s before next request
+[2025-12-18 22:10:34] [INFO] GET https://oebp.org/BP110 (attempt 1/3)
+[2025-12-18 22:10:34] [INFO] Saved BP110 -> BP110.html [HTTP 200]
+[2025-12-18 22:10:34] [INFO] Sleeping 2.605s before next request
+[2025-12-18 22:10:37] [INFO] GET https://oebp.org/BP111 (attempt 1/3)
+[2025-12-18 22:10:37] [INFO] Saved BP111 -> BP111.html [HTTP 200]
+[2025-12-18 22:10:37] [INFO] Sleeping 3.214s before next request
+[2025-12-18 22:10:41] [INFO] GET https://oebp.org/BP112 (attempt 1/3)
+[2025-12-18 22:10:41] [INFO] Saved BP112 -> BP112.html [HTTP 200]
+[2025-12-18 22:10:41] [INFO] Sleeping 3.087s before next request
+[2025-12-18 22:10:44] [INFO] GET https://oebp.org/BP113 (attempt 1/3)
+[2025-12-18 22:10:44] [INFO] Saved BP113 -> BP113.html [HTTP 200]
+[2025-12-18 22:10:44] [INFO] Sleeping 2.874s before next request
+[2025-12-18 22:10:47] [INFO] GET https://oebp.org/BP114 (attempt 1/3)
+[2025-12-18 22:10:47] [INFO] Saved BP114 -> BP114.html [HTTP 200]
+[2025-12-18 22:10:47] [INFO] Sleeping 4.368s before next request
+[2025-12-18 22:10:52] [INFO] GET https://oebp.org/BP115 (attempt 1/3)
+[2025-12-18 22:10:52] [INFO] Saved BP115 -> BP115.html [HTTP 200]
+[2025-12-18 22:10:52] [INFO] Sleeping 4.101s before next request
+[2025-12-18 22:10:56] [INFO] GET https://oebp.org/BP116 (attempt 1/3)
+[2025-12-18 22:10:56] [INFO] Saved BP116 -> BP116.html [HTTP 200]
+[2025-12-18 22:10:56] [INFO] Sleeping 4.746s before next request
+[2025-12-18 22:11:01] [INFO] GET https://oebp.org/BP117 (attempt 1/3)
+[2025-12-18 22:11:01] [INFO] Saved BP117 -> BP117.html [HTTP 200]
+[2025-12-18 22:11:01] [INFO] Sleeping 3.577s before next request
+[2025-12-18 22:11:05] [INFO] GET https://oebp.org/BP118 (attempt 1/3)
+[2025-12-18 22:11:05] [INFO] Saved BP118 -> BP118.html [HTTP 200]
+[2025-12-18 22:11:05] [INFO] Sleeping 4.201s before next request
+[2025-12-18 22:11:09] [INFO] GET https://oebp.org/BP119 (attempt 1/3)
+[2025-12-18 22:11:10] [INFO] Saved BP119 -> BP119.html [HTTP 200]
+[2025-12-18 22:11:10] [INFO] Sleeping 4.076s before next request
+[2025-12-18 22:11:14] [INFO] GET https://oebp.org/BP120 (attempt 1/3)
+[2025-12-18 22:11:14] [INFO] Saved BP120 -> BP120.html [HTTP 200]
+[2025-12-18 22:11:14] [INFO] Sleeping 3.242s before next request
+[2025-12-18 22:11:17] [INFO] GET https://oebp.org/BP121 (attempt 1/3)
+[2025-12-18 22:11:17] [INFO] Saved BP121 -> BP121.html [HTTP 200]
+[2025-12-18 22:11:17] [INFO] Sleeping 2.724s before next request
+[2025-12-18 22:11:20] [INFO] GET https://oebp.org/BP122 (attempt 1/3)
+[2025-12-18 22:11:20] [INFO] Saved BP122 -> BP122.html [HTTP 200]
+[2025-12-18 22:11:20] [INFO] Sleeping 3.648s before next request
+[2025-12-18 22:11:24] [INFO] GET https://oebp.org/BP123 (attempt 1/3)
+[2025-12-18 22:11:24] [INFO] Saved BP123 -> BP123.html [HTTP 200]
+[2025-12-18 22:11:24] [INFO] Sleeping 4.131s before next request
+[2025-12-18 22:11:28] [INFO] GET https://oebp.org/BP124 (attempt 1/3)
+[2025-12-18 22:11:29] [INFO] Saved BP124 -> BP124.html [HTTP 200]
+[2025-12-18 22:11:29] [INFO] Sleeping 2.866s before next request
+[2025-12-18 22:11:32] [INFO] GET https://oebp.org/BP125 (attempt 1/3)
+[2025-12-18 22:11:32] [INFO] Saved BP125 -> BP125.html [HTTP 200]
+[2025-12-18 22:11:32] [INFO] Sleeping 4.757s before next request
+[2025-12-18 22:11:37] [INFO] GET https://oebp.org/BP126 (attempt 1/3)
+[2025-12-18 22:11:37] [INFO] Saved BP126 -> BP126.html [HTTP 200]
+[2025-12-18 22:11:37] [INFO] Sleeping 3.412s before next request
+[2025-12-18 22:11:40] [INFO] GET https://oebp.org/BP127 (attempt 1/3)
+[2025-12-18 22:11:40] [INFO] Saved BP127 -> BP127.html [HTTP 200]
+[2025-12-18 22:11:40] [INFO] Sleeping 5.935s before next request
+[2025-12-18 22:11:46] [INFO] GET https://oebp.org/BP128 (attempt 1/3)
+[2025-12-18 22:11:47] [INFO] Saved BP128 -> BP128.html [HTTP 200]
+[2025-12-18 22:11:47] [INFO] Sleeping 3.842s before next request
+[2025-12-18 22:11:51] [INFO] GET https://oebp.org/BP129 (attempt 1/3)
+[2025-12-18 22:11:51] [INFO] Saved BP129 -> BP129.html [HTTP 200]
+[2025-12-18 22:11:51] [INFO] Sleeping 2.434s before next request
+[2025-12-18 22:11:53] [INFO] GET https://oebp.org/BP130 (attempt 1/3)
+[2025-12-18 22:11:53] [INFO] Saved BP130 -> BP130.html [HTTP 200]
+[2025-12-18 22:11:53] [INFO] Sleeping 4.945s before next request
+[2025-12-18 22:11:58] [INFO] GET https://oebp.org/BP131 (attempt 1/3)
+[2025-12-18 22:11:59] [INFO] Saved BP131 -> BP131.html [HTTP 200]
+[2025-12-18 22:11:59] [INFO] Sleeping 5.008s before next request
+[2025-12-18 22:12:04] [INFO] GET https://oebp.org/BP132 (attempt 1/3)
+[2025-12-18 22:12:04] [INFO] Saved BP132 -> BP132.html [HTTP 200]
+[2025-12-18 22:12:04] [INFO] Sleeping 3.392s before next request
+[2025-12-18 22:12:07] [INFO] GET https://oebp.org/BP133 (attempt 1/3)
+[2025-12-18 22:12:08] [INFO] Saved BP133 -> BP133.html [HTTP 200]
+[2025-12-18 22:12:08] [INFO] Sleeping 3.630s before next request
+[2025-12-18 22:12:11] [INFO] GET https://oebp.org/BP134 (attempt 1/3)
+[2025-12-18 22:12:11] [INFO] Saved BP134 -> BP134.html [HTTP 200]
+[2025-12-18 22:12:11] [INFO] Sleeping 3.512s before next request
+[2025-12-18 22:12:15] [INFO] GET https://oebp.org/BP135 (attempt 1/3)
+[2025-12-18 22:12:15] [INFO] Saved BP135 -> BP135.html [HTTP 200]
+[2025-12-18 22:12:15] [INFO] Sleeping 2.372s before next request
+[2025-12-18 22:12:18] [INFO] GET https://oebp.org/BP136 (attempt 1/3)
+[2025-12-18 22:12:18] [INFO] Saved BP136 -> BP136.html [HTTP 200]
+[2025-12-18 22:12:18] [INFO] Sleeping 4.684s before next request
+[2025-12-18 22:12:23] [INFO] GET https://oebp.org/BP137 (attempt 1/3)
+[2025-12-18 22:12:23] [INFO] Saved BP137 -> BP137.html [HTTP 200]
+[2025-12-18 22:12:23] [INFO] Sleeping 3.771s before next request
+[2025-12-18 22:12:27] [INFO] GET https://oebp.org/BP138 (attempt 1/3)
+[2025-12-18 22:12:27] [INFO] Saved BP138 -> BP138.html [HTTP 200]
+[2025-12-18 22:12:27] [INFO] Sleeping 2.457s before next request
+[2025-12-18 22:12:29] [INFO] GET https://oebp.org/BP139 (attempt 1/3)
+[2025-12-18 22:12:29] [INFO] Saved BP139 -> BP139.html [HTTP 200]
+[2025-12-18 22:12:29] [INFO] Sleeping 4.838s before next request
+[2025-12-18 22:12:34] [INFO] GET https://oebp.org/BP140 (attempt 1/3)
+[2025-12-18 22:12:35] [INFO] Saved BP140 -> BP140.html [HTTP 200]
+[2025-12-18 22:12:35] [INFO] Sleeping 5.777s before next request
+[2025-12-18 22:12:40] [INFO] GET https://oebp.org/BP141 (attempt 1/3)
+[2025-12-18 22:12:41] [INFO] Saved BP141 -> BP141.html [HTTP 200]
+[2025-12-18 22:12:41] [INFO] Sleeping 4.480s before next request
+[2025-12-18 22:12:45] [INFO] GET https://oebp.org/BP142 (attempt 1/3)
+[2025-12-18 22:12:45] [INFO] Saved BP142 -> BP142.html [HTTP 200]
+[2025-12-18 22:12:45] [INFO] Sleeping 2.226s before next request
+[2025-12-18 22:12:48] [INFO] GET https://oebp.org/BP143 (attempt 1/3)
+[2025-12-18 22:12:48] [INFO] Saved BP143 -> BP143.html [HTTP 200]
+[2025-12-18 22:12:48] [INFO] Sleeping 4.443s before next request
+[2025-12-18 22:12:52] [INFO] GET https://oebp.org/BP144 (attempt 1/3)
+[2025-12-18 22:12:52] [INFO] Saved BP144 -> BP144.html [HTTP 200]
+[2025-12-18 22:12:53] [INFO] Sleeping 2.471s before next request
+[2025-12-18 22:12:55] [INFO] GET https://oebp.org/BP145 (attempt 1/3)
+[2025-12-18 22:12:55] [INFO] Saved BP145 -> BP145.html [HTTP 200]
+[2025-12-18 22:12:55] [INFO] Sleeping 3.494s before next request
+[2025-12-18 22:12:59] [INFO] GET https://oebp.org/BP146 (attempt 1/3)
+[2025-12-18 22:12:59] [INFO] Saved BP146 -> BP146.html [HTTP 200]
+[2025-12-18 22:12:59] [INFO] Sleeping 4.866s before next request
+[2025-12-18 22:13:04] [INFO] GET https://oebp.org/BP147 (attempt 1/3)
+[2025-12-18 22:13:04] [INFO] Saved BP147 -> BP147.html [HTTP 200]
+[2025-12-18 22:13:04] [INFO] Sleeping 5.819s before next request
+[2025-12-18 22:13:10] [INFO] GET https://oebp.org/BP148 (attempt 1/3)
+[2025-12-18 22:13:10] [INFO] Saved BP148 -> BP148.html [HTTP 200]
+[2025-12-18 22:13:10] [INFO] Sleeping 4.494s before next request
+[2025-12-18 22:13:15] [INFO] GET https://oebp.org/BP149 (attempt 1/3)
+[2025-12-18 22:13:15] [INFO] Saved BP149 -> BP149.html [HTTP 200]
+[2025-12-18 22:13:15] [INFO] Sleeping 3.396s before next request
+[2025-12-18 22:13:18] [INFO] GET https://oebp.org/BP150 (attempt 1/3)
+[2025-12-18 22:13:19] [INFO] Saved BP150 -> BP150.html [HTTP 200]
+[2025-12-18 22:13:19] [INFO] Sleeping 5.383s before next request
+[2025-12-18 22:13:24] [INFO] GET https://oebp.org/BP151 (attempt 1/3)
+[2025-12-18 22:13:24] [INFO] Saved BP151 -> BP151.html [HTTP 200]
+[2025-12-18 22:13:24] [INFO] Sleeping 4.527s before next request
+[2025-12-18 22:13:29] [INFO] GET https://oebp.org/BP152 (attempt 1/3)
+[2025-12-18 22:13:29] [INFO] Saved BP152 -> BP152.html [HTTP 200]
+[2025-12-18 22:13:29] [INFO] Sleeping 5.376s before next request
+[2025-12-18 22:13:34] [INFO] GET https://oebp.org/BP153 (attempt 1/3)
+[2025-12-18 22:13:35] [INFO] Saved BP153 -> BP153.html [HTTP 200]
+[2025-12-18 22:13:35] [INFO] Sleeping 5.833s before next request
+[2025-12-18 22:13:40] [INFO] GET https://oebp.org/BP154 (attempt 1/3)
+[2025-12-18 22:13:41] [INFO] Saved BP154 -> BP154.html [HTTP 200]
+[2025-12-18 22:13:41] [INFO] Sleeping 5.723s before next request
+[2025-12-18 22:13:47] [INFO] GET https://oebp.org/BP155 (attempt 1/3)
+[2025-12-18 22:13:47] [INFO] Saved BP155 -> BP155.html [HTTP 200]
+[2025-12-18 22:13:47] [INFO] Sleeping 3.328s before next request
+[2025-12-18 22:13:50] [INFO] GET https://oebp.org/BP156 (attempt 1/3)
+[2025-12-18 22:13:50] [INFO] Saved BP156 -> BP156.html [HTTP 200]
+[2025-12-18 22:13:50] [INFO] Sleeping 4.950s before next request
+[2025-12-18 22:13:55] [INFO] GET https://oebp.org/BP157 (attempt 1/3)
+[2025-12-18 22:13:56] [INFO] Saved BP157 -> BP157.html [HTTP 200]
+[2025-12-18 22:13:56] [INFO] Sleeping 2.103s before next request
+[2025-12-18 22:13:58] [INFO] GET https://oebp.org/BP158 (attempt 1/3)
+[2025-12-18 22:13:58] [INFO] Saved BP158 -> BP158.html [HTTP 200]
+[2025-12-18 22:13:58] [INFO] Sleeping 3.461s before next request
+[2025-12-18 22:14:01] [INFO] GET https://oebp.org/BP159 (attempt 1/3)
+[2025-12-18 22:14:02] [INFO] Saved BP159 -> BP159.html [HTTP 200]
+[2025-12-18 22:14:02] [INFO] Sleeping 4.040s before next request
+[2025-12-18 22:14:06] [INFO] GET https://oebp.org/BP160 (attempt 1/3)
+[2025-12-18 22:14:06] [INFO] Saved BP160 -> BP160.html [HTTP 200]
+[2025-12-18 22:14:06] [INFO] Sleeping 5.668s before next request
+[2025-12-18 22:14:12] [INFO] GET https://oebp.org/BP161 (attempt 1/3)
+[2025-12-18 22:14:12] [INFO] Saved BP161 -> BP161.html [HTTP 200]
+[2025-12-18 22:14:12] [INFO] Sleeping 5.369s before next request
+[2025-12-18 22:14:17] [INFO] GET https://oebp.org/BP162 (attempt 1/3)
+[2025-12-18 22:14:17] [INFO] Saved BP162 -> BP162.html [HTTP 200]
+[2025-12-18 22:14:18] [INFO] Sleeping 3.969s before next request
+[2025-12-18 22:14:21] [INFO] GET https://oebp.org/BP163 (attempt 1/3)
+[2025-12-18 22:14:22] [INFO] Saved BP163 -> BP163.html [HTTP 200]
+[2025-12-18 22:14:22] [INFO] Sleeping 4.275s before next request
+[2025-12-18 22:14:26] [INFO] GET https://oebp.org/BP164 (attempt 1/3)
+[2025-12-18 22:14:26] [INFO] Saved BP164 -> BP164.html [HTTP 200]
+[2025-12-18 22:14:26] [INFO] Sleeping 3.865s before next request
+[2025-12-18 22:14:30] [INFO] GET https://oebp.org/BP165 (attempt 1/3)
+[2025-12-18 22:14:30] [INFO] Saved BP165 -> BP165.html [HTTP 200]
+[2025-12-18 22:14:30] [INFO] Sleeping 3.007s before next request
+[2025-12-18 22:14:33] [INFO] GET https://oebp.org/BP166 (attempt 1/3)
+[2025-12-18 22:14:34] [INFO] Saved BP166 -> BP166.html [HTTP 200]
+[2025-12-18 22:14:34] [INFO] Sleeping 3.553s before next request
+[2025-12-18 22:14:37] [INFO] GET https://oebp.org/BP167 (attempt 1/3)
+[2025-12-18 22:14:37] [INFO] Saved BP167 -> BP167.html [HTTP 200]
+[2025-12-18 22:14:37] [INFO] Sleeping 2.660s before next request
+[2025-12-18 22:14:40] [INFO] GET https://oebp.org/BP168 (attempt 1/3)
+[2025-12-18 22:14:40] [INFO] Saved BP168 -> BP168.html [HTTP 200]
+[2025-12-18 22:14:40] [INFO] Sleeping 4.664s before next request
+[2025-12-18 22:14:45] [INFO] GET https://oebp.org/BP169 (attempt 1/3)
+[2025-12-18 22:14:45] [INFO] Saved BP169 -> BP169.html [HTTP 200]
+[2025-12-18 22:14:45] [INFO] Sleeping 5.633s before next request
+[2025-12-18 22:14:51] [INFO] GET https://oebp.org/BP170 (attempt 1/3)
+[2025-12-18 22:14:51] [INFO] Saved BP170 -> BP170.html [HTTP 200]
+[2025-12-18 22:14:51] [INFO] Sleeping 5.963s before next request
+[2025-12-18 22:14:57] [INFO] GET https://oebp.org/BP171 (attempt 1/3)
+[2025-12-18 22:14:57] [INFO] Saved BP171 -> BP171.html [HTTP 200]
+[2025-12-18 22:14:57] [INFO] Sleeping 4.892s before next request
+[2025-12-18 22:15:02] [INFO] GET https://oebp.org/BP172 (attempt 1/3)
+[2025-12-18 22:15:03] [INFO] Saved BP172 -> BP172.html [HTTP 200]
+[2025-12-18 22:15:03] [INFO] Sleeping 3.663s before next request
+[2025-12-18 22:15:06] [INFO] GET https://oebp.org/BP173 (attempt 1/3)
+[2025-12-18 22:15:06] [INFO] Saved BP173 -> BP173.html [HTTP 200]
+[2025-12-18 22:15:06] [INFO] Sleeping 3.455s before next request
+[2025-12-18 22:15:10] [INFO] GET https://oebp.org/BP174 (attempt 1/3)
+[2025-12-18 22:15:10] [INFO] Saved BP174 -> BP174.html [HTTP 200]
+[2025-12-18 22:15:10] [INFO] Sleeping 2.687s before next request
+[2025-12-18 22:15:13] [INFO] GET https://oebp.org/BP175 (attempt 1/3)
+[2025-12-18 22:15:13] [INFO] Saved BP175 -> BP175.html [HTTP 200]
+[2025-12-18 22:15:13] [INFO] Sleeping 2.457s before next request
+[2025-12-18 22:15:16] [INFO] GET https://oebp.org/BP176 (attempt 1/3)
+[2025-12-18 22:15:16] [INFO] Saved BP176 -> BP176.html [HTTP 200]
+[2025-12-18 22:15:16] [INFO] Sleeping 4.294s before next request
+[2025-12-18 22:15:20] [INFO] GET https://oebp.org/BP177 (attempt 1/3)
+[2025-12-18 22:15:20] [INFO] Saved BP177 -> BP177.html [HTTP 200]
+[2025-12-18 22:15:20] [INFO] Sleeping 2.295s before next request
+[2025-12-18 22:15:23] [INFO] GET https://oebp.org/BP178 (attempt 1/3)
+[2025-12-18 22:15:23] [INFO] Saved BP178 -> BP178.html [HTTP 200]
+[2025-12-18 22:15:23] [INFO] Sleeping 5.114s before next request
+[2025-12-18 22:15:28] [INFO] GET https://oebp.org/BP179 (attempt 1/3)
+[2025-12-18 22:15:28] [INFO] Saved BP179 -> BP179.html [HTTP 200]
+[2025-12-18 22:15:28] [INFO] Sleeping 3.221s before next request
+[2025-12-18 22:15:32] [INFO] GET https://oebp.org/BP180 (attempt 1/3)
+[2025-12-18 22:15:32] [INFO] Saved BP180 -> BP180.html [HTTP 200]
+[2025-12-18 22:15:32] [INFO] Sleeping 5.148s before next request
+[2025-12-18 22:15:37] [INFO] GET https://oebp.org/BP181 (attempt 1/3)
+[2025-12-18 22:15:37] [INFO] Saved BP181 -> BP181.html [HTTP 200]
+[2025-12-18 22:15:37] [INFO] Sleeping 4.976s before next request
+[2025-12-18 22:15:42] [INFO] GET https://oebp.org/BP182 (attempt 1/3)
+[2025-12-18 22:15:42] [INFO] Saved BP182 -> BP182.html [HTTP 200]
+[2025-12-18 22:15:42] [INFO] Sleeping 5.873s before next request
+[2025-12-18 22:15:48] [INFO] GET https://oebp.org/BP183 (attempt 1/3)
+[2025-12-18 22:15:49] [INFO] Saved BP183 -> BP183.html [HTTP 200]
+[2025-12-18 22:15:49] [INFO] Sleeping 5.422s before next request
+[2025-12-18 22:15:54] [INFO] GET https://oebp.org/BP184 (attempt 1/3)
+[2025-12-18 22:15:54] [INFO] Saved BP184 -> BP184.html [HTTP 200]
+[2025-12-18 22:15:54] [INFO] Sleeping 2.668s before next request
+[2025-12-18 22:15:57] [INFO] GET https://oebp.org/BP185 (attempt 1/3)
+[2025-12-18 22:15:57] [INFO] Saved BP185 -> BP185.html [HTTP 200]
+[2025-12-18 22:15:57] [INFO] Sleeping 2.232s before next request
+[2025-12-18 22:15:59] [INFO] GET https://oebp.org/BP186 (attempt 1/3)
+[2025-12-18 22:16:00] [INFO] Saved BP186 -> BP186.html [HTTP 200]
+[2025-12-18 22:16:00] [INFO] Sleeping 3.454s before next request
+[2025-12-18 22:16:03] [INFO] GET https://oebp.org/BP187 (attempt 1/3)
+[2025-12-18 22:16:03] [INFO] Saved BP187 -> BP187.html [HTTP 200]
+[2025-12-18 22:16:03] [INFO] Sleeping 3.735s before next request
+[2025-12-18 22:16:07] [INFO] GET https://oebp.org/BP188 (attempt 1/3)
+[2025-12-18 22:16:07] [INFO] Saved BP188 -> BP188.html [HTTP 200]
+[2025-12-18 22:16:07] [INFO] Sleeping 3.698s before next request
+[2025-12-18 22:16:11] [INFO] GET https://oebp.org/BP189 (attempt 1/3)
+[2025-12-18 22:16:11] [INFO] Saved BP189 -> BP189.html [HTTP 200]
+[2025-12-18 22:16:11] [INFO] Sleeping 2.669s before next request
+[2025-12-18 22:16:14] [INFO] GET https://oebp.org/BP190 (attempt 1/3)
+[2025-12-18 22:16:14] [INFO] Saved BP190 -> BP190.html [HTTP 200]
+[2025-12-18 22:16:14] [INFO] Sleeping 5.763s before next request
+[2025-12-18 22:16:20] [INFO] GET https://oebp.org/BP191 (attempt 1/3)
+[2025-12-18 22:16:20] [INFO] Saved BP191 -> BP191.html [HTTP 200]
+[2025-12-18 22:16:20] [INFO] Sleeping 4.810s before next request
+[2025-12-18 22:16:25] [INFO] GET https://oebp.org/BP192 (attempt 1/3)
+[2025-12-18 22:16:25] [INFO] Saved BP192 -> BP192.html [HTTP 200]
+[2025-12-18 22:16:25] [INFO] Sleeping 5.272s before next request
+[2025-12-18 22:16:31] [INFO] GET https://oebp.org/BP193 (attempt 1/3)
+[2025-12-18 22:16:31] [INFO] Saved BP193 -> BP193.html [HTTP 200]
+[2025-12-18 22:16:31] [INFO] Sleeping 3.165s before next request
+[2025-12-18 22:16:34] [INFO] GET https://oebp.org/BP194 (attempt 1/3)
+[2025-12-18 22:16:34] [INFO] Saved BP194 -> BP194.html [HTTP 200]
+[2025-12-18 22:16:34] [INFO] Sleeping 3.260s before next request
+[2025-12-18 22:16:38] [INFO] GET https://oebp.org/BP195 (attempt 1/3)
+[2025-12-18 22:16:38] [INFO] Saved BP195 -> BP195.html [HTTP 200]
+[2025-12-18 22:16:38] [INFO] Sleeping 4.273s before next request
+[2025-12-18 22:16:42] [INFO] GET https://oebp.org/BP196 (attempt 1/3)
+[2025-12-18 22:16:42] [INFO] Saved BP196 -> BP196.html [HTTP 200]
+[2025-12-18 22:16:42] [INFO] Sleeping 2.685s before next request
+[2025-12-18 22:16:45] [INFO] GET https://oebp.org/BP197 (attempt 1/3)
+[2025-12-18 22:16:45] [INFO] Saved BP197 -> BP197.html [HTTP 200]
+[2025-12-18 22:16:45] [INFO] Sleeping 2.273s before next request
+[2025-12-18 22:16:47] [INFO] GET https://oebp.org/BP198 (attempt 1/3)
+[2025-12-18 22:16:48] [INFO] Saved BP198 -> BP198.html [HTTP 200]
+[2025-12-18 22:16:48] [INFO] Sleeping 3.280s before next request
+[2025-12-18 22:16:51] [INFO] GET https://oebp.org/BP199 (attempt 1/3)
+[2025-12-18 22:16:51] [INFO] Saved BP199 -> BP199.html [HTTP 200]
+[2025-12-18 22:16:51] [INFO] Sleeping 3.232s before next request
+[2025-12-18 22:16:55] [INFO] GET https://oebp.org/BP200 (attempt 1/3)
+[2025-12-18 22:16:55] [INFO] Saved BP200 -> BP200.html [HTTP 200]
+[2025-12-18 22:16:55] [INFO] Sleeping 4.701s before next request
+[2025-12-18 22:17:00] [INFO] GET https://oebp.org/BP201 (attempt 1/3)
+[2025-12-18 22:17:00] [INFO] Saved BP201 -> BP201.html [HTTP 200]
+[2025-12-18 22:17:00] [INFO] Sleeping 5.878s before next request
+[2025-12-18 22:17:06] [INFO] GET https://oebp.org/BP202 (attempt 1/3)
+[2025-12-18 22:17:06] [INFO] Saved BP202 -> BP202.html [HTTP 200]
+[2025-12-18 22:17:06] [INFO] Sleeping 3.842s before next request
+[2025-12-18 22:17:10] [INFO] GET https://oebp.org/BP203 (attempt 1/3)
+[2025-12-18 22:17:10] [INFO] Saved BP203 -> BP203.html [HTTP 200]
+[2025-12-18 22:17:10] [INFO] Sleeping 5.827s before next request
+[2025-12-18 22:17:16] [INFO] GET https://oebp.org/BP204 (attempt 1/3)
+[2025-12-18 22:17:16] [INFO] Saved BP204 -> BP204.html [HTTP 200]
+[2025-12-18 22:17:16] [INFO] Sleeping 3.012s before next request
+[2025-12-18 22:17:19] [INFO] GET https://oebp.org/BP205 (attempt 1/3)
+[2025-12-18 22:17:19] [INFO] Saved BP205 -> BP205.html [HTTP 200]
+[2025-12-18 22:17:19] [INFO] Sleeping 5.960s before next request
+[2025-12-18 22:17:25] [INFO] GET https://oebp.org/BP206 (attempt 1/3)
+[2025-12-18 22:17:26] [INFO] Saved BP206 -> BP206.html [HTTP 200]
+[2025-12-18 22:17:26] [INFO] Sleeping 2.511s before next request
+[2025-12-18 22:17:28] [INFO] GET https://oebp.org/BP207 (attempt 1/3)
+[2025-12-18 22:17:28] [INFO] Saved BP207 -> BP207.html [HTTP 200]
+[2025-12-18 22:17:28] [INFO] Sleeping 3.668s before next request
+[2025-12-18 22:17:32] [INFO] GET https://oebp.org/BP208 (attempt 1/3)
+[2025-12-18 22:17:32] [INFO] Saved BP208 -> BP208.html [HTTP 200]
+[2025-12-18 22:17:32] [INFO] Sleeping 4.541s before next request
+[2025-12-18 22:17:37] [INFO] GET https://oebp.org/BP209 (attempt 1/3)
+[2025-12-18 22:17:37] [INFO] Saved BP209 -> BP209.html [HTTP 200]
+[2025-12-18 22:17:37] [INFO] Sleeping 3.533s before next request
+[2025-12-18 22:17:41] [INFO] GET https://oebp.org/BP210 (attempt 1/3)
+[2025-12-18 22:17:41] [INFO] Saved BP210 -> BP210.html [HTTP 200]
+[2025-12-18 22:17:41] [INFO] Sleeping 3.691s before next request
+[2025-12-18 22:17:45] [INFO] GET https://oebp.org/BP211 (attempt 1/3)
+[2025-12-18 22:17:45] [INFO] Saved BP211 -> BP211.html [HTTP 200]
+[2025-12-18 22:17:45] [INFO] Sleeping 4.876s before next request
+[2025-12-18 22:17:50] [INFO] GET https://oebp.org/BP212 (attempt 1/3)
+[2025-12-18 22:17:50] [INFO] Saved BP212 -> BP212.html [HTTP 200]
+[2025-12-18 22:17:50] [INFO] Sleeping 3.530s before next request
+[2025-12-18 22:17:53] [INFO] GET https://oebp.org/BP213 (attempt 1/3)
+[2025-12-18 22:17:54] [INFO] Saved BP213 -> BP213.html [HTTP 200]
+[2025-12-18 22:17:54] [INFO] Sleeping 4.047s before next request
+[2025-12-18 22:17:58] [INFO] GET https://oebp.org/BP214 (attempt 1/3)
+[2025-12-18 22:17:58] [INFO] Saved BP214 -> BP214.html [HTTP 200]
+[2025-12-18 22:17:58] [INFO] Sleeping 2.886s before next request
+[2025-12-18 22:18:01] [INFO] GET https://oebp.org/BP215 (attempt 1/3)
+[2025-12-18 22:18:01] [INFO] Saved BP215 -> BP215.html [HTTP 200]
+[2025-12-18 22:18:01] [INFO] Sleeping 5.532s before next request
+[2025-12-18 22:18:07] [INFO] GET https://oebp.org/BP216 (attempt 1/3)
+[2025-12-18 22:18:07] [INFO] Saved BP216 -> BP216.html [HTTP 200]
+[2025-12-18 22:18:07] [INFO] Sleeping 5.737s before next request
+[2025-12-18 22:18:13] [INFO] GET https://oebp.org/BP217 (attempt 1/3)
+[2025-12-18 22:18:13] [INFO] Saved BP217 -> BP217.html [HTTP 200]
+[2025-12-18 22:18:13] [INFO] Sleeping 4.141s before next request
+[2025-12-18 22:18:17] [INFO] GET https://oebp.org/BP218 (attempt 1/3)
+[2025-12-18 22:18:17] [INFO] Saved BP218 -> BP218.html [HTTP 200]
+[2025-12-18 22:18:17] [INFO] Sleeping 2.514s before next request
+[2025-12-18 22:18:20] [INFO] GET https://oebp.org/BP219 (attempt 1/3)
+[2025-12-18 22:18:20] [INFO] Saved BP219 -> BP219.html [HTTP 200]
+[2025-12-18 22:18:20] [INFO] Sleeping 2.696s before next request
+[2025-12-18 22:18:23] [INFO] GET https://oebp.org/BP220 (attempt 1/3)
+[2025-12-18 22:18:23] [INFO] Saved BP220 -> BP220.html [HTTP 200]
+[2025-12-18 22:18:23] [INFO] Sleeping 5.528s before next request
+[2025-12-18 22:18:29] [INFO] GET https://oebp.org/BP221 (attempt 1/3)
+[2025-12-18 22:18:29] [INFO] Saved BP221 -> BP221.html [HTTP 200]
+[2025-12-18 22:18:29] [INFO] Sleeping 4.511s before next request
+[2025-12-18 22:18:33] [INFO] GET https://oebp.org/BP222 (attempt 1/3)
+[2025-12-18 22:18:34] [INFO] Saved BP222 -> BP222.html [HTTP 200]
+[2025-12-18 22:18:34] [INFO] Sleeping 3.512s before next request
+[2025-12-18 22:18:37] [INFO] GET https://oebp.org/BP223 (attempt 1/3)
+[2025-12-18 22:18:37] [INFO] Saved BP223 -> BP223.html [HTTP 200]
+[2025-12-18 22:18:37] [INFO] Sleeping 4.052s before next request
+[2025-12-18 22:18:42] [INFO] GET https://oebp.org/BP224 (attempt 1/3)
+[2025-12-18 22:18:42] [INFO] Saved BP224 -> BP224.html [HTTP 200]
+[2025-12-18 22:18:42] [INFO] Sleeping 5.412s before next request
+[2025-12-18 22:18:47] [INFO] GET https://oebp.org/BP225 (attempt 1/3)
+[2025-12-18 22:18:47] [INFO] Saved BP225 -> BP225.html [HTTP 200]
+[2025-12-18 22:18:47] [INFO] Sleeping 2.748s before next request
+[2025-12-18 22:18:50] [INFO] GET https://oebp.org/BP226 (attempt 1/3)
+[2025-12-18 22:18:50] [INFO] Saved BP226 -> BP226.html [HTTP 200]
+[2025-12-18 22:18:50] [INFO] Sleeping 5.231s before next request
+[2025-12-18 22:18:56] [INFO] GET https://oebp.org/BP227 (attempt 1/3)
+[2025-12-18 22:18:56] [INFO] Saved BP227 -> BP227.html [HTTP 200]
+[2025-12-18 22:18:56] [INFO] Sleeping 5.351s before next request
+[2025-12-18 22:19:01] [INFO] GET https://oebp.org/BP228 (attempt 1/3)
+[2025-12-18 22:19:01] [INFO] Saved BP228 -> BP228.html [HTTP 200]
+[2025-12-18 22:19:01] [INFO] Sleeping 5.443s before next request
+[2025-12-18 22:19:07] [INFO] GET https://oebp.org/BP229 (attempt 1/3)
+[2025-12-18 22:19:07] [INFO] Saved BP229 -> BP229.html [HTTP 200]
+[2025-12-18 22:19:07] [INFO] Sleeping 5.037s before next request
+[2025-12-18 22:19:12] [INFO] GET https://oebp.org/BP230 (attempt 1/3)
+[2025-12-18 22:19:12] [INFO] Saved BP230 -> BP230.html [HTTP 200]
+[2025-12-18 22:19:12] [INFO] Sleeping 3.565s before next request
+[2025-12-18 22:19:16] [INFO] GET https://oebp.org/BP231 (attempt 1/3)
+[2025-12-18 22:19:16] [INFO] Saved BP231 -> BP231.html [HTTP 200]
+[2025-12-18 22:19:16] [INFO] Sleeping 3.443s before next request
+[2025-12-18 22:19:20] [INFO] GET https://oebp.org/BP232 (attempt 1/3)
+[2025-12-18 22:19:20] [INFO] Saved BP232 -> BP232.html [HTTP 200]
+[2025-12-18 22:19:20] [INFO] Sleeping 4.785s before next request
+[2025-12-18 22:19:25] [INFO] GET https://oebp.org/BP233 (attempt 1/3)
+[2025-12-18 22:19:25] [INFO] Saved BP233 -> BP233.html [HTTP 200]
+[2025-12-18 22:19:25] [INFO] Sleeping 4.681s before next request
+[2025-12-18 22:19:30] [INFO] GET https://oebp.org/BP234 (attempt 1/3)
+[2025-12-18 22:19:30] [INFO] Saved BP234 -> BP234.html [HTTP 200]
+[2025-12-18 22:19:30] [INFO] Sleeping 4.017s before next request
+[2025-12-18 22:19:34] [INFO] GET https://oebp.org/BP235 (attempt 1/3)
+[2025-12-18 22:19:34] [INFO] Saved BP235 -> BP235.html [HTTP 200]
+[2025-12-18 22:19:34] [INFO] Sleeping 5.742s before next request
+[2025-12-18 22:19:40] [INFO] GET https://oebp.org/BP236 (attempt 1/3)
+[2025-12-18 22:19:40] [INFO] Saved BP236 -> BP236.html [HTTP 200]
+[2025-12-18 22:19:40] [INFO] Sleeping 3.582s before next request
+[2025-12-18 22:19:44] [INFO] GET https://oebp.org/BP237 (attempt 1/3)
+[2025-12-18 22:19:44] [INFO] Saved BP237 -> BP237.html [HTTP 200]
+[2025-12-18 22:19:44] [INFO] Sleeping 5.553s before next request
+[2025-12-18 22:19:50] [INFO] GET https://oebp.org/BP238 (attempt 1/3)
+[2025-12-18 22:19:50] [INFO] Saved BP238 -> BP238.html [HTTP 200]
+[2025-12-18 22:19:50] [INFO] Sleeping 5.550s before next request
+[2025-12-18 22:19:56] [INFO] GET https://oebp.org/BP239 (attempt 1/3)
+[2025-12-18 22:19:56] [INFO] Saved BP239 -> BP239.html [HTTP 200]
+[2025-12-18 22:19:56] [INFO] Sleeping 5.494s before next request
+[2025-12-18 22:20:01] [INFO] GET https://oebp.org/BP240 (attempt 1/3)
+[2025-12-18 22:20:02] [INFO] Saved BP240 -> BP240.html [HTTP 200]
+[2025-12-18 22:20:02] [INFO] Sleeping 2.785s before next request
+[2025-12-18 22:20:04] [INFO] GET https://oebp.org/BP241 (attempt 1/3)
+[2025-12-18 22:20:05] [INFO] Saved BP241 -> BP241.html [HTTP 200]
+[2025-12-18 22:20:05] [INFO] Sleeping 2.178s before next request
+[2025-12-18 22:20:07] [INFO] GET https://oebp.org/BP242 (attempt 1/3)
+[2025-12-18 22:20:07] [INFO] Saved BP242 -> BP242.html [HTTP 200]
+[2025-12-18 22:20:07] [INFO] Sleeping 2.388s before next request
+[2025-12-18 22:20:09] [INFO] GET https://oebp.org/BP243 (attempt 1/3)
+[2025-12-18 22:20:10] [INFO] Saved BP243 -> BP243.html [HTTP 200]
+[2025-12-18 22:20:10] [INFO] Sleeping 5.438s before next request
+[2025-12-18 22:20:15] [INFO] GET https://oebp.org/BP244 (attempt 1/3)
+[2025-12-18 22:20:15] [INFO] Saved BP244 -> BP244.html [HTTP 200]
+[2025-12-18 22:20:15] [INFO] Sleeping 4.675s before next request
+[2025-12-18 22:20:20] [INFO] GET https://oebp.org/BP245 (attempt 1/3)
+[2025-12-18 22:20:20] [INFO] Saved BP245 -> BP245.html [HTTP 200]
+[2025-12-18 22:20:20] [INFO] Sleeping 3.173s before next request
+[2025-12-18 22:20:24] [INFO] GET https://oebp.org/BP246 (attempt 1/3)
+[2025-12-18 22:20:24] [INFO] Saved BP246 -> BP246.html [HTTP 200]
+[2025-12-18 22:20:24] [INFO] Sleeping 3.248s before next request
+[2025-12-18 22:20:27] [INFO] GET https://oebp.org/BP247 (attempt 1/3)
+[2025-12-18 22:20:27] [INFO] Saved BP247 -> BP247.html [HTTP 200]
+[2025-12-18 22:20:27] [INFO] Sleeping 5.840s before next request
+[2025-12-18 22:20:33] [INFO] GET https://oebp.org/BP248 (attempt 1/3)
+[2025-12-18 22:20:33] [INFO] Saved BP248 -> BP248.html [HTTP 200]
+[2025-12-18 22:20:33] [INFO] Sleeping 3.152s before next request
+[2025-12-18 22:20:37] [INFO] GET https://oebp.org/BP249 (attempt 1/3)
+[2025-12-18 22:20:37] [INFO] Saved BP249 -> BP249.html [HTTP 200]
+[2025-12-18 22:20:37] [INFO] Sleeping 2.383s before next request
+[2025-12-18 22:20:39] [INFO] GET https://oebp.org/BP250 (attempt 1/3)
+[2025-12-18 22:20:39] [INFO] Saved BP250 -> BP250.html [HTTP 200]
+[2025-12-18 22:20:39] [INFO] Sleeping 2.046s before next request
+[2025-12-18 22:20:42] [INFO] GET https://oebp.org/BP251 (attempt 1/3)
+[2025-12-18 22:20:42] [INFO] Saved BP251 -> BP251.html [HTTP 200]
+[2025-12-18 22:20:42] [INFO] Sleeping 3.112s before next request
+[2025-12-18 22:20:45] [INFO] GET https://oebp.org/BP252 (attempt 1/3)
+[2025-12-18 22:20:45] [INFO] Saved BP252 -> BP252.html [HTTP 200]
+[2025-12-18 22:20:45] [INFO] Sleeping 2.559s before next request
+[2025-12-18 22:20:48] [INFO] GET https://oebp.org/BP253 (attempt 1/3)
+[2025-12-18 22:20:48] [INFO] Saved BP253 -> BP253.html [HTTP 200]
+[2025-12-18 22:20:48] [INFO] Sleeping 3.429s before next request
+[2025-12-18 22:20:51] [INFO] GET https://oebp.org/BP254 (attempt 1/3)
+[2025-12-18 22:20:52] [INFO] Saved BP254 -> BP254.html [HTTP 200]
+[2025-12-18 22:20:52] [INFO] Sleeping 5.815s before next request
+[2025-12-18 22:20:57] [INFO] GET https://oebp.org/BP255 (attempt 1/3)
+[2025-12-18 22:20:58] [INFO] Saved BP255 -> BP255.html [HTTP 200]
+[2025-12-18 22:20:58] [INFO] Sleeping 3.151s before next request
+[2025-12-18 22:21:01] [INFO] GET https://oebp.org/BP256 (attempt 1/3)
+[2025-12-18 22:21:01] [INFO] Saved BP256 -> BP256.html [HTTP 200]
+[2025-12-18 22:21:01] [INFO] Sleeping 2.655s before next request
+[2025-12-18 22:21:04] [INFO] GET https://oebp.org/BP257 (attempt 1/3)
+[2025-12-18 22:21:04] [INFO] Saved BP257 -> BP257.html [HTTP 200]
+[2025-12-18 22:21:04] [INFO] Sleeping 2.656s before next request
+[2025-12-18 22:21:07] [INFO] GET https://oebp.org/BP258 (attempt 1/3)
+[2025-12-18 22:21:07] [INFO] Saved BP258 -> BP258.html [HTTP 200]
+[2025-12-18 22:21:07] [INFO] Sleeping 2.786s before next request
+[2025-12-18 22:21:10] [INFO] GET https://oebp.org/BP259 (attempt 1/3)
+[2025-12-18 22:21:10] [INFO] Saved BP259 -> BP259.html [HTTP 200]
+[2025-12-18 22:21:10] [INFO] Sleeping 3.474s before next request
+[2025-12-18 22:21:13] [INFO] GET https://oebp.org/BP260 (attempt 1/3)
+[2025-12-18 22:21:14] [INFO] Saved BP260 -> BP260.html [HTTP 200]
+[2025-12-18 22:21:14] [INFO] Sleeping 5.123s before next request
+[2025-12-18 22:21:19] [INFO] GET https://oebp.org/BP261 (attempt 1/3)
+[2025-12-18 22:21:19] [INFO] Saved BP261 -> BP261.html [HTTP 200]
+[2025-12-18 22:21:19] [INFO] Sleeping 5.961s before next request
+[2025-12-18 22:21:25] [INFO] GET https://oebp.org/BP262 (attempt 1/3)
+[2025-12-18 22:21:25] [INFO] Saved BP262 -> BP262.html [HTTP 200]
+[2025-12-18 22:21:25] [INFO] Sleeping 5.594s before next request
+[2025-12-18 22:21:31] [INFO] GET https://oebp.org/BP263 (attempt 1/3)
+[2025-12-18 22:21:31] [INFO] Saved BP263 -> BP263.html [HTTP 200]
+[2025-12-18 22:21:31] [INFO] Sleeping 5.886s before next request
+[2025-12-18 22:21:37] [INFO] GET https://oebp.org/BP264 (attempt 1/3)
+[2025-12-18 22:21:37] [INFO] Saved BP264 -> BP264.html [HTTP 200]
+[2025-12-18 22:21:37] [INFO] Sleeping 5.464s before next request
+[2025-12-18 22:21:43] [INFO] GET https://oebp.org/BP265 (attempt 1/3)
+[2025-12-18 22:21:43] [INFO] Saved BP265 -> BP265.html [HTTP 200]
+[2025-12-18 22:21:43] [INFO] Sleeping 3.798s before next request
+[2025-12-18 22:21:47] [INFO] GET https://oebp.org/BP266 (attempt 1/3)
+[2025-12-18 22:21:47] [INFO] Saved BP266 -> BP266.html [HTTP 200]
+[2025-12-18 22:21:47] [INFO] Sleeping 3.769s before next request
+[2025-12-18 22:21:51] [INFO] GET https://oebp.org/BP267 (attempt 1/3)
+[2025-12-18 22:21:51] [INFO] Saved BP267 -> BP267.html [HTTP 200]
+[2025-12-18 22:21:51] [INFO] Sleeping 2.231s before next request
+[2025-12-18 22:21:53] [INFO] GET https://oebp.org/BP268 (attempt 1/3)
+[2025-12-18 22:21:54] [INFO] Saved BP268 -> BP268.html [HTTP 200]
+[2025-12-18 22:21:54] [INFO] Sleeping 3.849s before next request
+[2025-12-18 22:21:57] [INFO] GET https://oebp.org/BP269 (attempt 1/3)
+[2025-12-18 22:21:58] [INFO] Saved BP269 -> BP269.html [HTTP 200]
+[2025-12-18 22:21:58] [INFO] Sleeping 3.744s before next request
+[2025-12-18 22:22:01] [INFO] GET https://oebp.org/BP270 (attempt 1/3)
+[2025-12-18 22:22:02] [INFO] Saved BP270 -> BP270.html [HTTP 200]
+[2025-12-18 22:22:02] [INFO] Sleeping 3.786s before next request
+[2025-12-18 22:22:05] [INFO] GET https://oebp.org/BP271 (attempt 1/3)
+[2025-12-18 22:22:06] [INFO] Saved BP271 -> BP271.html [HTTP 200]
+[2025-12-18 22:22:06] [INFO] Sleeping 5.119s before next request
+[2025-12-18 22:22:11] [INFO] GET https://oebp.org/BP272 (attempt 1/3)
+[2025-12-18 22:22:11] [INFO] Saved BP272 -> BP272.html [HTTP 200]
+[2025-12-18 22:22:11] [INFO] Sleeping 2.710s before next request
+[2025-12-18 22:22:14] [INFO] GET https://oebp.org/BP273 (attempt 1/3)
+[2025-12-18 22:22:14] [INFO] Saved BP273 -> BP273.html [HTTP 200]
+[2025-12-18 22:22:14] [INFO] Sleeping 3.312s before next request
+[2025-12-18 22:22:17] [INFO] GET https://oebp.org/BP274 (attempt 1/3)
+[2025-12-18 22:22:18] [INFO] Saved BP274 -> BP274.html [HTTP 200]
+[2025-12-18 22:22:18] [INFO] Sleeping 4.972s before next request
+[2025-12-18 22:22:23] [INFO] GET https://oebp.org/BP275 (attempt 1/3)
+[2025-12-18 22:22:23] [INFO] Saved BP275 -> BP275.html [HTTP 200]
+[2025-12-18 22:22:23] [INFO] Sleeping 3.436s before next request
+[2025-12-18 22:22:26] [INFO] GET https://oebp.org/BP276 (attempt 1/3)
+[2025-12-18 22:22:26] [INFO] Saved BP276 -> BP276.html [HTTP 200]
+[2025-12-18 22:22:26] [INFO] Sleeping 3.166s before next request
+[2025-12-18 22:22:30] [INFO] GET https://oebp.org/BP277 (attempt 1/3)
+[2025-12-18 22:22:30] [INFO] Saved BP277 -> BP277.html [HTTP 200]
+[2025-12-18 22:22:30] [INFO] Sleeping 3.852s before next request
+[2025-12-18 22:22:34] [INFO] GET https://oebp.org/BP278 (attempt 1/3)
+[2025-12-18 22:22:34] [INFO] Saved BP278 -> BP278.html [HTTP 200]
+[2025-12-18 22:22:34] [INFO] Sleeping 3.959s before next request
+[2025-12-18 22:22:38] [INFO] GET https://oebp.org/BP279 (attempt 1/3)
+[2025-12-18 22:22:38] [INFO] Saved BP279 -> BP279.html [HTTP 200]
+[2025-12-18 22:22:38] [INFO] Sleeping 2.572s before next request
+[2025-12-18 22:22:41] [INFO] GET https://oebp.org/BP280 (attempt 1/3)
+[2025-12-18 22:22:41] [INFO] Saved BP280 -> BP280.html [HTTP 200]
+[2025-12-18 22:22:41] [INFO] Sleeping 5.997s before next request
+[2025-12-18 22:22:47] [INFO] GET https://oebp.org/BP281 (attempt 1/3)
+[2025-12-18 22:22:47] [INFO] Saved BP281 -> BP281.html [HTTP 200]
+[2025-12-18 22:22:47] [INFO] Sleeping 4.750s before next request
+[2025-12-18 22:22:52] [INFO] GET https://oebp.org/BP282 (attempt 1/3)
+[2025-12-18 22:22:52] [INFO] Saved BP282 -> BP282.html [HTTP 200]
+[2025-12-18 22:22:52] [INFO] Sleeping 3.464s before next request
+[2025-12-18 22:22:56] [INFO] GET https://oebp.org/BP283 (attempt 1/3)
+[2025-12-18 22:22:56] [INFO] Saved BP283 -> BP283.html [HTTP 200]
+[2025-12-18 22:22:56] [INFO] Sleeping 5.335s before next request
+[2025-12-18 22:23:01] [INFO] GET https://oebp.org/BP284 (attempt 1/3)
+[2025-12-18 22:23:02] [INFO] Saved BP284 -> BP284.html [HTTP 200]
+[2025-12-18 22:23:02] [INFO] Sleeping 4.769s before next request
+[2025-12-18 22:23:06] [INFO] GET https://oebp.org/BP285 (attempt 1/3)
+[2025-12-18 22:23:07] [INFO] Saved BP285 -> BP285.html [HTTP 200]
+[2025-12-18 22:23:07] [INFO] Sleeping 3.495s before next request
+[2025-12-18 22:23:10] [INFO] GET https://oebp.org/BP286 (attempt 1/3)
+[2025-12-18 22:23:10] [INFO] Saved BP286 -> BP286.html [HTTP 200]
+[2025-12-18 22:23:10] [INFO] Sleeping 5.819s before next request
+[2025-12-18 22:23:16] [INFO] GET https://oebp.org/BP287 (attempt 1/3)
+[2025-12-18 22:23:16] [INFO] Saved BP287 -> BP287.html [HTTP 200]
+[2025-12-18 22:23:16] [INFO] Sleeping 2.143s before next request
+[2025-12-18 22:23:19] [INFO] GET https://oebp.org/BP288 (attempt 1/3)
+[2025-12-18 22:23:19] [INFO] Saved BP288 -> BP288.html [HTTP 200]
+[2025-12-18 22:23:19] [INFO] Sleeping 5.254s before next request
+[2025-12-18 22:23:24] [INFO] GET https://oebp.org/BP289 (attempt 1/3)
+[2025-12-18 22:23:24] [INFO] Saved BP289 -> BP289.html [HTTP 200]
+[2025-12-18 22:23:24] [INFO] Sleeping 2.749s before next request
+[2025-12-18 22:23:27] [INFO] GET https://oebp.org/BP290 (attempt 1/3)
+[2025-12-18 22:23:27] [INFO] Saved BP290 -> BP290.html [HTTP 200]
+[2025-12-18 22:23:27] [INFO] Sleeping 2.448s before next request
+[2025-12-18 22:23:30] [INFO] GET https://oebp.org/BP291 (attempt 1/3)
+[2025-12-18 22:23:30] [INFO] Saved BP291 -> BP291.html [HTTP 200]
+[2025-12-18 22:23:30] [INFO] Sleeping 4.959s before next request
+[2025-12-18 22:23:35] [INFO] GET https://oebp.org/BP292 (attempt 1/3)
+[2025-12-18 22:23:35] [INFO] Saved BP292 -> BP292.html [HTTP 200]
+[2025-12-18 22:23:35] [INFO] Sleeping 5.294s before next request
