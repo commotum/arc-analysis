@@ -1,0 +1,5 @@
+TRAIN duplicates: 391
+  content_same_diff_train_order: 377
+  content_same_order_insensitive: 14
+TEST duplicates: 6
+  content_same_diff_train_order: 6

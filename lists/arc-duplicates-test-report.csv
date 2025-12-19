@@ -1,0 +1,7 @@
+name,file_a,file_b,bytes_identical,json_equal,train_len_a,train_len_b,train_seq_equal,train_multiset_equal,test_len_a,test_len_b,test_seq_equal,test_multiset_equal,classification
+0934a4d8.json,/home/jake/Developer/arc-analysis/DATA/ARC-1-TEST/0934a4d8.json,/home/jake/Developer/arc-analysis/DATA/ARC-2-TEST/0934a4d8.json,False,False,4,4,False,True,1,1,True,True,content_same_diff_train_order
+136b0064.json,/home/jake/Developer/arc-analysis/DATA/ARC-1-TEST/136b0064.json,/home/jake/Developer/arc-analysis/DATA/ARC-2-TEST/136b0064.json,False,False,3,3,False,True,1,1,True,True,content_same_diff_train_order
+16b78196.json,/home/jake/Developer/arc-analysis/DATA/ARC-1-TEST/16b78196.json,/home/jake/Developer/arc-analysis/DATA/ARC-2-TEST/16b78196.json,False,False,2,2,False,True,1,1,True,True,content_same_diff_train_order
+981571dc.json,/home/jake/Developer/arc-analysis/DATA/ARC-1-TEST/981571dc.json,/home/jake/Developer/arc-analysis/DATA/ARC-2-TEST/981571dc.json,False,False,4,4,False,True,1,1,True,True,content_same_diff_train_order
+aa4ec2a5.json,/home/jake/Developer/arc-analysis/DATA/ARC-1-TEST/aa4ec2a5.json,/home/jake/Developer/arc-analysis/DATA/ARC-2-TEST/aa4ec2a5.json,False,False,3,3,False,True,1,1,True,True,content_same_diff_train_order
+da515329.json,/home/jake/Developer/arc-analysis/DATA/ARC-1-TEST/da515329.json,/home/jake/Developer/arc-analysis/DATA/ARC-2-TEST/da515329.json,False,False,3,3,False,True,1,1,True,True,content_same_diff_train_order
