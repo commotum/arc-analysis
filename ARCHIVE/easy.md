@@ -15,6 +15,6 @@ https://arcprize.org/play?task=f25ffba3
 1. create a new file [int-id]_[hex-id]_solo.py
 2. task json to numpy
 
-cp -a /home/jake/Developer/arc-analysis/ARC-AGI-2/data/training /home/jake/Developer/arc-analysis/DATA/ARC-2-TRAIN
+cp -a /home/jake/Developer/arc-analysis/DATA/ARC-ALL-TRAIN /home/jake/Developer/arc-analysis/DATA/ARC-ALL-COMBINED
 
 /home/jake/Developer/arc-analysis/ARC-AGI-2/data/evaluation
