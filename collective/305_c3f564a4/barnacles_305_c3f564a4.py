@@ -1,9 +1,7 @@
 """
-# [306] c444b776.json
-* detect_grid
-* separate_images
-* find_the_intruder
-* image_repetition
+# [305] c3f564a4.json
+* pattern_expansion
+* image_filling
 """
 
 def p(j):

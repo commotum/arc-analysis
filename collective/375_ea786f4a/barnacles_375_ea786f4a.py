@@ -1,7 +1,8 @@
 """
-# [376] eb281b96.json
-* image_repetition
-* image_reflection
+# [375] ea786f4a.json
+* pattern_modification
+* draw_line_from_point
+* diagonals
 """
 
 def p(j):

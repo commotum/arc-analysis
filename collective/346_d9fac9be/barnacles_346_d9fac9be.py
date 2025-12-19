@@ -1,8 +1,8 @@
 """
-# [347] dae9d2b5.json
-* pattern_juxtaposition
-* separate_images
-* recoloring
+# [346] d9fac9be.json
+* find_the_intruder
+* summarize
+* x_marks_the_spot
 """
 
 from collections import*

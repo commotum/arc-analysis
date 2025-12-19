@@ -1,6 +1,5 @@
 """
-# [012] 0962bcdd.json
-* pattern_expansion
+# [11] 09629e4f.json
 """
 
 def p(j):

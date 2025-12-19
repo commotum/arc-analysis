@@ -1,8 +1,7 @@
 """
-# [271] ae4f1146.json
-* separate_images
-* count_tiles
-* crop
+# [270] ae3edfdc.json
+* bring_patterns_close
+* gravity
 """
 
 def p(M):

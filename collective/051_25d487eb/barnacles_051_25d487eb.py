@@ -1,8 +1,5 @@
 """
-# [052] 25d8a9c8.json
-* detect_hor_lines
-* recoloring
-* remove_noise
+# [51] 25d487eb.json
 """
 
 def p(j):

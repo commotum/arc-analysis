@@ -17,9 +17,19 @@ import re
 from pathlib import Path
 
 
+# Resolve notebook and destination/mapping directories flexibly:
+# - Prefer local 'oh-barnacles.ipynb'; fallback to 'code-golf/oh-barnacles.ipynb'
+# - Prefer 'combined' dir; fallback to 'collective' (matches this repo layout)
 NB_PATH = Path("oh-barnacles.ipynb")
-COMBINED_DIR = Path("combined")
-MATCHES_JSON = COMBINED_DIR / "task_matches.json"
+if not NB_PATH.is_file():
+    alt_nb = Path("code-golf/oh-barnacles.ipynb")
+    NB_PATH = alt_nb if alt_nb.is_file() else NB_PATH
+
+_combined = Path("combined")
+_collective = Path("collective")
+DEST_DIR = _combined if _combined.is_dir() else _collective
+COMBINED_DIR = DEST_DIR  # backwards-compat name used below
+MATCHES_JSON = DEST_DIR / "task_matches.json"
 
 
 def load_sol_to_orig() -> dict[str, str]:
@@ -68,9 +78,14 @@ def extract_commented_writefile_cells(nb: dict) -> list[tuple[int, str]]:
 
 
 def collect_surrounding_markdown(nb: dict, cell_idx: int) -> str:
-    """Collect contiguous markdown blocks immediately preceding and following a code cell."""
+    """Collect contiguous markdown blocks immediately preceding a code cell.
+
+    Only use the markdown that directly precedes the code cell. This avoids
+    accidentally including the next task's header/classification (which often
+    appears in following markdown), preventing off-by-one mixups in docstrings.
+    """
     cells = nb.get("cells", [])
-    # Preceding
+    # Preceding only
     i = cell_idx - 1
     pre: list[str] = []
     while i >= 0 and cells[i].get("cell_type") == "markdown":
@@ -78,19 +93,112 @@ def collect_surrounding_markdown(nb: dict, cell_idx: int) -> str:
         pre.append(text)
         i -= 1
     pre.reverse()
-    # Following
-    j = cell_idx + 1
-    post: list[str] = []
-    while j < len(cells) and cells[j].get("cell_type") == "markdown":
-        text = "".join(cells[j].get("source", []))
-        post.append(text)
-        j += 1
-    doc_parts = []
-    if pre:
-        doc_parts.append("\n\n".join(pre).strip())
-    if post:
-        doc_parts.append("\n\n".join(post).strip())
-    return "\n\n".join(doc_parts)
+    return "\n\n".join(pre).strip()
+
+
+def extract_tag_lines(md: str) -> list[str]:
+    """Extract simple '* tag' lines from markdown text (one per line)."""
+    tags: list[str] = []
+    for line in md.splitlines():
+        m = re.match(r"^\s*\*\s*(.+?)\s*$", line)
+        if m:
+            tags.append(m.group(1).strip())
+    return tags
+
+
+def find_nearby_tags_for_task(nb: dict, cell_idx: int, nnn: str) -> list[str]:
+    """Find concept tags for a task by scanning nearby markdown cells.
+
+    Strategy:
+      - Look within a small window of markdown cells around the code cell.
+      - Identify a header line matching this task number: '# [NNN] <id>.json' with
+        optional '-X' like '# [NNN-R] ...'.
+      - Collect subsequent lines starting with '* ' as tags, possibly spanning
+        the same cell and immediately following markdown cells until a blank line
+        or another header-like line.
+    """
+    cells = nb.get("cells", [])
+    header_re = re.compile(rf"^\s*#\s*\[\s*{re.escape(str(int(nnn)))}(?:-[A-Za-z]+)?\s*\]\s+[0-9a-f]{{8}}\.json\s*$", re.I)
+    tag_re = re.compile(r"^\s*\*\s*(.+?)\s*$")
+
+    # Candidate markdown cells within window
+    start = max(0, cell_idx - 4)
+    end = min(len(cells) - 1, cell_idx + 4)
+    md_indices = [i for i in range(start, end + 1) if cells[i].get("cell_type") == "markdown"]
+
+    best_block = None
+    best_dist = None
+    # Find nearest cell containing matching header
+    for i in md_indices:
+        text = "".join(cells[i].get("source", []))
+        for line in text.splitlines():
+            if header_re.match(line.strip()):
+                dist = abs(cell_idx - i)
+                if best_block is None or dist < best_dist:
+                    best_block = i
+                    best_dist = dist
+                break
+
+    if best_block is None:
+        # Fallback: search the whole notebook for the matching header, choose
+        # the nearest markdown cell containing it; if still none, use preceding tags.
+        md_all = [i for i in range(len(cells)) if cells[i].get("cell_type") == "markdown"]
+        for i in md_all:
+            text = "".join(cells[i].get("source", []))
+            for line in text.splitlines():
+                if header_re.match(line.strip()):
+                    best_block = i
+                    best_dist = abs(cell_idx - i)
+                    break
+            if best_block is not None:
+                break
+        if best_block is None:
+            return extract_tag_lines(collect_surrounding_markdown(nb, cell_idx))
+
+    # Collect tags from the header cell and following markdown cells, until break
+    tags: list[str] = []
+    i = best_block
+    encountered_header = False
+    while i <= end and cells[i].get("cell_type") == "markdown":
+        text = "".join(cells[i].get("source", []))
+        lines = text.splitlines()
+        # On the first block, skip lines before header; on later blocks, read from start
+        j = 0
+        if not encountered_header:
+            for j, line in enumerate(lines):
+                if header_re.match(line.strip()):
+                    encountered_header = True
+                    j += 1
+                    break
+            else:
+                j = len(lines)
+        # Collect tags until a blank line or another header
+        while j < len(lines):
+            line = lines[j].strip()
+            if not line:
+                break
+            if header_re.match(line):
+                break
+            m = tag_re.match(line)
+            if m:
+                tags.append(m.group(1).strip())
+                j += 1
+                continue
+            # Stop at first non-tag content
+            break
+        # Stop if we already collected some tags and current block doesn't continue
+        if tags and (j >= len(lines) or not tag_re.match(lines[j].strip()) ):
+            break
+        i += 1
+
+    # Deduplicate while preserving order
+    seen = set()
+    uniq: list[str] = []
+    for t in tags:
+        if t not in seen:
+            seen.add(t)
+            uniq.append(t)
+    return uniq
 
 
 def extract_classification(md: str, nnn: str) -> tuple[str | None, list[str]]:
@@ -137,8 +245,17 @@ def main() -> None:
             dest_dir = alt if alt.is_dir() else dest_dir
         dest_dir.mkdir(parents=True, exist_ok=True)
 
-        commentary = collect_surrounding_markdown(nb, cell_idx)
-        header = (f'"""\n{commentary}\n"""\n\n' if commentary else '')
+        md_pre = collect_surrounding_markdown(nb, cell_idx)
+        tags = find_nearby_tags_for_task(nb, cell_idx, nnn)
+        # Compose header docstring always starting with the authoritative mapping
+        # '# [NNN] ORIG.json', then optional tags lines from nearby markdown.
+        header_lines = [
+            '"""',
+            f"# [{int(nnn)}] {orig_id}.json",
+        ]
+        header_lines.extend([f"* {t}" for t in tags])
+        header_lines.append('"""')
+        header = "\n".join(header_lines) + "\n\n"
 
         # Compose file content: docstring + code
         content = header + code
@@ -159,24 +276,18 @@ def main() -> None:
             dest_dir = alt if alt.is_dir() else dest_dir
         dest_dir.mkdir(parents=True, exist_ok=True)
 
-        commentary = collect_surrounding_markdown(nb, cell_idx)
-        cid, tags = extract_classification(commentary, nnn)
-        tag_lines = "\n".join(f"- {t}" for t in tags) if tags else "(none)"
-        title = f"Task {nnn} — {orig_id}"
+        md_pre = collect_surrounding_markdown(nb, cell_idx)
+        tags = find_nearby_tags_for_task(nb, cell_idx, nnn)
+        # Minimal docstring with consistent header and optional tags
         doc = [
             '"""',
-            title,
-            "",
-            "Classification",
-            tag_lines,
-            "",
-            "Notebook Commentary",
-            commentary.strip() if commentary else "(none)",
-            "",
-            "No solution code present in oh-barnacles.ipynb for this task.",
+            f"# [{int(nnn)}] {orig_id}.json",
+        ]
+        doc.extend([f"* {t}" for t in tags])
+        doc.extend([
             '"""',
             "",
-        ]
+        ])
         stub = (
             "def p(I):\n"
             "    \"\"\"Barnacles notebook did not include a solution for this task.\n"

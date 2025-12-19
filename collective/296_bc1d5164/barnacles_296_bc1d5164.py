@@ -1,10 +1,9 @@
 """
-# [297] bd4472b8.json
-* detect_wall
-* pattern_expansion
-* ex_nihilo
-* color_guessing
-* color_palette
+# [296] bc1d5164.json
+* pattern_moving
+* pattern_juxtaposition
+* crop
+* pairwise_analogy
 """
 
 def p(j):

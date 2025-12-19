@@ -1,6 +1,8 @@
 """
-# [284] b7249182.json
-* pattern_expansion
+# [283] b6afb2da.json
+* recoloring
+* replace_pattern
+* rectangle_guessing
 """
 
 def f(j,p,A,c,E,k):

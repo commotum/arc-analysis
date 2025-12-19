@@ -1,8 +1,5 @@
 """
-# [080] 39e1d7f9.json
-* detect_grid
-* pattern_repetition
-* grid_coloring
+# [79] 39a8645d.json
 """
 
 def p(g):

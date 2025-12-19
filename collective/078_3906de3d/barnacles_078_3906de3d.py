@@ -1,8 +1,5 @@
 """
-# [079-R] 39a8645d.json
-* count_patterns
-* take_maximum
-* crop
+# [78] 3906de3d.json
 """
 
 def p(j,A=range):

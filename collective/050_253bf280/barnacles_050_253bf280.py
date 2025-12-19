@@ -1,8 +1,5 @@
 """
-# [051] 25d487eb.json
-* draw_line_from_point
-* direction_guessing
-* color_guessing
+# [50] 253bf280.json
 """
 
 def p(j):

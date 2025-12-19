@@ -1,8 +1,6 @@
 """
-# [327] d13f3404.json
-* image_expansion
-* draw_line_from_point
-* diagonals
+# [326] d10ecb37.json
+* crop
 """
 
 p=lambda j:[r[:2]for r in j[:2]]

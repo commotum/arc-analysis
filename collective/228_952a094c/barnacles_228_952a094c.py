@@ -1,10 +1,7 @@
 """
-# [229] 9565186b.json
-* separate_shapes
-* count_tiles
-* recoloring
-* take_maximum
-* associate_color_to_bools
+# [228] 952a094c.json
+* rectangle_guessing
+* inside_out
 """
 
 j=lambda A:[[A[E][c]for E in range(len(A))]for c in range(len(A[0]))]

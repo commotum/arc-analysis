@@ -1,8 +1,9 @@
 """
-# [301] beb8660c.json
-* pattern_moving
+# [300] be94b721.json
+* separate_shapes
 * count_tiles
-* order_numbers
+* take_maximum
+* crop
 """
 
 from collections import*

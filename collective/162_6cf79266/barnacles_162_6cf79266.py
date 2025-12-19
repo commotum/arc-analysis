@@ -1,9 +1,7 @@
 """
-# [163] 6d0160f0.json
-* detect_grid
-* separate_image
-* find_the_intruder
-* pattern_moving
+# [162] 6cf79266.json
+* rectangle_guessing
+* recoloring
 """
 
 def p(j,A=range(18)):

@@ -1,8 +1,10 @@
 """
-# [366] e6721834.json
-* pattern_moving
-* pattern_juxtaposition
+# [365] e50d258f.json
+* separate_images
+* detect_background_color
 * crop
+* count_tiles
+* take_maximum
 """
 
 def p(j):

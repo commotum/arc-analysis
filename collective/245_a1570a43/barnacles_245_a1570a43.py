@@ -1,6 +1,8 @@
 """
-# [246] a2fd1cf0.json
-* connect_the_dots
+# [245] a1570a43.json
+* pattern_moving
+* rectangle_guessing
+* x_marks_the_spot
 """
 
 E=enumerate

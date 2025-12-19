@@ -1,8 +1,7 @@
 """
-# [293] ba97ae07.json
+# [292] ba26e723.json
 * pattern_modification
 * pairwise_analogy
-* rettangle_guessing
 * recoloring
 """
 

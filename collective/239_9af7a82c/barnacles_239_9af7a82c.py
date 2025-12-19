@@ -1,8 +1,9 @@
 """
-# [240] 9d9215db.json
-* pattern_expansion
-* pattern_reflection
-* pattern_rotation
+# [239] 9af7a82c.json
+* separate_images
+* count_tiles
+* summarize
+* order_numbers
 """
 
 from collections import*

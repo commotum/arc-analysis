@@ -1,7 +1,10 @@
 """
-# [135] 5bd6f4ac.json
-* rectangle_guessing
+# [134] 5ad4f10b.json
+* color_guessing
+* remove_noise
+* recoloring
 * crop
+* image_resizing
 """
 
 E=enumerate

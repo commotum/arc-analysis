@@ -1,9 +1,8 @@
 """
-# [191] 7df24a62.json
-* pattern_repetition
-* pattern_rotation
-* pattern_juxtaposition
-* out_of_boundary
+# [190] 7ddcd7ec.json
+* draw_line_from_point
+* direction_guessing
+* diagonals
 """
 
 def p(g):

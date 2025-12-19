@@ -1,7 +1,5 @@
 """
-# [037] 1f876c06.json
-* connect_the_dots
-* diagonals
+# [36] 1f85a75f.json
 """
 
 def p(j,A=len,c=range):

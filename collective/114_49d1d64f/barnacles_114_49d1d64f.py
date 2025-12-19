@@ -1,6 +1,7 @@
 """
-# [115] 4be741c5.json
-* summarize
+# [114] 49d1d64f.json
+* pattern_expansion
+* image_expansion
 """
 
 def p(g):

@@ -1,7 +1,5 @@
 """
-# [050] 253bf280.json
-* connect_the_dots
-* direction_guessing
+# [49] 23b5c85d.json
 """
 
 from collections import*

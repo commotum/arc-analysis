@@ -1,6 +1,9 @@
 """
-# [356] ded97339.json
-* connect_the_dots
+# [355] de1cd16c.json
+* separate_images
+* count_tiles
+* take_maximum
+* summarize
 """
 
 L=len

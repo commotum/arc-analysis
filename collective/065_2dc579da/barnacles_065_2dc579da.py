@@ -1,8 +1,5 @@
 """
-# [066] 2dd70a9a.json
-* draw_line_from_point
-* direction_guessing
-* maze
+# [65] 2dc579da.json
 """
 
 def p(j):

@@ -1,9 +1,7 @@
 """
-# [330] d2abd087.json
-* separate_shapes
-* count_tiles
-* associate_colors_to_numbers
-* recoloring
+# [329] d23f8c26.json
+* crop
+* image_expansion
 """
 
 def p(j):

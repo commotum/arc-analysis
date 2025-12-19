@@ -1,7 +1,5 @@
 """
-# [038] 1fad071e.json
-* count_patterns
-* associate_images_to_numbers
+# [37] 1f876c06.json
 """
 
 def p(j,A=range):

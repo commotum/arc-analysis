@@ -1,8 +1,7 @@
 """
-# [312] c9f8e694.json
-* recoloring
-* pattern_repetition
-* color_palette
+# [311] c9e6f938.json
+* image_repetition
+* image_reflection
 """
 
 p=lambda j:[R+R[::-1]for R in j]

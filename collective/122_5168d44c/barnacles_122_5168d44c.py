@@ -1,7 +1,9 @@
 """
-# [123] 539a4f51.json
-* pattern_expansion
-* image_expansion
+# [122] 5168d44c.json
+* direction_guessing
+* recoloring
+* contouring
+* pattern_moving
 """
 
 def p(g,L=len,R=range):

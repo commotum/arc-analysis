@@ -1,8 +1,5 @@
 """
-# [009] 06df4c85.json
-* detect_grid
-* connect_the_dots
-* grid_coloring
+# [8] 05f2a901.json
 """
 
 def p(j,A=enumerate):

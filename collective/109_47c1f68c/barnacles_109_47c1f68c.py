@@ -1,8 +1,12 @@
 """
-# [110] 484b58aa.json
-* image_filling
-* pattern_expansion
-* pattern_repetition
+# [109] 47c1f68c.json
+* detect_grid
+* find_the_intruder
+* crop
+* recolor
+* color_guessing
+* image_repetition
+* image_reflection
 """
 
 R=range

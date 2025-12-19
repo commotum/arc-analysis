@@ -1,9 +1,7 @@
 """
-# [197] 82819916.json
-* pattern_repetition
-* color_guessing
-* draw_line_from_point
-* associate_colors_to_colors
+# [196] 810b9b61.json
+* recoloring
+* detect_closed_curves
 """
 
 def p(j):

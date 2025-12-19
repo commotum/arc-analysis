@@ -1,8 +1,7 @@
 """
-# [336] d4f3cd78.json
-* rectangle_guessing
-* recoloring
-* draw_line_from_point
+# [335] d4a91cb9.json
+* connect_the_dots
+* direction_guessing
 """
 
 def p(j,A=range):

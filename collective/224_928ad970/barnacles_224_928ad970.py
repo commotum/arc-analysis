@@ -1,8 +1,8 @@
 """
-# [225] 93b581b8.json
-* pattern_expansion
+# [224] 928ad970.json
+* rectangle_guessing
 * color_guessing
-* out_of_boundary
+* draw_rectangle
 """
 
 def p(g,L=len,R=range,M=max,N=min):

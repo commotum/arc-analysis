@@ -1,9 +1,7 @@
 """
-# [355] de1cd16c.json
-* separate_images
-* count_tiles
-* take_maximum
-* summarize
+# [354] ddf7fa4f.json
+* color_palette
+* recoloring
 """
 
 def p(j):

@@ -1,11 +1,7 @@
 """
-# [314] cbded52d.json
-* detect_grid
-* separate_images
-* pattern_modification
-* pattern_repetition
-* pattern_juxtaposition
-* connect_the_dots
+# [313] caa06a1f.json
+* pattern_expansion
+* image_filling
 """
 
 def p(g,r=range,l=len):

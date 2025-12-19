@@ -1,6 +1,7 @@
 """
-# [316] cdecee7f.json
-* summarize
+# [315] cce03e0d.json
+* image_repetition
+* image_expansion
 * pairwise_analogy
 """
 

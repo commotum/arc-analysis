@@ -1,9 +1,5 @@
 """
-# [003] 017c7c7b.json
-* recoloring
-* pattern_expansion
-* pattern_repetition
-* image_expansion
+# [2] 00d62c1b.json
 """
 
 def p(j):

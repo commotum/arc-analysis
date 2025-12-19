@@ -1,8 +1,10 @@
 """
-# [205] 8731374e.json
-* rectangle_guessing
-* crop
-* draw_line_from_point
+# [204] 868de0fa.json
+* loop_filling
+* color_guessing
+* measure_area
+* even_or_odd
+* associate_colors_to_bools
 """
 
 R=range

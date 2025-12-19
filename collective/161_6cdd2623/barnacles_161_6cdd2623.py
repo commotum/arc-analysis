@@ -1,7 +1,8 @@
 """
-# [162] 6cf79266.json
-* rectangle_guessing
-* recoloring
+# [161] 6cdd2623.json
+* connect_the_dots
+* find_the_intruder
+* remove_noise
 """
 
 def p(g,E=enumerate,R=range,L=len):

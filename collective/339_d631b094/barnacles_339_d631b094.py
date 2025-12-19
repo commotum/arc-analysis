@@ -1,10 +1,8 @@
 """
-# [340] d687bc17.json
-* bring_patterns_close
-* gravity
-* direction_guessing
-* find_the_intruder
-* remove_intruders
+# [339] d631b094.json
+* count_tiles
+* dominant_color
+* summarize
 """
 
 p=lambda j:[[x for x in sum(j,[])if x]]

@@ -1,7 +1,5 @@
 """
-# [086] 3befdf3e.json
-* take_negative
-* pattern_expansion
+# [85] 3bdb4ada.json
 """
 
 def p(g,V=range):

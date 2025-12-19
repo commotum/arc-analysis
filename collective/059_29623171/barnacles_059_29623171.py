@@ -1,7 +1,5 @@
 """
-# [060] 29c11459.json
-* draw_line_from_point
-* count_tiles
+# [59] 29623171.json
 """
 
 def p(j,A=enumerate,c=range(11)):

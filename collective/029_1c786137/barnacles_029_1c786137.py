@@ -1,7 +1,5 @@
 """
-# [030] 1caeab9d.json
-* pattern_moving
-* pattern_alignment
+# [29] 1c786137.json
 """
 
 def p(g,L=len,E=enumerate):

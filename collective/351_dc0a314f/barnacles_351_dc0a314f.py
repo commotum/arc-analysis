@@ -1,8 +1,7 @@
 """
-# [352] dc1df850.json
-* contouring
-* pattern_expansion
-* out_of_boundary
+# [351] dc0a314f.json
+* pattern_completion
+* crop
 """
 
 def p(g,L=len,R=range):

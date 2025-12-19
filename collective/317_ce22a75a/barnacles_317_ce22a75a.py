@@ -1,9 +1,6 @@
 """
-# [318] ce4f8723.json
-* detect_wall
-* separate_images
-* take_complement
-* take_intersection
+# [317] ce22a75a.json
+* replace_pattern
 """
 
 def p(j,A=range):

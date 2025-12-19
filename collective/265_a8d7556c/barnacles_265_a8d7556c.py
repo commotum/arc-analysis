@@ -1,7 +1,7 @@
 """
-# [266] a9f96cdd.json
-* replace_pattern
-* out_of_boundary
+# [265] a8d7556c.json
+* recoloring
+* rectangle_guessing
 """
 
 def p(g,L=len,R=range):

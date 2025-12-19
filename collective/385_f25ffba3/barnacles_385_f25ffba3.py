@@ -1,9 +1,7 @@
 """
-# [386] f2829549.json
-* detect_wall
-* separate_images
-* take_complement
-* pattern_intersection
+# [385] f25ffba3.json
+* pattern_repetition
+* pattern_reflection
 """
 
 def p(j,A=enumerate):

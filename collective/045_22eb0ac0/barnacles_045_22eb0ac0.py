@@ -1,8 +1,5 @@
 """
-# [046] 234bbc79.json
-* recoloring
-* bring_patterns_close
-* crop
+# [45] 22eb0ac0.json
 """
 
 def p(j):

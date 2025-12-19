@@ -1,7 +1,5 @@
 """
-# [048] 239be575.json
-* detect_connectedness
-* associate_images_to_bools
+# [47] 23581191.json
 """
 
 def p(j):

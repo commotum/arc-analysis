@@ -1,8 +1,5 @@
 """
-# [063] 2bee17df.json
-* draw_line_from_border
-* count_tiles
-* take_maximum
+# [62] 2bcee788.json
 """
 
 L=len

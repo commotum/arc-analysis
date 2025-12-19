@@ -1,7 +1,9 @@
 """
-# [237] 99fa7670.json
-* draw_line_from_point
-* pattern_expansion
+# [236] 99b1bc43.json
+* take_complement
+* detect_wall
+* separate_images
+* pattern_intersection
 """
 
 def p(j,A=range(4)):

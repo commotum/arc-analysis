@@ -1,6 +1,9 @@
 """
-# [251] a5313dff.json
-* loop_filling
+# [250] a48eeaf7.json
+* pattern_moving
+* bring_patterns_close
+* gravity
+* direction_guessing
 """
 
 from itertools import *

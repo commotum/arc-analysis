@@ -1,9 +1,7 @@
 """
-# [304] c3e719e8.json
-* image_repetition
-* image_expansion
-* count_different_colors
-* take_maximum
+# [303] c1d99e64.json
+* draw_line_from_border
+* detect_grid
 """
 
 def p(j,A=range):

@@ -1,7 +1,9 @@
 """
-# [370] e8dc4411.json
-* pattern_expansion
-* direction_guessing
+# [369] e8593010.json
+* holes
+* count_tiles
+* loop_filling
+* associate_colors_to_numbers
 """
 
 def p(j):

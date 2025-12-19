@@ -1,9 +1,5 @@
 """
-# [010] 08ed6ac7.json
-* measure_length
-* order_numbers
-* associate_colors_to_ranks
-* recoloring
+# [9] 06df4c85.json
 """
 
 def p(j,A=range,c=len):

@@ -1,7 +1,7 @@
 """
-# [177] 7468f01a.json
-* crop
-* image_reflection
+# [176] 7447852a.json
+* pattern_expansion
+* pairwise_analogy
 """
 
 def p(j):

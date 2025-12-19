@@ -1,7 +1,9 @@
 """
-# [305] c3f564a4.json
-* pattern_expansion
-* image_filling
+# [304] c3e719e8.json
+* image_repetition
+* image_expansion
+* count_different_colors
+* take_maximum
 """
 
 def p(j,A=range(9),c=range(3)):

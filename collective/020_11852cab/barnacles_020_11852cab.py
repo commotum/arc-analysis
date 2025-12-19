@@ -1,11 +1,5 @@
 """
-# [021] 1190e5a7.json
-* detect_grid
-* count_hor_lines
-* count_ver_lines
-* detect_background_color
-* color_guessing
-* create_image_from_info
+# [20] 11852cab.json
 """
 
 def p(g,H=enumerate):

@@ -1,7 +1,8 @@
 """
-# [359] e26a3af2.json
-* remove_noise
-* separate_images
+# [358] e21d9049.json
+* pattern_expansion
+* draw_line_from_point
+* color_palette
 """
 
 R=range

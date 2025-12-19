@@ -1,7 +1,10 @@
 """
-# [186] 794b24be.json
-* count_tiles
-* associate_images_to_numbers
+# [185] 7837ac64.json
+* detect_grid
+* color_guessing
+* grid_coloring
+* crop
+* extrapolate_image_from_grid
 """
 
 def p(g,L=len,R=range):

@@ -1,8 +1,5 @@
 """
-# [091] 3f7978a0.json
-* crop
-* rectangle_guessing
-* find_the_intruder
+# [90] 3eda0437.json
 """
 
 def p(g,L=len,R=range):

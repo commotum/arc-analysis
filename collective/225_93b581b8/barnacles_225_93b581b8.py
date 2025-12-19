@@ -1,8 +1,8 @@
 """
-# [226] 941d9a10.json
-* detect_grid
-* loop_filling
-* pairwise_analogy
+# [225] 93b581b8.json
+* pattern_expansion
+* color_guessing
+* out_of_boundary
 """
 
 def p(g,L=len,R=range):

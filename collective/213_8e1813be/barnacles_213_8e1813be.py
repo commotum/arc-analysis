@@ -1,9 +1,9 @@
 """
-# [214] 8e5a5113.json
-* detect_wall
-* separate_images
-* image_repetition
-* image_rotation
+# [213] 8e1813be.json
+* recoloring
+* color_guessing
+* direction_guesingcrop
+* image_within_image
 """
 
 def Z(j,A):return len(set([J[A]for J in j]))

@@ -1,9 +1,10 @@
 """
-# [199] 834ec97d.json
-* draw_line_from_border
-* pattern_repetition
-* spacing
-* measure_distance_from_side
+# [198] 83302e8f.json
+* detect_grid
+* detect_closed_curves
+* rectangle_guessing
+* associate_colors_to_bools
+* loop_filling
 """
 
 L=len

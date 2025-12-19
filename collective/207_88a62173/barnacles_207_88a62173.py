@@ -1,8 +1,9 @@
 """
-# [208-R] 890034e9.json
-* pattern_repetition
-* rectangle_guessing
-* contouring
+# [207] 88a62173.json
+* detect_grid
+* separate_images
+* find_the_intruder
+* crop
 """
 
 def p(j):

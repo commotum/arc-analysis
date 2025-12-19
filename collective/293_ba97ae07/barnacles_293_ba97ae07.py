@@ -1,7 +1,9 @@
 """
-# [294] bb43febb.json
-* loop_filling
+# [293] ba97ae07.json
+* pattern_modification
+* pairwise_analogy
 * rettangle_guessing
+* recoloring
 """
 
 j=lambda A:[A[0]]*len(A)if A[0]else A

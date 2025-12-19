@@ -1,8 +1,7 @@
 """
-# [168] 6e19193c.json
-* draw_line_from_point
-* direction_guessing
-* diagonals
+# [167] 6e02f1e3.json
+* count_different_colors
+* associate_images_to_numbers
 """
 
 p=lambda j:[[[5,5,5],[0,0,0],[0,0,0]],[[5,0,0],[0,5,0],[0,0,5]],[[0,0,5],[0,5,0],[5,0,0]]][len(set(v for r in j for v in r))-1]

@@ -1,8 +1,7 @@
 """
-# [259] a740d043.json
-* crop
-* detect_background_color
-* recoloring
+# [258] a699fb00.json
+* pattern_expansion
+* connect_the_dots
 """
 
 def p(j):

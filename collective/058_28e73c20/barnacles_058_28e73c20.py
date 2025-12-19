@@ -1,10 +1,5 @@
 """
-# [059] 29623171.json
-* detect_grid
-* separate_images
-* count_tiles
-* take_maximum
-* grid_coloring
+# [58] 28e73c20.json
 """
 
 def p(j):

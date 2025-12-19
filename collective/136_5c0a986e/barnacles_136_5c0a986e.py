@@ -1,7 +1,8 @@
 """
-# [137] 5c2c9af4.json
-* rectangle_guessing
-* pattern_expansion
+# [136] 5c0a986e.json
+* draw_line_from_point
+* diagonals
+* direction_guessing
 """
 
 def p(j):

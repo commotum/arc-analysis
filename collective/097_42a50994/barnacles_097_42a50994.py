@@ -1,7 +1,5 @@
 """
-# [098] 4347f46a.json
-* loop_filling
-* color_guessing
+# [97] 42a50994.json
 """
 
 j=len

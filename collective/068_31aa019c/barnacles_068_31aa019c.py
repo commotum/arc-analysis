@@ -1,7 +1,5 @@
 """
-# [069] 321b1fc6.json
-* pattern_repetition
-* pattern_juxtaposition
+# [68] 31aa019c.json
 """
 
 def p(j):

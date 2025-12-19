@@ -1,6 +1,7 @@
 """
-# [317] ce22a75a.json
-* replace_pattern
+# [316] cdecee7f.json
+* summarize
+* pairwise_analogy
 """
 
 def p(j):

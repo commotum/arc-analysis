@@ -1,9 +1,10 @@
 """
-# [202] 855e0971.json
-* draw_line_from_point
-* direction_guessing
-* separate_images
-* holes
+# [201] 846bdb03.json
+* pattern_moving
+* pattern_reflection
+* crop
+* color_matching
+* x_marks_the_spot
 """
 
 def p(j):

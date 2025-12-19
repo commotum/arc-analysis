@@ -1,8 +1,5 @@
 """
-# [065] 2dc579da.json
-* detect_grid
-* find_the_intruder
-* crop
+# [64] 2c608aff.json
 """
 
 L=len

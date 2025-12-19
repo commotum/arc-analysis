@@ -1,7 +1,9 @@
 """
-# [184] 780d0b14.json
+# [183] 77fdfe62.json
+* recoloring
+* color_guessing
 * detect_grid
-* summarize
+* crop
 """
 
 def p(j):

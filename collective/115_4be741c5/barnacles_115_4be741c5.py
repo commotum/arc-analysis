@@ -1,7 +1,6 @@
 """
-# [116] 4c4377d9.json
-* image_repetition
-* image_reflection
+# [115] 4be741c5.json
+* summarize
 """
 
 def p(j):

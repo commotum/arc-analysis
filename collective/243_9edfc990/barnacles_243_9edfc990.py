@@ -1,8 +1,7 @@
 """
-# [244] 9f236235.json
-* detect_grid
-* summarize
-* image_reflection
+# [243] 9edfc990.json
+* background_filling
+* holes
 """
 
 def p(g,L=len,R=range):

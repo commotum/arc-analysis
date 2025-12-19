@@ -1,7 +1,5 @@
 """
-# [040] 2204b7a8.json
-* proximity_guessing
-* recoloring
+# [39] 2013d3e2.json
 """
 
 j=len

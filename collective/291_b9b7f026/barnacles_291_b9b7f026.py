@@ -1,8 +1,7 @@
 """
-# [292] ba26e723.json
-* pattern_modification
-* pairwise_analogy
-* recoloring
+# [291] b9b7f026.json
+* find_the_intruder
+* summarize
 """
 
 def p(g,L=len,R=range):

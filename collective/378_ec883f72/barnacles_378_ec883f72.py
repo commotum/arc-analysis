@@ -1,7 +1,8 @@
 """
-# [379-R] ecdecbb3.json
-* pattern_modification
+# [378] ec883f72.json
+* pattern_expansion
 * draw_line_from_point
+* diagonals
 """
 
 def f(j,A,c,E,k):

@@ -1,7 +1,5 @@
 """
-# [070] 32597951.json
-* find_the_intruder
-* recoloring
+# [69] 321b1fc6.json
 """
 
 def p(g,E=enumerate):

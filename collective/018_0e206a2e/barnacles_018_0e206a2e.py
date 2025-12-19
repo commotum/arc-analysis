@@ -1,7 +1,5 @@
 """
-# [019] 10fcaaa3.json
-* pattern_expansion
-* image_repetition
+# [18] 0e206a2e.json
 """
 
 def T(V,R):U=list(zip(*V));x=int((min(U[1])+max(U[1]))/2);y=int((min(U[2])+max(U[2]))/2);V=list(zip(*[((u,-c+y+x,r-x+y),(u,c-y+x,-r+x+y))if R else((u,2*x-r,c),(u,r,2*y-c))for u,r,c in V]));return V

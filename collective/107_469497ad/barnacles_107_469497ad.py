@@ -1,7 +1,8 @@
 """
-# [108] 46f33fce.json
-* pattern_resizing
+# [107] 469497ad.json
 * image_resizing
+* draw_line_from_point
+* diagonals
 """
 
 def p(j,u=range):

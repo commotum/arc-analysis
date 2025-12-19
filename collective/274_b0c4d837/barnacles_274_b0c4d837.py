@@ -1,10 +1,7 @@
 """
-# [275] b190f7f5.json
-* separate_images
-* image_expasion
-* color_palette
-* image_resizing
-* replace_pattern
+# [274] b0c4d837.json
+* measure_length
+* associate_images_to_numbers
 """
 
 j=lambda A,c:sum(sum(i==c for i in r)for r in A)

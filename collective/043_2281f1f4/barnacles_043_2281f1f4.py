@@ -1,9 +1,5 @@
 """
-# [044] 228f6490.json
-* pattern_moving
-* loop_filling
-* shape_guessing
-* x_marks_the_spot
+# [43] 2281f1f4.json
 """
 
 def p(j,A=enumerate):

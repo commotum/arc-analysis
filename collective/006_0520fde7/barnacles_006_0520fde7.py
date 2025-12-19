@@ -1,8 +1,5 @@
 """
-# [007] 05269061.json
-* image_filling
-* pattern_expansion
-* diagonals
+# [6] 0520fde7.json
 """
 
 p=lambda j:[[a and b and 2 for a,b in zip(r[:3],r[4:7])]for r in j[:3]]

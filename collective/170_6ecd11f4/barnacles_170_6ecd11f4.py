@@ -1,7 +1,9 @@
 """
-# [171] 6f8cd79b.json
-* ex_nihilo
-* contouring
+# [170] 6ecd11f4.json
+* color_palette
+* recoloring
+* pattern_resizing
+* crop
 """
 
 E=enumerate

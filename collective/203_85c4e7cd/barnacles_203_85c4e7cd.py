@@ -1,10 +1,8 @@
 """
-# [204-R] 868de0fa.json
-* loop_filling
+# [203] 85c4e7cd.json
 * color_guessing
-* measure_area
-* even_or_odd
-* associate_colors_to_bools
+* recoloring
+* color_permutation
 """
 
 def p(g,L=len,R=range):

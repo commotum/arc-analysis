@@ -1,9 +1,6 @@
 """
-# [250] a48eeaf7.json
-* pattern_moving
-* bring_patterns_close
-* gravity
-* direction_guessing
+# [249] a416b8f3.json
+* image_repetition
 """
 
 p=lambda j:[E*2for E in j]

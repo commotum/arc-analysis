@@ -1,7 +1,5 @@
 """
-# [015] 0ca9ddb6.json
-* pattern_expansion
-* associate_patterns_to_colors
+# [14] 0b148d64.json
 """
 
 from collections import*

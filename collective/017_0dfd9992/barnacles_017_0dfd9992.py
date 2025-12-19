@@ -1,10 +1,5 @@
 """
-# [018] 0e206a2e.json
-* associate_patterns_to_patterns
-* pattern_repetition
-* pattern_rotation
-* pattern_reflection
-* pattern_juxtaposition
+# [17] 0dfd9992.json
 """
 
 def p(j,u=enumerate):

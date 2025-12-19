@@ -1,9 +1,7 @@
 """
-# [296] bc1d5164.json
-* pattern_moving
-* pattern_juxtaposition
-* crop
-* pairwise_analogy
+# [295] bbc9ae5d.json
+* pattern_expansion
+* image_expansion
 """
 
 def p(g,L=len,R=range):

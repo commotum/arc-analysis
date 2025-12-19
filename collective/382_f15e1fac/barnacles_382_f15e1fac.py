@@ -1,7 +1,9 @@
 """
-# [383-R] f1cefba8.json
+# [382] f15e1fac.json
 * draw_line_from_point
-* pattern_modification
+* gravity
+* obstacles
+* direction_guessing
 """
 
 R=range

@@ -1,10 +1,7 @@
 """
-# [242] 9ecd008a.json
-* image_filling
-* pattern_expansion
-* pattern_reflection
-* pattern_rotation
-* crop
+# [241] 9dfd6313.json
+* image_reflection
+* diagonal_symmetry
 """
 
 p=lambda j:[*map(list,zip(*j))]

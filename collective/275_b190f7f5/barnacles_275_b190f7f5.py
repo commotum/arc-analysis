@@ -1,7 +1,10 @@
 """
-# [276] b1948b0a.json
-* recoloring
-* associate_colors_to_colors
+# [275] b190f7f5.json
+* separate_images
+* image_expasion
+* color_palette
+* image_resizing
+* replace_pattern
 """
 
 def p(j):

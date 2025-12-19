@@ -1,9 +1,10 @@
 """
-# [146] 662c240a.json
-* separate_images
-* detect_symmetry
-* find_the_intruder
-* crop
+# [145] 6455b5f5.json
+* measure_area
+* take_maximum
+* take_minimum
+* loop_filling
+* associate_colors_to_ranks
 """
 
 def p(j):

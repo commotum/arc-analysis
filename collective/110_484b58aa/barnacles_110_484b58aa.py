@@ -1,7 +1,8 @@
 """
-# [111] 48d8fb45.json
-* find_the_intruder
-* crop
+# [110] 484b58aa.json
+* image_filling
+* pattern_expansion
+* pattern_repetition
 """
 
 def p(j,u=enumerate):

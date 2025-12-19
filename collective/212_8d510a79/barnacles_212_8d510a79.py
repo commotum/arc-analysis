@@ -1,9 +1,9 @@
 """
-# [213] 8e1813be.json
-* recoloring
-* color_guessing
-* direction_guesingcrop
-* image_within_image
+# [212] 8d510a79.json
+* draw_line_from_point
+* detect_wall
+* direction_guessing
+* associate_colors_to_bools
 """
 
 def p(g,L=len,R=range):

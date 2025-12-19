@@ -1,7 +1,7 @@
 """
-# [103] 44f52bb0.json
-* detect_symmetry
-* associate_images_to_bools
+# [102] 44d8ac46.json
+* loop_filling
+* rectangle_guessing
 """
 
 R=range

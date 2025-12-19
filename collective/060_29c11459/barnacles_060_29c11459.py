@@ -1,9 +1,5 @@
 """
-# [061] 29ec7d0e.json
-* image_filling
-* pattern_expansion
-* detect_grid
-* pattern_repetition
+# [60] 29c11459.json
 """
 
 def p(j):

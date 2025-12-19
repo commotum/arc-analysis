@@ -1,10 +1,7 @@
 """
-# [189] 7c008303.json
-* color_palette
-* detect_grid
-* recoloring
-* color_guessing
+# [188] 7b7f7511.json
 * separate_images
+* detect_repetition
 * crop
 """
 

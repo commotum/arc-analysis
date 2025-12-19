@@ -1,8 +1,5 @@
 """
-# [056] 27a28665.json
-* associate_colors_to_patterns
-* take_negative
-* associate_images_to_patterns
+# [55] 272f95fa.json
 """
 
 def p(j,A=range):

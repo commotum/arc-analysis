@@ -1,10 +1,8 @@
 """
-# [272] aedd82e4.json
-* recoloring
-* separate_shapes
+# [271] ae4f1146.json
+* separate_images
 * count_tiles
-* take_minimum
-* associate_colors_to_bools
+* crop
 """
 
 def p(g,L=len,R=range):

@@ -1,8 +1,9 @@
 """
-# [147] 67385a82.json
-* recoloring
-* measure_area
-* associate_colors_to_bools
+# [146] 662c240a.json
+* separate_images
+* detect_symmetry
+* find_the_intruder
+* crop
 """
 
 p=lambda g,R=range:[[[g[k+i][j]for j in R(3)]for i in R(3)]for k in R(0,9,3)if[[g[k+i][j]for j in R(3)]for i in R(3)]!=[[g[k+j][i]for j in R(3)]for i in R(3)]][0]

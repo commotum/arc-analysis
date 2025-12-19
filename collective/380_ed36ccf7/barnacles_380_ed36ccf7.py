@@ -1,8 +1,6 @@
 """
-# [381] ef135b50.json
-* draw_line_from_point
-* bridges
-* connect_the_dots
+# [380] ed36ccf7.json
+* image_rotation
 """
 
 p=lambda j:[*map(list,zip(*j))][::-1]

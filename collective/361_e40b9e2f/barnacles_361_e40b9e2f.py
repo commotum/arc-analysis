@@ -1,9 +1,8 @@
 """
-# [362] e48d4e1a.json
-* count_tiles
-* pattern_moving
-* detect_grid
-* out_of_boundary
+# [361] e40b9e2f.json
+* pattern_expansion
+* pattern_reflection
+* pattern_rotation
 """
 
 j=range

@@ -1,8 +1,8 @@
 """
-# [321] cf98881b.json
-* detect_wall
-* separate_images
-* pattern_juxtaposition
+# [320] ce9e57f2.json
+* recoloring
+* count_tiles
+* take_half
 """
 
 def p(j,A=range):

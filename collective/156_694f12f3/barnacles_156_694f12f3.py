@@ -1,8 +1,9 @@
 """
-# [157] 6a1e5592.json
-* pattern_moving
-* jigsaw
-* recoloring
+# [156] 694f12f3.json
+* rectangle_guessing
+* loop_filling
+* measure_area
+* associate_colors_to_ranks
 """
 
 R=range

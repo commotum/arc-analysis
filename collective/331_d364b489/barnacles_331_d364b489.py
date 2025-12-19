@@ -1,8 +1,6 @@
 """
-# [332] d406998b.json
-* recoloring
-* one_yes_one_no
-* cylindrical
+# [331] d364b489.json
+* pattern_expansion
 """
 
 def p(j,A=enumerate):

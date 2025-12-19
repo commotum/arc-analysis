@@ -1,9 +1,5 @@
 """
-# [076] 36d67576.json
-* pattern_repetition
-* pattern_juxtaposition
-* pattern_reflection
-* pattern_rotation
+# [75] 363442ee.json
 """
 
 def p(j):

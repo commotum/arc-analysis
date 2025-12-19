@@ -1,7 +1,7 @@
 """
-# [179] 74dd1130.json
-* image_reflection
-* diagonal_symmetry
+# [178] 746b3537.json
+* crop
+* direction_guessing
 """
 
 def p(j):

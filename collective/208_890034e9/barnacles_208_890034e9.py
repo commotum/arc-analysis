@@ -1,10 +1,8 @@
 """
-# [209] 8a004b2b.json
+# [208] 890034e9.json
 * pattern_repetition
-* pattern_resizing
-* pattern_juxtaposition
 * rectangle_guessing
-* crop
+* contouring
 """
 
 def p(g,L=len,R=range):

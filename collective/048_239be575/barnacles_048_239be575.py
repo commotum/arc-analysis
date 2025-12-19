@@ -1,8 +1,5 @@
 """
-# [049] 23b5c85d.json
-* measure_area
-* take_minimum
-* crop
+# [48] 239be575.json
 """
 
 def f(j,A,c):

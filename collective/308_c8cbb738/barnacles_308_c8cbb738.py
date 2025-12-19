@@ -1,7 +1,8 @@
 """
-# [309] c8f0f002.json
-* recoloring
-* associate_colors_to_colors
+# [308] c8cbb738.json
+* pattern_moving
+* jigsaw
+* crop
 """
 
 L=len

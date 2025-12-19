@@ -1,7 +1,5 @@
 """
-# [035] 1f642eb9.json
-* image_within_image
-* projection_unto_rectangle
+# [34] 1f0c79e5.json
 """
 
 R=range

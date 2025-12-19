@@ -1,8 +1,8 @@
 """
-# [260] a78176bb.json
-* draw_parallel_line
-* direction_guessing
-* remove_intruders
+# [259] a740d043.json
+* crop
+* detect_background_color
+* recoloring
 """
 
 def p(j,A=range):

@@ -1,8 +1,8 @@
 """
-# [339] d631b094.json
-* count_tiles
-* dominant_color
-* summarize
+# [338] d5d6de2d.json
+* loop_filling
+* replace_pattern
+* remove_intruders
 """
 
 def p(j):

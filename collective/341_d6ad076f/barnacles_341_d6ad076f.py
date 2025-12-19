@@ -1,8 +1,8 @@
 """
-# [342] d89b689b.json
-* pattern_juxtaposition
-* summarize
-* direction_guessing
+# [341] d6ad076f.json
+* bridges
+* connect_the_dots
+* draw_line_from_point
 """
 
 R=range

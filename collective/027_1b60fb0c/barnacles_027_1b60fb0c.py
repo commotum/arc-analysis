@@ -1,6 +1,5 @@
 """
-# [028] 1bfc4729.json
-* pattern_expansion
+# [27] 1b60fb0c.json
 """
 
 L=len

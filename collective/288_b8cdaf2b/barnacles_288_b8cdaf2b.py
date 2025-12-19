@@ -5,7 +5,7 @@ Classification
 (none)
 
 Notebook Commentary
-# [289] b91ae062.json
+# [288] b8cdaf2b.json
 * image_resizing
 * size_guessing
 * count_different_colors

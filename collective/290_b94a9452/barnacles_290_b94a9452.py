@@ -1,7 +1,7 @@
 """
-# [291] b9b7f026.json
-* find_the_intruder
-* summarize
+# [290] b94a9452.json
+* crop
+* take_negative
 """
 
 def p(j):

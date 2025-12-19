@@ -1,8 +1,5 @@
 """
-# [068] 31aa019c.json
-* find_the_intruder
-* remove_noise
-* contouring
+# [67] 2dee498d.json
 """
 
 p=lambda j:[R[:int(len(j[0])/3)]for R in j]

@@ -1,8 +1,8 @@
 """
-# [169] 6e82a1ae.json
-* recoloring
-* count_tiles
-* associate_colors_to_numbers
+# [168] 6e19193c.json
+* draw_line_from_point
+* direction_guessing
+* diagonals
 """
 
 R=range

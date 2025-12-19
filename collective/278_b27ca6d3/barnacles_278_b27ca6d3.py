@@ -1,8 +1,8 @@
 """
-# [279] b2862040.json
-* recoloring
-* detect_closed_curves
-* associate_colors_to_bools
+# [278] b27ca6d3.json
+* find_the_intruder
+* count_tiles
+* contouring
 """
 
 j=lambda A:[[A[c][E]for c in range(len(A))]for E in range(len(A[0]))]

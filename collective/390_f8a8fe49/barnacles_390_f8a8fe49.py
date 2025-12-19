@@ -1,11 +1,7 @@
 """
-# [391] f8b3ba0a.json
-* detect_grid
-* find_the_intruder
-* dominant_color
-* count_tiles
-* summarize
-* order_numbers
+# [390] f8a8fe49.json
+* pattern_moving
+* pattern_reflection
 """
 
 def X(g):return list(zip(*g[::-1]))

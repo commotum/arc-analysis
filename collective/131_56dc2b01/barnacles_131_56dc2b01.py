@@ -1,7 +1,8 @@
 """
-# [132] 56ff96f3.json
-* pattern_completion
-* rectangle_guessing
+# [131] 56dc2b01.json
+* gravity
+* direction_guessing
+* pattern_expansion
 """
 
 j=lambda A:[[A[J][x]for J in range(len(A))]for x in range(len(A[0]))]

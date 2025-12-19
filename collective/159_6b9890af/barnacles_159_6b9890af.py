@@ -1,6 +1,9 @@
 """
-# [160] 6c434453.json
-* replace_pattern
+# [159] 6b9890af.json
+* pattern_moving
+* pattern_resizing
+* crop
+* x_marks_the_spot
 """
 
 R=range

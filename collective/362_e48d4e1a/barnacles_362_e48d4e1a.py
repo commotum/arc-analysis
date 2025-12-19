@@ -1,7 +1,9 @@
 """
-# [363] e5062a87.json
-* pattern_repetition
-* pattern_juxtaposition
+# [362] e48d4e1a.json
+* count_tiles
+* pattern_moving
+* detect_grid
+* out_of_boundary
 """
 
 R=range

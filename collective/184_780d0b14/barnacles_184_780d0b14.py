@@ -1,10 +1,7 @@
 """
-# [185] 7837ac64.json
+# [184] 780d0b14.json
 * detect_grid
-* color_guessing
-* grid_coloring
-* crop
-* extrapolate_image_from_grid
+* summarize
 """
 
 def p(j):

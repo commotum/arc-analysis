@@ -1,3 +1,10 @@
+"""
+# [400] ff805c23.json
+* pattern_expansion
+* pattern_completion
+* crop
+"""
+
 def p(g,L=len,R=range):
  h,w,I,J=L(g),L(g[0]),[],[]
  P=1

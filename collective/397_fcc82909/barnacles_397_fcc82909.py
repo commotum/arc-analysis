@@ -1,9 +1,8 @@
 """
-# [398] feca6190.json
+# [397] fcc82909.json
 * pattern_expansion
-* image_expansion
-* draw_line_from_point
-* diagonals
+* separate_images
+* count_different_colors
 """
 
 def p(j,A=range):

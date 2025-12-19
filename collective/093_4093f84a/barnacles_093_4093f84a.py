@@ -1,7 +1,5 @@
 """
-# [094] 41e4d17e.json
-* draw_line_from_point
-* pattern_repetition
+# [93] 4093f84a.json
 """
 
 def p(g):

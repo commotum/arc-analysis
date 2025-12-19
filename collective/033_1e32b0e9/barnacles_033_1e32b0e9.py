@@ -1,8 +1,5 @@
 """
-# [034] 1f0c79e5.json
-* pattern_expansion
-* diagonals
-* direction_guessing
+# [33] 1e32b0e9.json
 """
 
 def p(j):

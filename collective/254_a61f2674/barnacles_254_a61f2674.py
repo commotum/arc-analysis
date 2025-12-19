@@ -1,7 +1,12 @@
 """
-# [255-R] a64e4611.json
-* background_filling
-* rectangle_guessing
+# [254] a61f2674.json
+* separate_shapes
+* count_tiles
+* take_maximum
+* take_minimum
+* recoloring
+* associate_colors_to_ranks
+* remove_intruders
 """
 
 def p(j,A=range):

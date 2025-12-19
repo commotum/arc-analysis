@@ -1,8 +1,7 @@
 """
-# [256] a65b410d.json
-* pattern_expansion
-* count_tiles
-* associate_colors_to_ranks
+# [255] a64e4611.json
+* background_filling
+* rectangle_guessing
 """
 
 R=range

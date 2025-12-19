@@ -1,9 +1,8 @@
 """
-# [122] 5168d44c.json
-* direction_guessing
+# [121] 5117e062.json
+* find_the_intruder
+* crop
 * recoloring
-* contouring
-* pattern_moving
 """
 
 def p(j):

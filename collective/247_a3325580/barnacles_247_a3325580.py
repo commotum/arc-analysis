@@ -1,9 +1,10 @@
 """
-# [248] a3df8b1e.json
-* pattern_expansion
-* draw_line_from_point
-* diagonals
-* bounce
+# [247] a3325580.json
+* separate_shapes
+* count_tiles
+* take_maximum
+* summarize
+* remove_intruders
 """
 
 def p(g):

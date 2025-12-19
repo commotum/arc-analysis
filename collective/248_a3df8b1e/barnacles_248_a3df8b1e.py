@@ -1,6 +1,9 @@
 """
-# [249] a416b8f3.json
-* image_repetition
+# [248] a3df8b1e.json
+* pattern_expansion
+* draw_line_from_point
+* diagonals
+* bounce
 """
 
 def p(j):

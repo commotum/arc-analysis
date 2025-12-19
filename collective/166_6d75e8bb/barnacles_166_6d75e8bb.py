@@ -1,7 +1,7 @@
 """
-# [167] 6e02f1e3.json
-* count_different_colors
-* associate_images_to_numbers
+# [166] 6d75e8bb.json
+* rectangle_guessing
+* pattern_completion
 """
 
 p=lambda g:[[2if(t:=[(i,j)for i,r in enumerate(g)for j,v in enumerate(r)if v==8])and min(i for i,j in t)<=i<=max(i for i,j in t)and min(j for i,j in t)<=j<=max(j for i,j in t)and g[i][j]==0else g[i][j]for j in range(len(g[0]))]for i in range(len(g))]

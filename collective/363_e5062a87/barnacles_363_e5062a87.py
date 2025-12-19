@@ -1,8 +1,7 @@
 """
-# [364] e509e548.json
-* recoloring
-* associate_colors_to_shapes
-* homeomorphism
+# [363] e5062a87.json
+* pattern_repetition
+* pattern_juxtaposition
 """
 
 def f(g):

@@ -1,7 +1,5 @@
 """
-# [036] 1f85a75f.json
-* crop
-* find_the_intruder
+# [35] 1f642eb9.json
 """
 
 L=len

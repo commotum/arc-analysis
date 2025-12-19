@@ -1,8 +1,7 @@
 """
-# [121] 5117e062.json
-* find_the_intruder
-* crop
-* recoloring
+# [120] 50cb2852.json
+* holes
+* rectangle_guessing
 """
 
 def p(j):

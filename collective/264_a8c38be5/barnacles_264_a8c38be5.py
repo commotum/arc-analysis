@@ -1,7 +1,8 @@
 """
-# [265-R] a8d7556c.json
-* recoloring
-* rectangle_guessing
+# [264] a8c38be5.json
+* pattern_moving
+* jigsaw
+* crop
 """
 
 L=len

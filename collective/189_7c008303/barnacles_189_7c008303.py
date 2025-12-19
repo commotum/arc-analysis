@@ -1,8 +1,11 @@
 """
-# [190] 7ddcd7ec.json
-* draw_line_from_point
-* direction_guessing
-* diagonals
+# [189] 7c008303.json
+* color_palette
+* detect_grid
+* recoloring
+* color_guessing
+* separate_images
+* crop
 """
 
 R=range

@@ -1,8 +1,5 @@
 """
-# [093] 4093f84a.json
-* gravity
-* recoloring
-* projection_unto_rectangle
+# [92] 40853293.json
 """
 
 def p(g,L=len,R=range):

@@ -1,5 +1,7 @@
 """
-# [113] 496994bd.json
+# [112] 4938f0c2.json
+* pattern_expansion
+* pattern_rotation
 * pattern_reflection
 """
 

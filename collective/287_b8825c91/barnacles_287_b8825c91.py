@@ -1,9 +1,8 @@
 """
-# [288] b8cdaf2b.json
-* pattern_expansion
-* draw_line_from_point
-* diagonals
-* pairwise_analogy
+# [287] b8825c91.json
+* pattern_completion
+* pattern_rotation
+* pattern_reflection
 """
 
 def p(g,L=len,R=range):

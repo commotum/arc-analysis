@@ -1,8 +1,8 @@
 """
-# [227] 94f9d214.json
-* separate_images
-* take_complement
-* pattern_intersection
+# [226] 941d9a10.json
+* detect_grid
+* loop_filling
+* pairwise_analogy
 """
 
 def f(j,A,c,E):

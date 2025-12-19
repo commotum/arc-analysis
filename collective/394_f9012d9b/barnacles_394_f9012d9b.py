@@ -1,8 +1,8 @@
 """
-# [395] fafffa47.json
-* separate_images
-* take_complement
-* pattern_intersection
+# [394] f9012d9b.json
+* pattern_expansion
+* pattern_completion
+* crop
 """
 
 L=len

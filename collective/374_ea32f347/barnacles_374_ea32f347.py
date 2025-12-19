@@ -1,8 +1,9 @@
 """
-# [375] ea786f4a.json
-* pattern_modification
-* draw_line_from_point
-* diagonals
+# [374] ea32f347.json
+* separate_shapes
+* count_tiles
+* recoloring
+* associate_colors_to_ranks
 """
 
 def p(j):

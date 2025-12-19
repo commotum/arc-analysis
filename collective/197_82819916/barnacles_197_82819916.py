@@ -1,10 +1,9 @@
 """
-# [198] 83302e8f.json
-* detect_grid
-* detect_closed_curves
-* rectangle_guessing
-* associate_colors_to_bools
-* loop_filling
+# [197] 82819916.json
+* pattern_repetition
+* color_guessing
+* draw_line_from_point
+* associate_colors_to_colors
 """
 
 def p(j):

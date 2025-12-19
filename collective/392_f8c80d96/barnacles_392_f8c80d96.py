@@ -1,9 +1,7 @@
 """
-# [393] f8ff0b80.json
-* separate_shapes
-* count_tiles
-* summarize
-* order_numbers
+# [392] f8c80d96.json
+* pattern_expansion
+* background_filling
 """
 
 L=len

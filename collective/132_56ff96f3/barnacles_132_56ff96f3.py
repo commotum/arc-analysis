@@ -1,8 +1,7 @@
 """
-# [133] 57aa92db.json
-* draw_pattern_from_point
-* pattern_repetition
-* pattern_resizing
+# [132] 56ff96f3.json
+* pattern_completion
+* rectangle_guessing
 """
 
 def p(j,A=range,c=enumerate):

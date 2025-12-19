@@ -1,8 +1,5 @@
 """
-# [083] 3af2c5a8.json
-* image_repetition
-* image_reflection
-* image_rotation
+# [82] 3ac3eb23.json
 """
 
 def p(j):

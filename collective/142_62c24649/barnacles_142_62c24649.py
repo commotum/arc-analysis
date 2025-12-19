@@ -1,8 +1,8 @@
 """
-# [143] 63613498.json
-* recoloring
-* compare_image
-* detect_wall
+# [142] 62c24649.json
+* image_repetition
+* image_reflection
+* image_rotation
 """
 
 def p(j):A=[r+r[::-1]for r in j];return A+A[::-1]

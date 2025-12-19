@@ -1,8 +1,10 @@
 """
-# [341] d6ad076f.json
-* bridges
-* connect_the_dots
-* draw_line_from_point
+# [340] d687bc17.json
+* bring_patterns_close
+* gravity
+* direction_guessing
+* find_the_intruder
+* remove_intruders
 """
 
 L=len

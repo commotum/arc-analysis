@@ -1,6 +1,8 @@
 """
-# [344] d90796e8.json
-* replace_pattern
+# [343] d8c310e9.json
+* pattern_expansion
+* pattern_repetition
+* pattern_completion
 """
 
 def p(g,L=len,R=range):

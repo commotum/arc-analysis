@@ -1,8 +1,9 @@
 """
-# [154] 6855a6e4.json
+# [153] 681b3aeb.json
 * pattern_moving
-* direction_guessing
-* x_marks_the_spot
+* jigsaw
+* crop
+* bring_patterns_close
 """
 
 E=enumerate

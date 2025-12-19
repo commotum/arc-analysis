@@ -1,9 +1,7 @@
 """
-# [212] 8d510a79.json
-* draw_line_from_point
-* detect_wall
-* direction_guessing
-* associate_colors_to_bools
+# [211] 8d5021e8.json
+* image_repetition
+* image_reflection
 """
 
 def p(j):j=[R[::-1]+R for R in j];A=[j[2],j[1],j[0]];return A+j+A

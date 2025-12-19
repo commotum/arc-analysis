@@ -1,7 +1,8 @@
 """
-# [348] db3e9e38.json
-* pattern_expansion
-* out_of_boundary
+# [347] dae9d2b5.json
+* pattern_juxtaposition
+* separate_images
+* recoloring
 """
 
 def p(j,A=range(3)):

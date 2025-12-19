@@ -1,7 +1,5 @@
 """
-# [024] 178fcbfb.json
-* direction_guessing
-* draw_line_from_point
+# [23] 150deff5.json
 """
 
 def p(g,L=len,R=range):

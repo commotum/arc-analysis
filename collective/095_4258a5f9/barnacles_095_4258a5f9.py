@@ -1,8 +1,5 @@
 """
-# [096] 4290ef0e.json
-* pattern_moving
-* concentric
-* crop
+# [95] 4258a5f9.json
 """
 
 def p(j,A=enumerate):

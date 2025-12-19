@@ -1,8 +1,5 @@
 """
-# [085] 3bdb4ada.json
-* recoloring
-* pattern_repetition
-* holes
+# [84] 3bd67248.json
 """
 
 def p(j):

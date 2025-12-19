@@ -1,6 +1,9 @@
 """
-# [326] d10ecb37.json
-* crop
+# [325] d0f5fe59.json
+* separate_shapes
+* count_shapes
+* associate_images_to_numbers
+* pairwise_analogy
 """
 
 def p(j,A=range):

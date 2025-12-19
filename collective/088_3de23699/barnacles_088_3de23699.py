@@ -1,9 +1,5 @@
 """
-# [089] 3e980e27.json
-* pattern_repetition
-* pattern_juxtaposition
-* direction_guessing
-* pattern_reflection
+# [88] 3de23699.json
 """
 
 from collections import*

@@ -1,7 +1,8 @@
 """
-# [222] 91714a58.json
-* find_the_intruder
-* remove_noise
+# [221] 91413438.json
+* count_tiles
+* algebra
+* image_repetition
 """
 
 R=range

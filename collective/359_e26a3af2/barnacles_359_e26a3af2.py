@@ -1,9 +1,7 @@
 """
-# [360] e3497940.json
-* detect_wall
+# [359] e26a3af2.json
+* remove_noise
 * separate_images
-* image_reflection
-* image_juxtaposition
 """
 
 def X(g):return list(zip(*g[::-1]))

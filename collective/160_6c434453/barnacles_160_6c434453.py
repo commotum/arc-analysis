@@ -1,8 +1,6 @@
 """
-# [161] 6cdd2623.json
-* connect_the_dots
-* find_the_intruder
-* remove_noise
+# [160] 6c434453.json
+* replace_pattern
 """
 
 R=range

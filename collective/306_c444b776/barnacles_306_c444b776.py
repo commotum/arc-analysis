@@ -1,6 +1,9 @@
 """
-# [307] c59eb873.json
-* image_resizing
+# [306] c444b776.json
+* detect_grid
+* separate_images
+* find_the_intruder
+* image_repetition
 """
 
 def p(g,L=len,R=range):

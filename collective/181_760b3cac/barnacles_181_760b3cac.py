@@ -1,9 +1,7 @@
 """
-# [182] 776ffc46.json
-* recoloring
-* associate_colors_to_patterns
-* detect_enclosure
-* find_the_intruder
+# [181] 760b3cac.json
+* pattern_reflection
+* direction_guessing
 """
 
 def p(j):A=(j[3][3]<1)*6;[j[r].__setitem__(slice(A,A+3),j[r][3:6][::-1])for r in range(3)];return j

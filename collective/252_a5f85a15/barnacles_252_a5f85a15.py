@@ -1,9 +1,8 @@
 """
-# [253] a61ba2ce.json
-* pattern_moving
-* bring_patterns_close
-* crop
-* jigsaw
+# [252] a5f85a15.json
+* recoloring
+* pattern_modification
+* pairwise_analogy
 """
 
 def p(j,A=range):

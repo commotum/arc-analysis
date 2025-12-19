@@ -5,7 +5,7 @@ Classification
 (none)
 
 Notebook Commentary
-# [235] 995c5fa3.json
+# [234] 98cf29f8.json
 * take_complement
 * detect_wall
 * separate_images

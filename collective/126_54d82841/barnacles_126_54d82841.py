@@ -1,8 +1,7 @@
 """
-# [127] 54d9e175.json
-* detect_grid
-* separate_images
-* associate_images_to_images
+# [126] 54d82841.json
+* pattern_expansion
+* gravity
 """
 
 def p(j):

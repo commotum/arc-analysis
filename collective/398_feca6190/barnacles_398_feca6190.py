@@ -1,7 +1,9 @@
 """
-# [399] ff28f65a.json
-* count_shapes
-* associate_images_to_numbers
+# [398] feca6190.json
+* pattern_expansion
+* image_expansion
+* draw_line_from_point
+* diagonals
 """
 
 def p(g,L=len,R=range):

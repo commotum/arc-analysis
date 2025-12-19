@@ -1,7 +1,7 @@
 """
-# [106] 46442a0e.json
-* image_repetition
-* image_reflection
+# [105] 4612dd53.json
+* pattern_completion
+* rectangle_guessing
 """
 
 def X(g):return list(zip(*g[::-1]))

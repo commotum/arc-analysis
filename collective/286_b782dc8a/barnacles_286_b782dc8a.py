@@ -1,8 +1,7 @@
 """
-# [287] b8825c91.json
-* pattern_completion
-* pattern_rotation
-* pattern_reflection
+# [286] b782dc8a.json
+* pattern_expansion
+* maze
 """
 
 L=len

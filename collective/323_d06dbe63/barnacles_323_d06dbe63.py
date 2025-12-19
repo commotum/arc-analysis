@@ -1,8 +1,7 @@
 """
-# [324] d07ae81c.json
-* draw_line_from_point
-* diagonals
-* color_guessing
+# [323] d06dbe63.json
+* pattern_expansion
+* pairwise_analogy
 """
 
 def p(j):

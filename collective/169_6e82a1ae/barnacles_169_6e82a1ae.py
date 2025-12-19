@@ -1,9 +1,8 @@
 """
-# [170] 6ecd11f4.json
-* color_palette
+# [169] 6e82a1ae.json
 * recoloring
-* pattern_resizing
-* crop
+* count_tiles
+* associate_colors_to_numbers
 """
 
 def p(j):

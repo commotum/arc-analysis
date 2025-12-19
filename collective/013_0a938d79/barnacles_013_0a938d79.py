@@ -1,9 +1,5 @@
 """
-# [014] 0b148d64.json
-* detect_grid
-* separate_images
-* find_the_intruder
-* crop
+# [13] 0a938d79.json
 """
 
 def p(j,A=range):

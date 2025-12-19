@@ -1,8 +1,8 @@
 """
-# [343-R] d8c310e9.json
-* pattern_expansion
-* pattern_repetition
-* pattern_completion
+# [342] d89b689b.json
+* pattern_juxtaposition
+* summarize
+* direction_guessing
 """
 
 def p(j,A=enumerate):

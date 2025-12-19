@@ -1,10 +1,6 @@
 """
-# [247] a3325580.json
-* separate_shapes
-* count_tiles
-* take_maximum
-* summarize
-* remove_intruders
+# [246] a2fd1cf0.json
+* connect_the_dots
 """
 
 def p(j):

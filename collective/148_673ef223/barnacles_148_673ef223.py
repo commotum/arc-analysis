@@ -1,9 +1,8 @@
 """
-# [149] 6773b310.json
-* detect_grid
-* separate_images
-* count_tiles
-* associate_colors_to_numbers
+# [148] 673ef223.json
+* recoloring
+* draw_line_from_point
+* portals
 """
 
 L=len

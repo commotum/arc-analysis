@@ -1,8 +1,5 @@
 """
-# [071] 3345333e.json
-* pattern_completion
-* pattern_reflection
-* remove_noise
+# [70] 32597951.json
 """
 
 def p(j):

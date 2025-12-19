@@ -1,6 +1,7 @@
 """
-# [380] ed36ccf7.json
-* image_rotation
+# [379] ecdecbb3.json
+* pattern_modification
+* draw_line_from_point
 """
 
 L=len

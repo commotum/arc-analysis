@@ -1,6 +1,6 @@
 """
-# [193] 7f4411dc.json
-* rectangle_guessing
+# [192] 7e0986d6.json
+* color_guessing
 * remove_noise
 """
 

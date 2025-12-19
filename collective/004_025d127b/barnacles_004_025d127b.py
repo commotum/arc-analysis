@@ -1,7 +1,5 @@
 """
-# [005-R] 045e512c.json
-* pattern_expansion
-* direction_guessing
+# [4] 025d127b.json
 """
 
 def p(j,A=enumerate):

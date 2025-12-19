@@ -1,7 +1,8 @@
 """
-# [303] c1d99e64.json
-* draw_line_from_border
-* detect_grid
+# [302] c0f76784.json
+* loop_filling
+* measure_area
+* associate_colors_to_numbers
 """
 
 def p(j):

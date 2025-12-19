@@ -1,7 +1,6 @@
 """
-# [351] dc0a314f.json
-* pattern_completion
-* crop
+# [350] dbc1a6ce.json
+* connect_the_dots
 """
 
 def p(j,A=range):

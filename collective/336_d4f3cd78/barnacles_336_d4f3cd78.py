@@ -1,6 +1,8 @@
 """
-# [337] d511f180.json
-* associate_colors_to_colors
+# [336] d4f3cd78.json
+* rectangle_guessing
+* recoloring
+* draw_line_from_point
 """
 
 def p(j,A=len,c=enumerate,E=min,k=max,W=range):

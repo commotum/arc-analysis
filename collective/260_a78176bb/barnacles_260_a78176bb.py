@@ -1,8 +1,8 @@
 """
-# [261] a79310a0.json
-* pattern_moving
-* recoloring
-* pairwise_analogy
+# [260] a78176bb.json
+* draw_parallel_line
+* direction_guessing
+* remove_intruders
 """
 
 L=len

@@ -1,8 +1,9 @@
 """
-# [200] 8403a5d5.json
-* draw_line_from_point
+# [199] 834ec97d.json
+* draw_line_from_border
 * pattern_repetition
-* direction_guessing
+* spacing
+* measure_distance_from_side
 """
 
 def p(j,A=enumerate):

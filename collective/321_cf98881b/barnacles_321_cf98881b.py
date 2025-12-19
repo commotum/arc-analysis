@@ -1,7 +1,8 @@
 """
-# [322] d037b0a7.json
-* pattern_expansion
-* draw_line_from_point
+# [321] cf98881b.json
+* detect_wall
+* separate_images
+* pattern_juxtaposition
 """
 
 def p(j):

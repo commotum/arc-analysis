@@ -1,7 +1,8 @@
 """
-# [258] a699fb00.json
-* pattern_expansion
-* connect_the_dots
+# [257] a68b268e.json
+* detect_grid
+* separate_images
+* pattern_juxtaposition
 """
 
 def p(g,L=len,R=range):

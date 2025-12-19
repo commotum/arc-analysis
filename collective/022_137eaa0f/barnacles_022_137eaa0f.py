@@ -1,8 +1,5 @@
 """
-# [023-R] 150deff5.json
-* pattern_coloring
-* pattern_deconstruction
-* associate_colors_to_patterns
+# [22] 137eaa0f.json
 """
 
 L=len

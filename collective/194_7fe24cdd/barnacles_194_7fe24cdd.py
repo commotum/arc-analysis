@@ -1,9 +1,7 @@
 """
-# [195] 80af3007.json
-* crop
-* pattern_resizing
-* image_resizing
-* fractal_repetition
+# [194] 7fe24cdd.json
+* image_repetition
+* image_rotation
 """
 
 j=lambda A:[[*i]for i in zip(*A[::-1])]

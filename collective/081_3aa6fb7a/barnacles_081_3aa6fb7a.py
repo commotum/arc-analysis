@@ -1,7 +1,5 @@
 """
-# [082] 3ac3eb23.json
-* draw_pattern_from_point
-* pattern_repetition
+# [81] 3aa6fb7a.json
 """
 
 from collections import*

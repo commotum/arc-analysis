@@ -1,9 +1,7 @@
 """
-# [369] e8593010.json
-* holes
-* count_tiles
-* loop_filling
-* associate_colors_to_numbers
+# [368] e76a88a6.json
+* pattern_repetition
+* pattern_juxtaposition
 """
 
 def p(j,A=range):

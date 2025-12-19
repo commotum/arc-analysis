@@ -1,7 +1,9 @@
 """
-# [196] 810b9b61.json
-* recoloring
-* detect_closed_curves
+# [195] 80af3007.json
+* crop
+* pattern_resizing
+* image_resizing
+* fractal_repetition
 """
 
 R=range

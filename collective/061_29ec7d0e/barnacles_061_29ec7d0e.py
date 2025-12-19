@@ -1,9 +1,5 @@
 """
-# [062] 2bcee788.json
-* pattern_reflection
-* direction_guessing
-* image_filling
-* background_filling
+# [61] 29ec7d0e.json
 """
 
 def p(j,u=enumerate):

@@ -1,8 +1,7 @@
 """
-# [400] ff805c23.json
-* pattern_expansion
-* pattern_completion
-* crop
+# [399] ff28f65a.json
+* count_shapes
+* associate_images_to_numbers
 """
 
 def p(j,A=0):

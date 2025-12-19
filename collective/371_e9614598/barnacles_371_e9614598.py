@@ -1,8 +1,8 @@
 """
-# [372] e98196ab.json
-* detect_wall
-* separate_images
-* image_juxtaposition
+# [371] e9614598.json
+* pattern_expansion
+* direction_guessing
+* measure_length
 """
 
 def p(j,A=enumerate):

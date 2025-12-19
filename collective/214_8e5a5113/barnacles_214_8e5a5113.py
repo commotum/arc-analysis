@@ -1,7 +1,9 @@
 """
-# [215] 8eb1be9a.json
-* pattern_repetition
-* image_filling
+# [214] 8e5a5113.json
+* detect_wall
+* separate_images
+* image_repetition
+* image_rotation
 """
 
 def p(g,R=range):

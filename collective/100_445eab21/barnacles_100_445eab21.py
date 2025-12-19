@@ -1,8 +1,7 @@
 """
-# [101] 447fd412.json
-* pattern_repetition
-* draw_pattern_from_point
-* pattern_resizing
+# [100] 445eab21.json
+* measure_area
+* take_maximum
 """
 
 def p(g,E=enumerate,M=max,N=min):

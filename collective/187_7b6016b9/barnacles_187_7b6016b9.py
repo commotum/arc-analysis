@@ -1,8 +1,8 @@
 """
-# [188] 7b7f7511.json
-* separate_images
-* detect_repetition
-* crop
+# [187] 7b6016b9.json
+* loop_filling
+* background_filling
+* color_guessing
 """
 
 def p(j):

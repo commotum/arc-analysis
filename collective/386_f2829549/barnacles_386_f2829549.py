@@ -1,6 +1,9 @@
 """
-# [387] f35d900a.json
-* pattern_expansion
+# [386] f2829549.json
+* detect_wall
+* separate_images
+* take_complement
+* pattern_intersection
 """
 
 def p(j):

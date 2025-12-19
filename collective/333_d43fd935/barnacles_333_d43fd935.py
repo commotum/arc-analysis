@@ -1,7 +1,8 @@
 """
-# [334] d4469b4b.json
-* dominant_color
-* associate_images_to_colors
+# [333] d43fd935.json
+* draw_line_from_point
+* direction_guessing
+* projection_unto_rectangle
 """
 
 L=len

@@ -1,8 +1,11 @@
 """
-# [397] fcc82909.json
-* pattern_expansion
+# [396] fcb5c309.json
+* rectangle_guessing
 * separate_images
-* count_different_colors
+* count_tiles
+* take_maximum
+* crop
+* recoloring
 """
 
 def p(j):

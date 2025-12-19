@@ -1,8 +1,7 @@
 """
-# [107] 469497ad.json
-* image_resizing
-* draw_line_from_point
-* diagonals
+# [106] 46442a0e.json
+* image_repetition
+* image_reflection
 """
 
 z=lambda g:[*map(list,zip(*g[::-1]))]

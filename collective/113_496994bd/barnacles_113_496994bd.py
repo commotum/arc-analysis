@@ -1,7 +1,6 @@
 """
-# [114] 49d1d64f.json
-* pattern_expansion
-* image_expansion
+# [113] 496994bd.json
+* pattern_reflection
 """
 
 p=lambda j:j[:5]+j[:5][::-1]

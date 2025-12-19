@@ -1,8 +1,6 @@
 """
-# [378] ec883f72.json
-* pattern_expansion
-* draw_line_from_point
-* diagonals
+# [377] eb5a1d5d.json
+* summarize
 """
 
 def p(g,L=len,R=range):

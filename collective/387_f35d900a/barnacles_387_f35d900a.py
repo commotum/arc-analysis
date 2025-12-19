@@ -1,8 +1,6 @@
 """
-# [388] f5b8619d.json
+# [387] f35d900a.json
 * pattern_expansion
-* draw_line_from_point
-* image_repetition
 """
 
 #the spacing is off on a few splits

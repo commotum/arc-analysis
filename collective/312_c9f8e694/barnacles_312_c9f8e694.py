@@ -1,7 +1,8 @@
 """
-# [313] caa06a1f.json
-* pattern_expansion
-* image_filling
+# [312] c9f8e694.json
+* recoloring
+* pattern_repetition
+* color_palette
 """
 
 def p(j):

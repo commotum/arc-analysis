@@ -1,8 +1,8 @@
 """
-# [257] a68b268e.json
-* detect_grid
-* separate_images
-* pattern_juxtaposition
+# [256] a65b410d.json
+* pattern_expansion
+* count_tiles
+* associate_colors_to_ranks
 """
 
 def p(j,A=range):

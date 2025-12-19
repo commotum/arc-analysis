@@ -1,7 +1,7 @@
 """
-# [105-R] 4612dd53.json
-* pattern_completion
-* rectangle_guessing
+# [104] 4522001f.json
+* image_rotation
+* pairwise_analogy
 """
 
 def p(g):

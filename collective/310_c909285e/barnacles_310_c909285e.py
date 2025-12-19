@@ -1,7 +1,8 @@
 """
-# [311] c9e6f938.json
-* image_repetition
-* image_reflection
+# [310] c909285e.json
+* find_the_intruder
+* crop
+* rectangle_guessing
 """
 
 from collections import Counter

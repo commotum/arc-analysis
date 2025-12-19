@@ -1,8 +1,6 @@
 """
-# [252] a5f85a15.json
-* recoloring
-* pattern_modification
-* pairwise_analogy
+# [251] a5313dff.json
+* loop_filling
 """
 
 def p(j,A=range):

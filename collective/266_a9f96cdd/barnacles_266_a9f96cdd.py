@@ -1,8 +1,7 @@
 """
-# [267] aabf363d.json
-* recoloring
-* color_guessing
-* remove_intruders
+# [266] a9f96cdd.json
+* replace_pattern
+* out_of_boundary
 """
 
 def p(j):

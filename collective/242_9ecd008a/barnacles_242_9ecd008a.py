@@ -1,7 +1,10 @@
 """
-# [243] 9edfc990.json
-* background_filling
-* holes
+# [242] 9ecd008a.json
+* image_filling
+* pattern_expansion
+* pattern_reflection
+* pattern_rotation
+* crop
 """
 
 def p(g,L=len,R=range):

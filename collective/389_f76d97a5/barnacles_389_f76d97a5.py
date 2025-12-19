@@ -1,7 +1,8 @@
 """
-# [390-R] f8a8fe49.json
-* pattern_moving
-* pattern_reflection
+# [389] f76d97a5.json
+* take_negative
+* recoloring
+* associate_colors_to_colors
 """
 
 def p(j):A=[i for s in j for i in s];A=[c for c in set(A)if c not in[0,5]][0];j=[[A if C==5 else 0 for C in R]for R in j];return j

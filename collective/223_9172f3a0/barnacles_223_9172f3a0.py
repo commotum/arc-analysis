@@ -1,8 +1,6 @@
 """
-# [224] 928ad970.json
-* rectangle_guessing
-* color_guessing
-* draw_rectangle
+# [223] 9172f3a0.json
+* image_resizing
 """
 
 def p(g):

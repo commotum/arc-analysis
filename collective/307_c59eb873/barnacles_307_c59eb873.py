@@ -1,8 +1,6 @@
 """
-# [308-R] c8cbb738.json
-* pattern_moving
-* jigsaw
-* crop
+# [307] c59eb873.json
+* image_resizing
 """
 
 def p(g):

@@ -1,8 +1,7 @@
 """
-# [131] 56dc2b01.json
-* gravity
-* direction_guessing
-* pattern_expansion
+# [130] 5614dbcf.json
+* remove_noise
+* image_resizing
 """
 
 def p(j):

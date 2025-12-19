@@ -1,12 +1,9 @@
 """
-# [254] a61f2674.json
-* separate_shapes
-* count_tiles
-* take_maximum
-* take_minimum
-* recoloring
-* associate_colors_to_ranks
-* remove_intruders
+# [253] a61ba2ce.json
+* pattern_moving
+* bring_patterns_close
+* crop
+* jigsaw
 """
 
 def p(j):
