@@ -249,73 +249,31 @@ p=lambda g,h=0,l=[]:[[(l:=[max(c+[j*(i>0)for i,j in zip(l,l[1::2])])]+l)[:1]*len
 
 # --- RE-ARC Generator ---
 from typing import (
+    Any,
+    Callable,
+    Container,
+    FrozenSet,
     Tuple,
+    Union,
 )
 
 from random import uniform, sample, choice
-
-Integer = int
-
-def interval(
-    start: Integer,
-    stop: Integer,
-    step: Integer
-) -> Tuple:
-    """ range """
-    return tuple(range(start, stop, step))
-
-def unifint(
-    diff_lb: float,
-    diff_ub: float,
-    bounds: Tuple[int, int]
-) -> int:
-    """
-    diff_lb: lower bound for difficulty, must be in range [0, diff_ub]
-    diff_ub: upper bound for difficulty, must be in range [diff_lb, 1]
-    bounds: interval [a, b] determining the integer values that can be sampled
-    """
-    a, b = bounds
-    d = uniform(diff_lb, diff_ub)
-    global rng
-    rng.append(d)
-    return min(max(a, round(a + (b - a) * d)), b)
-
-IntegerTuple = Tuple[Integer, Integer]
-Grid = Tuple[Tuple[Integer]]
-
-from typing import (
-    List,
-    Union,
-    Tuple,
-    Any,
-    Container,
-    Callable,
-    FrozenSet,
-    Iterable
-)
 
 Boolean = bool
 Integer = int
 IntegerTuple = Tuple[Integer, Integer]
 Numerical = Union[Integer, IntegerTuple]
-IntegerSet = FrozenSet[Integer]
 Grid = Tuple[Tuple[Integer]]
 Cell = Tuple[Integer, IntegerTuple]
 Object = FrozenSet[Cell]
 Objects = FrozenSet[Object]
 Indices = FrozenSet[IntegerTuple]
-IndicesSet = FrozenSet[Indices]
 Patch = Union[Object, Indices]
 Element = Union[Object, Grid]
 Piece = Union[Grid, Patch]
-TupleTuple = Tuple[Tuple]
 ContainerContainer = Container[Container]
 
-
-
 # constants
-
-
 ZERO = 0
 ONE = 1
 TWO = 2
@@ -348,6 +306,32 @@ ZERO_BY_TWO = (0, 2)
 TWO_BY_ZERO = (2, 0)
 TWO_BY_TWO = (2, 2)
 THREE_BY_THREE = (3, 3)
+
+rng = []
+
+def interval(
+    start: Integer,
+    stop: Integer,
+    step: Integer
+) -> Tuple:
+    """ range """
+    return tuple(range(start, stop, step))
+
+def unifint(
+    diff_lb: float,
+    diff_ub: float,
+    bounds: Tuple[int, int]
+) -> int:
+    """
+    diff_lb: lower bound for difficulty, must be in range [0, diff_ub]
+    diff_ub: upper bound for difficulty, must be in range [diff_lb, 1]
+    bounds: interval [a, b] determining the integer values that can be sampled
+    """
+    a, b = bounds
+    d = uniform(diff_lb, diff_ub)
+    global rng
+    rng.append(d)
+    return min(max(a, round(a + (b - a) * d)), b)
 
 def canvas(
     value: Integer,
@@ -412,25 +396,181 @@ def rot270(
     """ quarter anticlockwise rotation """
     return tuple(tuple(row[::-1]) for row in zip(*grid[::-1]))[::-1]
 
+def subtract(
+    a: Numerical,
+    b: Numerical
+) -> Numerical:
+    """ subtraction """
+    if isinstance(a, int) and isinstance(b, int):
+        return a - b
+    elif isinstance(a, tuple) and isinstance(b, tuple):
+        return (a[0] - b[0], a[1] - b[1])
+    elif isinstance(a, int) and isinstance(b, tuple):
+        return (a - b[0], a - b[1])
+    return (a[0] - b, a[1] - b)
+
+def multiply(
+    a: Numerical,
+    b: Numerical
+) -> Numerical:
+    """ multiplication """
+    if isinstance(a, int) and isinstance(b, int):
+        return a * b
+    elif isinstance(a, tuple) and isinstance(b, tuple):
+        return (a[0] * b[0], a[1] * b[1])
+    elif isinstance(a, int) and isinstance(b, tuple):
+        return (a * b[0], a * b[1])
+    return (a[0] * b, a[1] * b)
+
+def double(
+    n: Numerical
+) -> Numerical:
+    """ scaling by two """
+    return n * 2 if isinstance(n, int) else (n[0] * 2, n[1] * 2)
+
+def merge(
+    containers: ContainerContainer
+) -> Container:
+    """ merging """
+    return type(containers)(e for c in containers for e in c)
+
+def apply(
+    function: Callable,
+    container: Container
+) -> Container:
+    """ apply function to each item in container """
+    return type(container)(function(e) for e in container)
+
+def combine(
+    a: Container,
+    b: Container
+) -> Container:
+    """ union """
+    return type(a)((*a, *b))
+
+def argmax(
+    container: Container,
+    compfunc: Callable
+) -> Any:
+    """ largest item by custom order """
+    return max(container, key=compfunc, default=None)
+
+def argmin(
+    container: Container,
+    compfunc: Callable
+) -> Any:
+    """ smallest item by custom order """
+    return min(container, key=compfunc, default=None)
+
+def mostcolor(
+    element: Element
+) -> Integer:
+    """ most common color """
+    values = [v for r in element for v in r] if isinstance(element, tuple) else [v for v, _ in element]
+    return max(set(values), key=values.count)
+
+def asindices(
+    grid: Grid
+) -> Indices:
+    """ indices of all grid cells """
+    return frozenset((i, j) for i in range(len(grid)) for j in range(len(grid[0])))
+
+def dneighbors(
+    loc: IntegerTuple
+) -> Indices:
+    """ directly adjacent indices """
+    return frozenset({(loc[0] - 1, loc[1]), (loc[0] + 1, loc[1]), (loc[0], loc[1] - 1), (loc[0], loc[1] + 1)})
+
+def ineighbors(
+    loc: IntegerTuple
+) -> Indices:
+    """ diagonally adjacent indices """
+    return frozenset({(loc[0] - 1, loc[1] - 1), (loc[0] - 1, loc[1] + 1), (loc[0] + 1, loc[1] - 1), (loc[0] + 1, loc[1] + 1)})
+
+def neighbors(
+    loc: IntegerTuple
+) -> Indices:
+    """ adjacent indices """
+    return dneighbors(loc) | ineighbors(loc)
+
+def compose(
+    outer: Callable,
+    inner: Callable
+) -> Callable:
+    """ function composition """
+    return lambda x: outer(inner(x))
+
+def tojvec(
+    j: Integer
+) -> IntegerTuple:
+    """ vector pointing horizontally """
+    return (0, j)
+
+def mapply(
+    function: Callable,
+    container: ContainerContainer
+) -> FrozenSet:
+    """ apply and merge """
+    return merge(apply(function, container))
+
+def recolor(
+    value: Integer,
+    patch: Patch
+) -> Object:
+    """ recolor patch """
+    return frozenset((value, index) for index in toindices(patch))
+
+def color(
+    obj: Object
+) -> Integer:
+    """ color of object """
+    return next(iter(obj))[0]
+
+def paint(
+    grid: Grid,
+    obj: Object
+) -> Grid:
+    """ paint object to grid """
+    h, w = len(grid), len(grid[0])
+    grid_painted = list(list(row) for row in grid)
+    for value, (i, j) in obj:
+        if 0 <= i < h and 0 <= j < w:
+            grid_painted[i][j] = value
+    return tuple(tuple(row) for row in grid_painted)
+
+def vfrontier(
+    location: IntegerTuple
+) -> Indices:
+    """ vertical frontier """
+    return frozenset((i, location[1]) for i in range(30))
+
+def _to_grid(
+    grid: Any
+) -> Grid:
+    if isinstance(grid, np.ndarray):
+        return tuple(tuple(int(x) for x in row.tolist()) for row in grid)
+    if isinstance(grid, list):
+        return tuple(tuple(int(x) for x in row) for row in grid)
+    return grid
 
 def generate_0a938d79(diff_lb: float, diff_ub: float) -> dict:
     cols = interval(0, 10, 1)
     h = unifint(diff_lb, diff_ub, (4, 29))
-    w = unifint(diff_lb, diff_ub, (h+1, 30))
+    w = unifint(diff_lb, diff_ub, (h + 1, 30))
     bgc, cola, colb = sample(cols, 3)
     gi = canvas(bgc, (h, w))
     go = canvas(bgc, (h, w))
     locja = unifint(diff_lb, diff_ub, (3, w - 2))
     locjb = unifint(diff_lb, diff_ub, (1, locja - 2))
-    locia = choice((0, h-1))
-    locib = choice((0, h-1))
+    locia = choice((0, h - 1))
+    locib = choice((0, h - 1))
     gi = fill(gi, cola, {(locia, locja)})
     gi = fill(gi, colb, {(locib, locjb)})
-    ofs = -2 * (locja-locjb)
+    ofs = -2 * (locja - locjb)
     for aa in range(locja, -1, ofs):
-        go = fill(go, cola, connect((0, aa), (h-1, aa)))
-    for bb in range(locjb, -1, ofs):    
-        go = fill(go, colb, connect((0, bb), (h-1, bb)))
+        go = fill(go, cola, connect((0, aa), (h - 1, aa)))
+    for bb in range(locjb, -1, ofs):
+        go = fill(go, colb, connect((0, bb), (h - 1, bb)))
     rotf = choice((rot180, rot270))
     gi = rotf(gi)
     go = rotf(go)
@@ -438,23 +578,11 @@ def generate_0a938d79(diff_lb: float, diff_ub: float) -> dict:
 
 
 # --- RE-ARC Verifier ---
-def rightmost(
+def ulcorner(
     patch: Patch
-) -> Integer:
-    """ column index of rightmost occupied cell """
-    return max(j for i, j in toindices(patch))
-
-def leftmost(
-    patch: Patch
-) -> Integer:
-    """ column index of leftmost occupied cell """
-    return min(j for i, j in toindices(patch))
-
-def lowermost(
-    patch: Patch
-) -> Integer:
-    """ row index of lowermost occupied cell """
-    return max(i for i, j in toindices(patch))
+) -> IntegerTuple:
+    """ index of upper left corner """
+    return tuple(map(min, zip(*toindices(patch))))
 
 def uppermost(
     patch: Patch
@@ -462,6 +590,23 @@ def uppermost(
     """ row index of uppermost occupied cell """
     return min(i for i, j in toindices(patch))
 
+def lowermost(
+    patch: Patch
+) -> Integer:
+    """ row index of lowermost occupied cell """
+    return max(i for i, j in toindices(patch))
+
+def leftmost(
+    patch: Patch
+) -> Integer:
+    """ column index of leftmost occupied cell """
+    return min(j for i, j in toindices(patch))
+
+def rightmost(
+    patch: Patch
+) -> Integer:
+    """ column index of rightmost occupied cell """
+    return max(j for i, j in toindices(patch))
 
 def height(
     piece: Piece
@@ -483,12 +628,17 @@ def width(
         return len(piece[0])
     return rightmost(piece) - leftmost(piece) + 1
 
-
 def portrait(
     piece: Piece
 ) -> Boolean:
     """ whether height is greater than width """
     return height(piece) > width(piece)
+
+def identity(
+    x: Any
+) -> Any:
+    """ identity function """
+    return x
 
 def branch(
     condition: Boolean,
@@ -508,20 +658,6 @@ def dmirror(
     if isinstance(next(iter(piece))[1], tuple):
         return frozenset((v, (j - b + a, i - a + b)) for v, (i, j) in piece)
     return frozenset((j - b + a, i - a + b) for i, j in piece)
-
-def ulcorner(
-    patch: Patch
-) -> IntegerTuple:
-    """ index of upper left corner """
-    return tuple(map(min, zip(*toindices(patch))))
-
-def identity(
-    x: Any
-) -> Any:
-    """ identity function """
-    return x
-
-Objects = FrozenSet[Object]
 
 def objects(
     grid: Grid,
@@ -558,9 +694,8 @@ def objects(
         objs.add(frozenset(obj))
     return frozenset(objs)
 
-
-
 def verify_0a938d79(I: Grid) -> Grid:
+    I = _to_grid(I)
     x0 = portrait(I)
     x1 = branch(x0, dmirror, identity)
     x2 = x1(I)
@@ -585,3 +720,16 @@ def verify_0a938d79(I: Grid) -> Grid:
     x21 = paint(x2, x20)
     x22 = x1(x21)
     return x22
+
+
+if __name__ == "__main__":
+    examples = [
+        ("E1", E1_IN, E1_OUT),
+        ("E2", E2_IN, E2_OUT),
+        ("E3", E3_IN, E3_OUT),
+        ("E4", E4_IN, E4_OUT),
+        ("T", T_IN, T_OUT),
+    ]
+    for name, inp, expected in examples:
+        pred = verify_0a938d79(inp)
+        assert pred == _to_grid(expected), f"{name} failed"
