@@ -112,6 +112,10 @@ Direction indicates orientation or heading independent of position: northward on
 
 Logical disjunction is true when *at least one* operand is true: **p ∨ q**. Digital electronics implement it with OR gates; database queries use `WHERE name="Alice" OR name="Bob"`; set theory equates OR with union (A ∪ B). Inclusive OR accepts both operands simultaneously, whereas exclusive XOR requires exactly one. Security systems might trigger an alarm if *door open OR window broken*, illustrating that any single condition suffices. In visual tasks a panel may satisfy membership if it shows a triangle **or** a circle—either shape qualifies, echoing the lenient nature of OR.
 
+### Disorder
+
+Disorder refers to the absence of regular structure, predictability, or repeating pattern in an arrangement. Elements may vary irregularly in position, spacing, size, or orientation, resisting simple rules or symmetries. In visual reasoning tasks, one class may exhibit disorder (random-like placement), while the contrasting class shows clear order or pattern, making unpredictability itself the salient property.
+
 ### Dot
 
 A dot is the minimal visible mark—dimensionless in theory, a tiny disk in practice. Morse code builds letters from dots and dashes; bitmap fonts render pixels as dots; musical notation uses augmentation dots to lengthen notes. Physics diagrams represent particles with dots, and geographers plot cities as dots on maps. In perception, dot arrangements create illusions of movement (phi phenomenon) or imply lines via dotted outlines. Bongard puzzles use dots to encode quantity, position, or adjacency relationships, leveraging their simplicity.
@@ -164,6 +168,10 @@ Interior encompasses all points inside a boundary; exterior covers points outsid
 
 An intersection or **x-crossing** occurs where two lines or curves cross, forming the iconic “X” pattern with four separable arms. Road systems mark intersections with traffic signals; algebra plots the intersection of y = x and y = –x at the origin; knitting patterns rely on yarns crossing to lock stitches. Computer-vision algorithms flag X-junctions to infer occlusion order, while vector graphics treat a Bézier self-intersect as two distinct segments sharing the same point. In reasoning puzzles, the presence or absence of a true crossing—versus a mere touch or T-junction—often distinguishes class membership.
 
+### Intersection (Overlap)
+
+Intersection (overlap) means two regions share common territory—the part that belongs to *both* at once: in set theory **A ∩ B**, in probability “A *and* B,” and in computing boolean “AND” geometry or `JOIN` logic that keeps only shared elements. Visually, overlap appears through **shared area**, **occlusion**, or **blended boundaries** (one shape covering part of another, shaded map regions, or darkened overlaps from transparency). In Bongard-style puzzles, positives include at least one true overlap (a nonzero shared region), while negatives keep shapes disjoint or merely touching; the key cue is the existence of a real *shared region*, not mere closeness.
+
 ### Large (Size)
 
 “Large” denotes a magnitude that dominates its context: a boulder beside pebbles, a heading rendered in 64-point type amid 12-point body text, or a data table whose file size exhausts memory. Physics speaks of the large-scale structure of the universe; ecology studies large mammals that shape ecosystems. Perception scales “large” logarithmically: a 10 cm square looks large next to a stamp yet tiny beside a poster. In visual classification, panels may qualify when the largest element alone satisfies a rule—such as always being centered—making relative largeness the operative cue.
@@ -187,6 +195,10 @@ Light-dark contrast separates high-luminance from low-luminance regions, driving
 ### Line or Curve Endpoint
 
 An endpoint is a terminus where a line, arc, or polyline stops. Graph paths begin and end at endpoints; drafting conventions place arrowheads at endpoints to indicate vectors; railway diagrams mark termini with thick dots. Algorithms like Douglas–Peucker treat endpoints as immutable while simplifying intermediate points. In visual reasoning, panels may qualify only if every stroke’s endpoint contacts the frame border, distinguishing them from strokes that float internally.
+
+### Line Slope
+
+Line slope captures the steepness and direction of a line relative to a reference axis, typically horizontal. A positive slope rises left to right, a negative slope falls, and zero slope is perfectly horizontal; vertical lines can be treated as having undefined slope. In visual puzzles, membership may depend on whether lines share the same slope, differ systematically, or fall within a particular angular range, making orientation-by-gradient the deciding feature.
 
 ### Loop
 
@@ -231,6 +243,10 @@ Order arranges items according to a rule—alphabetical, chronological, numeric 
 ### Ordinal Orering
 
 Ordinal ordering assigns positions 1st, 2nd, 3rd … independent of exact magnitudes: race results list ordinal places; days of the week have an ordinal sequence; programming languages index arrays. Linguists study ordinal adjectives (“fifth”). In visual tasks, three circles labeled A, B, C arranged left-to-right establish an ordinal order; if the order breaks (B, A, C) the pattern fails, offering a clean classification boundary.
+
+### Overlapping
+
+Overlapping describes the condition in which two or more shapes share a common area in the image plane. Unlike mere contact or adjacency, overlapping implies that one region intrudes into another, creating a shared interior or visible occlusion. In classification tasks, panels may be grouped by the simple presence or absence of any overlap at all, regardless of shape type or size, aligning this primitive directly with the concept of overlap.
 
 ### Path
 
@@ -323,6 +339,10 @@ A tangent touches a curve at exactly one point without crossing it and shares it
 ### Texture
 
 Texture is the spatial pattern of small-scale variations on a surface—grains of wood, weave of fabric, stippled paint, or pixel noise in an image. Vision science models it with statistics of orientation and frequency; computer graphics apply 2-D texture maps to 3-D meshes, then modulate illumination with normal maps for tactile illusion. Geologists classify rocks by crystal texture, and audio engineers speak of “textural” layers in soundscapes. In diagrammatic reasoning, panels may belong if regions share the same repetitive micro-pattern (all hatched or all dotted), while non-members mix contrasting textures, making fine-grained consistency the deciding cue.
+
+### Tracing Line or Curve
+
+Tracing a line or curve refers to following a single continuous stroke from start to finish, attending to its path, direction changes, and overall geometry. The emphasis is on continuity: the line may bend, loop, or wander, but it remains one uninterrupted trajectory. In visual reasoning, a class may be defined by whether a shape can be traced without lifting the pen or retracing any segment, making the act of following the path itself the critical cue rather than where multiple paths meet.
 
 ### Tracing Lines or Curves Meet
 
