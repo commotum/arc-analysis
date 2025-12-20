@@ -112,7 +112,7 @@ Direction indicates orientation or heading independent of position: northward on
 
 Logical disjunction is true when *at least one* operand is true: **p ∨ q**. Digital electronics implement it with OR gates; database queries use `WHERE name="Alice" OR name="Bob"`; set theory equates OR with union (A ∪ B). Inclusive OR accepts both operands simultaneously, whereas exclusive XOR requires exactly one. Security systems might trigger an alarm if *door open OR window broken*, illustrating that any single condition suffices. In visual tasks a panel may satisfy membership if it shows a triangle **or** a circle—either shape qualifies, echoing the lenient nature of OR.
 
-### Disorder
+### Disorder (Pattern / Random)
 
 Disorder refers to the absence of regular structure, predictability, or repeating pattern in an arrangement. Elements may vary irregularly in position, spacing, size, or orientation, resisting simple rules or symmetries. In visual reasoning tasks, one class may exhibit disorder (random-like placement), while the contrasting class shows clear order or pattern, making unpredictability itself the salient property.
 
